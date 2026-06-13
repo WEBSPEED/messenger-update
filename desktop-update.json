@@ -1,0 +1,53 @@
+{
+    "version": "1.0.36",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.36",
+    "sha256": "3BD69C6B306288460595FD117BB99F2833DD9295D9989167288248E66F7D9729",
+    "packages": {
+        "x64": {
+            "version": "1.0.36",
+            "size": 132907556,
+            "sha256": "625873F6C510A3C9AD2FB838114D78F1FC7E37B890475D4AC5F4A0DB6FFF834E",
+            "parts": [
+                {
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.36",
+                    "size": 83886080,
+                    "sha256": "A2C91F75E6003EE47FC5459F616A501FB226AE193B1D831E45F244831993E4D2"
+                },
+                {
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.36",
+                    "size": 49021476,
+                    "sha256": "1502A5F213E56356E154AD8E34FD15BA2E651973BF0FA8CAA2BEB99ED602E66D"
+                }
+            ]
+        },
+        "ia32": {
+            "version": "1.0.36",
+            "size": 114139529,
+            "sha256": "4C61CB615A7A8B5529FB50301B14CCB503ABDAE4CFE88964AF535CDF05E063C6",
+            "parts": [
+                {
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.36",
+                    "size": 83886080,
+                    "sha256": "E87510EE2D508A2378D5963AC606A125DE238384FBB7E8231D9C58732EADA961"
+                },
+                {
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.36",
+                    "size": 30253449,
+                    "sha256": "764FA4D96D51427A2F15EF58CA53313C095E4F4FB70E8BD6EE04ABE8278325BD"
+                }
+            ]
+        }
+    },
+    "installers": {
+        "x64": {
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.36",
+            "sha256": "3BD69C6B306288460595FD117BB99F2833DD9295D9989167288248E66F7D9729"
+        },
+        "ia32": {
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.36",
+            "sha256": "E93846AB16F94D9DBF69C215DC994336F7D2174692D10EBB6B6E4FE6E14643DF"
+        }
+    },
+    "notes": "자동 업데이트 적용 프로그램의 종료 문제를 수정하고 압축 해제, 파일 교체, 버전 검증, 재실행 진행 화면을 안정화했습니다.",
+    "releaseId": "1.0.36-625873F6C510-4C61CB615A7A"
+}
