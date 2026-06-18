@@ -1,53 +1,53 @@
 {
-    "version": "1.0.63",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.63",
-    "sha256": "FB24F5F2B139C6510B5E71D918E5D4209BB5083821DEAEA4E15454CF288B9CAE",
+    "version": "1.0.64",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.64",
+    "sha256": "7BFCEEF8E036EB01F4DCE8E43F288D877123456AB609757067CE84A1BC106841",
     "packages": {
         "x64": {
-            "version": "1.0.63",
-            "size": 132927041,
-            "sha256": "646181C206F430E04D4BE9234561A7BB91A4A914E0CCD6F37F38AB1A361E62AE",
+            "version": "1.0.64",
+            "size": 132927128,
+            "sha256": "C02A9429A6108161BAD10F047A218B1E30E48424A6C1E4FF362F059746E3EF81",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.63",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.64",
                     "size": 83886080,
-                    "sha256": "5ED05B4B3B1FE707850FB2DEFCFE742CB08F8BC6D0E91B25C3ED1923327E67DA"
+                    "sha256": "B11624FFDD2030509FCE097C2D2366478A908AA2A3042BA3F4DF0BEB74BEF5C5"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.63",
-                    "size": 49040961,
-                    "sha256": "D88BAFC47AB26A7D89DFF326F478EBB26B176E30CC1FBBCEB4C39520D36617D0"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.64",
+                    "size": 49041048,
+                    "sha256": "020C5E79BED6351365FFA7EF23B8122A4D35712E6807932B36409437C046913F"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.63",
-            "size": 114159101,
-            "sha256": "FECC34351EA29351A3EC229F659E2A2C4CB4E960BC57F514AACB25945B65BAA1",
+            "version": "1.0.64",
+            "size": 114159100,
+            "sha256": "8E12C1E82C3564F3F2A6DE5A69041A73CD05CE07197983963FCFF1FFF8FE4FF3",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.63",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.64",
                     "size": 83886080,
-                    "sha256": "5A4C7E0DA13B4AF0AEDDA8AEBDFB734D1E1A59AFE3EE01756014BD3489797250"
+                    "sha256": "3192BC08C3C672A5322319F10D79A061E581B1D512211285DA7C66105C93675D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.63",
-                    "size": 30273021,
-                    "sha256": "1AE57020B09CC2AB001097CE15F094A58EAB7821504A921538D828A9F91CDF30"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.64",
+                    "size": 30273020,
+                    "sha256": "3B6E58111FDD5ACD7404A1BFAEC739ACC859249F2BFD1F97C9AF924547BF2A61"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.63",
-            "sha256": "FB24F5F2B139C6510B5E71D918E5D4209BB5083821DEAEA4E15454CF288B9CAE"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.64",
+            "sha256": "7BFCEEF8E036EB01F4DCE8E43F288D877123456AB609757067CE84A1BC106841"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.63",
-            "sha256": "B11D90DE291BE6A9D100D2C47DF04E451739505C37CCCE4220A58DCED178FAD8"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.64",
+            "sha256": "C30C0A73247EFB42F68A4F25266CF42351028DF880EB5159FBA4E7ED842D9132"
         }
     },
     "notes": "자동 업데이트 적용 프로그램의 종료 문제를 수정하고 압축 해제, 파일 교체, 버전 검증, 재실행 진행 화면을 안정화했습니다.",
-    "releaseId": "1.0.63-646181C206F4-FECC34351EA2"
+    "releaseId": "1.0.64-C02A9429A610-8E12C1E82C35"
 }
