@@ -1,53 +1,53 @@
 {
-    "version": "1.0.75",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.75",
-    "sha256": "6F03263133E5BB47BB7ECEE37895BBCEE248ACE3D22263A82B2033BD160E5DA0",
+    "version": "1.0.76",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.76",
+    "sha256": "3488D57518956B5627C7BB78C5021CFD7DE092595A168F9447963C9704F9CAFC",
     "packages": {
         "x64": {
-            "version": "1.0.75",
-            "size": 132930931,
-            "sha256": "32F09BCE6179733C2F44CD874D3D7EFD78B9EB01C169E9B89D9FFF3CC00FA084",
+            "version": "1.0.76",
+            "size": 132931427,
+            "sha256": "2047BD234CD363A69ACA244996A819DDC6816D750EF57861492CBA8B1DB30FDD",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.75",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.76",
                     "size": 83886080,
-                    "sha256": "1AD6D7D51912857892C26BEC2A94F6995E427BF66F3D9E618CA1A20713BDA07A"
+                    "sha256": "2C7C2EAEC60EEF7E88268B3B0942E7CC3E6ECF7593BA2DF673E045507B52E8A8"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.75",
-                    "size": 49044851,
-                    "sha256": "2FB5D54862D0C7BE4C5266C7F8286D360E53D9C060FEC0D2B0D5A3DC31590A68"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.76",
+                    "size": 49045347,
+                    "sha256": "ED86E52D62955E723A0EBFC878A6239E985462828B5DC9C66C4911C9DCBF8ECF"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.75",
-            "size": 114162910,
-            "sha256": "E627ACBDDAFCC3B16BE3620A4FDC81D3A94A724A27FD902604C7686BB451C411",
+            "version": "1.0.76",
+            "size": 114163403,
+            "sha256": "FEDDEDA49B20EBA31A6A8D0EA520D75A88E06965B4F6F2A0ECA812F4AFAF46F0",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.75",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.76",
                     "size": 83886080,
-                    "sha256": "828668B562FFEC9DBC2CD9F906668A13AD3F0207D88828C6A50E23E53E9569F2"
+                    "sha256": "B0BD63CA09E66B30A065361DB15FD13105FEB1AF13636A3C3A84A5EABC3AD93A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.75",
-                    "size": 30276830,
-                    "sha256": "00D1B5A6D0647980210F3ACF34D24F43FA259478BA92EB8914C60C8FD7CF8C56"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.76",
+                    "size": 30277323,
+                    "sha256": "EEDE4C3A703BCD93BADDB0F1A444D942199B0D1BAD868570C14F4E71881A06EE"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.75",
-            "sha256": "6F03263133E5BB47BB7ECEE37895BBCEE248ACE3D22263A82B2033BD160E5DA0"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.76",
+            "sha256": "3488D57518956B5627C7BB78C5021CFD7DE092595A168F9447963C9704F9CAFC"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.75",
-            "sha256": "D54367EB593771CB4842E1ADF9DDAD4BACF61EC748DAE7706166C0EB6D81626A"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.76",
+            "sha256": "0B8CCD81A0E10E4AA90C1E4D7E293CCD6CB2133AD882698388D7695E1E889044"
         }
     },
     "notes": "Stabilized GitHub update downloads, updater fallback handling, and restored the desktop login input layout.",
-    "releaseId": "1.0.75-32F09BCE6179-E627ACBDDAFC"
+    "releaseId": "1.0.76-2047BD234CD3-FEDDEDA49B20"
 }
