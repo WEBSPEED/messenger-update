@@ -1,53 +1,53 @@
 {
-    "version": "1.0.74",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.74",
-    "sha256": "6BEFB0C141D23CCAA9775A6E0FF8085E775DE5D203B767451C64B569CD9156E5",
+    "version": "1.0.75",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.75",
+    "sha256": "6F03263133E5BB47BB7ECEE37895BBCEE248ACE3D22263A82B2033BD160E5DA0",
     "packages": {
         "x64": {
-            "version": "1.0.74",
-            "size": 132930465,
-            "sha256": "80746AE6767115EC498F481FD3617856A5D1F8F6E441798ABA2DD463DCCE73E2",
+            "version": "1.0.75",
+            "size": 132930931,
+            "sha256": "32F09BCE6179733C2F44CD874D3D7EFD78B9EB01C169E9B89D9FFF3CC00FA084",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.74",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.75",
                     "size": 83886080,
-                    "sha256": "4105694042810637D6E61BB3A39C9B1F8C0E96E4499D08175608A03CB4A5C6BB"
+                    "sha256": "1AD6D7D51912857892C26BEC2A94F6995E427BF66F3D9E618CA1A20713BDA07A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.74",
-                    "size": 49044385,
-                    "sha256": "BE3533A99B55931139153CD916D5F80F6EDC17B4D9CBAC93B4731BDA173025C9"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.75",
+                    "size": 49044851,
+                    "sha256": "2FB5D54862D0C7BE4C5266C7F8286D360E53D9C060FEC0D2B0D5A3DC31590A68"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.74",
-            "size": 114162444,
-            "sha256": "4490D81A67142AC28C21AB46DD718918221277F93C45557D42E4ECAE16463612",
+            "version": "1.0.75",
+            "size": 114162910,
+            "sha256": "E627ACBDDAFCC3B16BE3620A4FDC81D3A94A724A27FD902604C7686BB451C411",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.74",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.75",
                     "size": 83886080,
-                    "sha256": "F72E9CC2DF22923257143A24F65CDC227638832CA4DCA656EDCF09A998054F04"
+                    "sha256": "828668B562FFEC9DBC2CD9F906668A13AD3F0207D88828C6A50E23E53E9569F2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.74",
-                    "size": 30276364,
-                    "sha256": "5AC1667D8A541C15E2205507C52EE439343238E3280FBDC28B630594D0BD6025"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.75",
+                    "size": 30276830,
+                    "sha256": "00D1B5A6D0647980210F3ACF34D24F43FA259478BA92EB8914C60C8FD7CF8C56"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.74",
-            "sha256": "6BEFB0C141D23CCAA9775A6E0FF8085E775DE5D203B767451C64B569CD9156E5"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.75",
+            "sha256": "6F03263133E5BB47BB7ECEE37895BBCEE248ACE3D22263A82B2033BD160E5DA0"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.74",
-            "sha256": "EC501B15F6213D814FF9A8811D95E0117BACD0A04F5A3F19DDDC4F91C4013CD3"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.75",
+            "sha256": "D54367EB593771CB4842E1ADF9DDAD4BACF61EC748DAE7706166C0EB6D81626A"
         }
     },
-    "notes": "자동 업데이트 적용 프로그램의 종료 문제를 수정하고 압축 해제, 파일 교체, 버전 검증, 재실행 진행 화면을 안정화했습니다.",
-    "releaseId": "1.0.74-80746AE67671-4490D81A6714"
+    "notes": "Stabilized GitHub update downloads, updater fallback handling, and restored the desktop login input layout.",
+    "releaseId": "1.0.75-32F09BCE6179-E627ACBDDAFC"
 }
