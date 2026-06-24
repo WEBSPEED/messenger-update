@@ -1,39 +1,39 @@
 {
     "version": "1.0.82",
     "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.82",
-    "sha256": "A3064A7BA5173F87B7E5882A5319DEA442DAE33B9D1DDCD3B9CA1001D929A32E",
+    "sha256": "4D75AB51FADFB55B9C4C3BBB154C992AAA500260E8CE8A93716F230446A33474",
     "packages": {
         "x64": {
             "version": "1.0.82",
-            "size": 132931415,
-            "sha256": "885245DD4AFDBD92715B3AA3063FA50968A3BE1E6D5CE8837E78505F1A1B937A",
+            "size": 132932130,
+            "sha256": "D739ECAEFD46BD3A1A614FBEE7DAC3257FD0CA23D50306F0A77FEC51CF29DA83",
             "parts": [
                 {
                     "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.82",
                     "size": 83886080,
-                    "sha256": "DD0ABE134EC93C2766A1A61B99EFBC08F90B8FE529D07650CC1709FE04E8CFA9"
+                    "sha256": "C48ABA23BB1DEC90B568068DE318C36F1FE98A49161784494D088E96CDBCFA7E"
                 },
                 {
                     "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.82",
-                    "size": 49045335,
-                    "sha256": "A374B70B95CD60B40580ECB32FC442BCA099CC3B88C06C7D606CB23E335415FC"
+                    "size": 49046050,
+                    "sha256": "263E403691EC645479DE8B9CB75BD0CFD7C53FFC2F5155BDA5E75CE99D9AD221"
                 }
             ]
         },
         "ia32": {
             "version": "1.0.82",
-            "size": 114163450,
-            "sha256": "F95F1F93B91F3864B5C33F281E1C71F8AE0AF5A854A657A4973D6F51BB0EE0C7",
+            "size": 114164164,
+            "sha256": "3F52754CFCD7AAC4D1DEE55045F86AD256D56687BFE9F61AECB54B6DF0CA68D2",
             "parts": [
                 {
                     "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.82",
                     "size": 83886080,
-                    "sha256": "B5648DB38BE365B9E3667E5C71C45DAA5348ED857CE0B97B9B770E61CF05A46E"
+                    "sha256": "D719FA24A0DCAE7645E20AFFD9C8802CAD51263DDF51E8A5621CACA54290EF47"
                 },
                 {
                     "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.82",
-                    "size": 30277370,
-                    "sha256": "6417AE16F6D035A9522EF7A549A59CF29143F53BD4FE3144D9456C94AB53F681"
+                    "size": 30278084,
+                    "sha256": "CA937EFF1560C55CD41824EBF934DA213CB4EE2F3F708066A97720F24294CC28"
                 }
             ]
         }
@@ -41,13 +41,13 @@
     "installers": {
         "x64": {
             "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.82",
-            "sha256": "A3064A7BA5173F87B7E5882A5319DEA442DAE33B9D1DDCD3B9CA1001D929A32E"
+            "sha256": "4D75AB51FADFB55B9C4C3BBB154C992AAA500260E8CE8A93716F230446A33474"
         },
         "ia32": {
             "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.82",
-            "sha256": "EA847CF3627B34DFE37B3DCFF0E43D9015D06CF9FEF4785CE4D5AC280D9E9E85"
+            "sha256": "C748FADB5B69E1DFB78FE58848399018F00FD29B374594C9544C3B0C1E2FAB6E"
         }
     },
-    "notes": "Restored logged-in state after automatic updates and made the desktop initial URL read-only in settings.",
-    "releaseId": "1.0.82-885245DD4AFD-F95F1F93B91F"
+    "notes": "Kept automatic update storage fully internal and hidden from settings while preserving the hardened update flow.",
+    "releaseId": "1.0.82-D739ECAEFD46-3F52754CFCD7"
 }
