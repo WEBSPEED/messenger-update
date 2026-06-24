@@ -1,53 +1,53 @@
 {
-    "version": "1.0.77",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.77",
-    "sha256": "CFB0E1DC6EC9F7A569257808957ACAF9C72A787416E1B165610551C76114708B",
+    "version": "1.0.78",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.78",
+    "sha256": "D88DCC57FF996E21598C622E35440A4CC2FB9602F66DE8674C0EEDE76F541A76",
     "packages": {
         "x64": {
-            "version": "1.0.77",
-            "size": 132931386,
-            "sha256": "2585DA3E99F8374FBCF94C576743B92A18EE8C315A38E5B700C3A896D6C771B0",
+            "version": "1.0.78",
+            "size": 132931712,
+            "sha256": "08D6260CEC5121957D3DF4B24C8DB334B3410F8C15FB7D27E3D2DBC12EAFC89D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.77",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.78",
                     "size": 83886080,
-                    "sha256": "ADB2ED4F6857C965D883B6DF5AC8507BEDC48FAC412A506782778BB60F40865D"
+                    "sha256": "4B7175482471351D06391EF26AB417A91573E80F2CE06B4A4D5E46D4ECA1850B"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.77",
-                    "size": 49045306,
-                    "sha256": "4F97248AEFAC2727F63A41322D42F51677FA23C5FD930792A45F76227FCC20B6"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.78",
+                    "size": 49045632,
+                    "sha256": "A49AF94324EEB8E2290B4C3C7C851DB44FFC3F20744A26F277CA58A6C146EE7A"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.77",
-            "size": 114163363,
-            "sha256": "FCF3A8B4F9024709DF0DDD3899C8AF67A23883EECC75C82FE46D21467EA47CF3",
+            "version": "1.0.78",
+            "size": 114163663,
+            "sha256": "977A3D61B28DC38D66BE82DED040D04FC507DE607A5ED0B8DF10BC7520461BFE",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.77",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.78",
                     "size": 83886080,
-                    "sha256": "B16990F9B1591B1154CC824963D618102C5C9C36DDD2A1B4F63025E49EF01C03"
+                    "sha256": "93D0189EE23E8BA3D0FD686B44AB5A1B190A7698DB5DEC79927B376D4EBCDF56"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.77",
-                    "size": 30277283,
-                    "sha256": "A6277EE1011AC402B53D33AA4B125AB6C74B0095602238567424C1A0A0838287"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.78",
+                    "size": 30277583,
+                    "sha256": "110787260E2CF20F3377C137A2EFC872BA099F9072592F8DCEC729F3B0F04E17"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.77",
-            "sha256": "CFB0E1DC6EC9F7A569257808957ACAF9C72A787416E1B165610551C76114708B"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.78",
+            "sha256": "D88DCC57FF996E21598C622E35440A4CC2FB9602F66DE8674C0EEDE76F541A76"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.77",
-            "sha256": "B875A110DC6B20AEC4EAE7FEF0A0B01FA8EEF78D18A20C1C8DBCC613C8F04FF4"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.78",
+            "sha256": "E0DA73607740A62466158BC3D61789DA8839E909F2D0E875ABB6FEBB5475D2BF"
         }
     },
-    "notes": "Stabilized GitHub update downloads, updater fallback handling, and restored the desktop login input layout.",
-    "releaseId": "1.0.77-2585DA3E99F8-FCF3A8B4F902"
+    "notes": "Fixed updater helper launch path, Defender registration, and install-folder AutoUpdate storage.",
+    "releaseId": "1.0.78-08D6260CEC51-977A3D61B28D"
 }
