@@ -1,53 +1,53 @@
 {
-    "version": "1.0.78",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.78",
-    "sha256": "D88DCC57FF996E21598C622E35440A4CC2FB9602F66DE8674C0EEDE76F541A76",
+    "version": "1.0.79",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.79",
+    "sha256": "DC58022F17E62C0D778E8BBD216D1182AFC500D4478FA19D0D42101E402E3BBF",
     "packages": {
         "x64": {
-            "version": "1.0.78",
-            "size": 132931712,
-            "sha256": "08D6260CEC5121957D3DF4B24C8DB334B3410F8C15FB7D27E3D2DBC12EAFC89D",
+            "version": "1.0.79",
+            "size": 132932368,
+            "sha256": "93EBA9341B313FA5A43CD6D69A9DFB9A376C8B585FCD2AF5577644A8C1FE3914",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.78",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.79",
                     "size": 83886080,
-                    "sha256": "4B7175482471351D06391EF26AB417A91573E80F2CE06B4A4D5E46D4ECA1850B"
+                    "sha256": "28E781B7540931D4CBAB9A7403331898A04D4C1EA0371A65773DBDD1DC07F689"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.78",
-                    "size": 49045632,
-                    "sha256": "A49AF94324EEB8E2290B4C3C7C851DB44FFC3F20744A26F277CA58A6C146EE7A"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.79",
+                    "size": 49046288,
+                    "sha256": "9E44D58BF46082C994F1FDF298812B8C30A931B2A814E85C356E115E3705E2CD"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.78",
-            "size": 114163663,
-            "sha256": "977A3D61B28DC38D66BE82DED040D04FC507DE607A5ED0B8DF10BC7520461BFE",
+            "version": "1.0.79",
+            "size": 114164347,
+            "sha256": "15F1F1A0D4B6D9CD28F55A9D4CA7045C4CFE5353806A648514BB90CD600692F5",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.78",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.79",
                     "size": 83886080,
-                    "sha256": "93D0189EE23E8BA3D0FD686B44AB5A1B190A7698DB5DEC79927B376D4EBCDF56"
+                    "sha256": "6B6181A5DD89E3BD7C057B9DA6B7223991CC9F18A676CC60F386B2AD76F6A1E0"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.78",
-                    "size": 30277583,
-                    "sha256": "110787260E2CF20F3377C137A2EFC872BA099F9072592F8DCEC729F3B0F04E17"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.79",
+                    "size": 30278267,
+                    "sha256": "DE2FC2E8122AAE837C82EA9C1C76DEA520D69B89119686FA4D762D552B94E355"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.78",
-            "sha256": "D88DCC57FF996E21598C622E35440A4CC2FB9602F66DE8674C0EEDE76F541A76"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.79",
+            "sha256": "DC58022F17E62C0D778E8BBD216D1182AFC500D4478FA19D0D42101E402E3BBF"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.78",
-            "sha256": "E0DA73607740A62466158BC3D61789DA8839E909F2D0E875ABB6FEBB5475D2BF"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.79",
+            "sha256": "67FFBDCD129F4FE1D2C68045F8838EF18995123B8A95BB12D9B67842BD25B750"
         }
     },
-    "notes": "Fixed updater helper launch path, Defender registration, and install-folder AutoUpdate storage.",
-    "releaseId": "1.0.78-08D6260CEC51-977A3D61B28D"
+    "notes": "Restored logged-in state after automatic updates and made the desktop initial URL read-only in settings.",
+    "releaseId": "1.0.79-93EBA9341B31-15F1F1A0D4B6"
 }
