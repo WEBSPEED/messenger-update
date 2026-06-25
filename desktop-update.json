@@ -1,53 +1,53 @@
 {
-    "version": "1.0.82",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.82",
-    "sha256": "4D75AB51FADFB55B9C4C3BBB154C992AAA500260E8CE8A93716F230446A33474",
+    "version": "1.0.83",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.83",
+    "sha256": "F377D5DAF6B5091506114EC081BDC655A0F5160BD0BBBE9E272F4B87A6B4114E",
     "packages": {
         "x64": {
-            "version": "1.0.82",
-            "size": 132932130,
-            "sha256": "D739ECAEFD46BD3A1A614FBEE7DAC3257FD0CA23D50306F0A77FEC51CF29DA83",
+            "version": "1.0.83",
+            "size": 132932675,
+            "sha256": "E8089C629EB9EA4BAA251081EEB806499614D0C3155032E9BA5486888BEEF120",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.82",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.83",
                     "size": 83886080,
-                    "sha256": "C48ABA23BB1DEC90B568068DE318C36F1FE98A49161784494D088E96CDBCFA7E"
+                    "sha256": "84CFED77376954CED1084A365531F4E48A66C6A36DBB3DB09A9FC643C6F4B256"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.82",
-                    "size": 49046050,
-                    "sha256": "263E403691EC645479DE8B9CB75BD0CFD7C53FFC2F5155BDA5E75CE99D9AD221"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.83",
+                    "size": 49046595,
+                    "sha256": "88CDEF669088FF7689456F016DAD60FFCF43AAC51CD64E099C02E860BE774679"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.82",
-            "size": 114164164,
-            "sha256": "3F52754CFCD7AAC4D1DEE55045F86AD256D56687BFE9F61AECB54B6DF0CA68D2",
+            "version": "1.0.83",
+            "size": 114164653,
+            "sha256": "6C347A850F2999486CA99A007123AABC93C41524A214E0009E6DE192B7ED7D10",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.82",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.83",
                     "size": 83886080,
-                    "sha256": "D719FA24A0DCAE7645E20AFFD9C8802CAD51263DDF51E8A5621CACA54290EF47"
+                    "sha256": "12B030701D41E2A98D3DD7BAA96F58960403E204A1A7259E1CE1551F405ABE68"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.82",
-                    "size": 30278084,
-                    "sha256": "CA937EFF1560C55CD41824EBF934DA213CB4EE2F3F708066A97720F24294CC28"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.83",
+                    "size": 30278573,
+                    "sha256": "A7EEB71ACACB2FEAEC8F56CEA18455D479A21FA063C1E73B50DAA4B45EA1B310"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.82",
-            "sha256": "4D75AB51FADFB55B9C4C3BBB154C992AAA500260E8CE8A93716F230446A33474"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.83",
+            "sha256": "F377D5DAF6B5091506114EC081BDC655A0F5160BD0BBBE9E272F4B87A6B4114E"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.82",
-            "sha256": "C748FADB5B69E1DFB78FE58848399018F00FD29B374594C9544C3B0C1E2FAB6E"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.83",
+            "sha256": "AF14A7A953EA44BC864BFBFB26E5C963FC4CA79E928C25F2D1451B2BC8599A95"
         }
     },
     "notes": "Kept automatic update storage fully internal and hidden from settings while preserving the hardened update flow.",
-    "releaseId": "1.0.82-D739ECAEFD46-3F52754CFCD7"
+    "releaseId": "1.0.83-E8089C629EB9-6C347A850F29"
 }
