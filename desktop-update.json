@@ -1,53 +1,53 @@
 {
-    "version": "1.0.86",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.86",
-    "sha256": "69F4CA3E98A8355BAACBA2244C20A2E4F2A4ADF0F0C2C507FD7C9777AF2179C2",
+    "version": "1.0.87",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.87",
+    "sha256": "D4391B18971B82C931507B3D89B7CCC28B3C9CE3BF1967821F2A59078743EA79",
     "packages": {
         "x64": {
-            "version": "1.0.86",
-            "size": 132933033,
-            "sha256": "CE619E27B6DF87612D8A27CC053B8BE2BE9F32C5E9E26BDDBC68F66563744D21",
+            "version": "1.0.87",
+            "size": 132933041,
+            "sha256": "7AB3C747B5B51FAACD6DD24309A09CD65D88FE8B2DBADB018921C5DC8279F322",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.86",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.87",
                     "size": 83886080,
-                    "sha256": "9E0B29A49DAEE14FB57724C05447413506231333224A788ABB1FDA4AEB299428"
+                    "sha256": "513F38E3F1D63B929FAB1C049F3DA122CF295697B15F78B1B3B67658BCD2E0B1"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.86",
-                    "size": 49046953,
-                    "sha256": "D6933C6181607017CD10768AD6253539D577D8ADA7956DC7CDA7F1D1DFF3543D"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.87",
+                    "size": 49046961,
+                    "sha256": "E964834DEE6F5DD4D5DC64C67FBD382A1481F11AA626A8B3367384B66A7B3D62"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.86",
-            "size": 114165012,
-            "sha256": "23C271D5BDBF1B604EB5B6D3F80E5D01CA26164E1658C6E69999FFB68E8C6EF3",
+            "version": "1.0.87",
+            "size": 114165021,
+            "sha256": "E9DE4B5B1470FFE118AFB072665C559044850346D5D06DED0AFDC67F71C883F1",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.86",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.87",
                     "size": 83886080,
-                    "sha256": "BC895220D4A9584426528BDDCE3EA48357E67E43D1C22E199CD293D1506A1506"
+                    "sha256": "1DF47DEFEE2317F61BF8BFB2BDAD884D6BE92867BB79B61FCF509118E4EFB876"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.86",
-                    "size": 30278932,
-                    "sha256": "0C8EC6AE65DD3D98DAD10E75461019625E4B3FE4A00708FA5A843693EA7A6A2A"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.87",
+                    "size": 30278941,
+                    "sha256": "429ACFCEEB9967E6686EECD275A9DD325D72C5E8814BA5809A912FD359A97AC0"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.86",
-            "sha256": "69F4CA3E98A8355BAACBA2244C20A2E4F2A4ADF0F0C2C507FD7C9777AF2179C2"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.87",
+            "sha256": "D4391B18971B82C931507B3D89B7CCC28B3C9CE3BF1967821F2A59078743EA79"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.86",
-            "sha256": "C9C308735EFFC2313FEC333CAD809DF86F7F64C10C41C883C267C73B1AA63F17"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.87",
+            "sha256": "D4CF9076D4412BE264C07C14B087C01B7D07D93DEF1546036712954030ED3ABB"
         }
     },
-    "notes": "Preserved the desktop login session when the app quits for automatic update application and relaunch.",
-    "releaseId": "1.0.86-CE619E27B6DF-23C271D5BDBF"
+    "notes": "Kept the login progress animation visible until successful navigation and removed an extra session verification request from the login success path.",
+    "releaseId": "1.0.87-7AB3C747B5B5-E9DE4B5B1470"
 }
