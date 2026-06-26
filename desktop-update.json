@@ -1,53 +1,53 @@
 {
-    "version": "1.0.84",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.84",
-    "sha256": "1F6BEAABF2F54740B38D04E88FC1D79BEA3592F3B4C2A1C0EAC5B36DC834C35C",
+    "version": "1.0.85",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.85",
+    "sha256": "09739AC795E761A83850B344052A33B99350DEA752E0022DCC54240064E77121",
     "packages": {
         "x64": {
-            "version": "1.0.84",
-            "size": 132932716,
-            "sha256": "E218DF17234FE3F3ACFE686528AFB031840826712524520249B9B624DB635535",
+            "version": "1.0.85",
+            "size": 132932974,
+            "sha256": "2533C3C128334C5FC5D7F7CC3CAF950474F661C27FDF0510621CF66573862397",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.84",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.85",
                     "size": 83886080,
-                    "sha256": "4D1F960286367DA727AB1C16E1C69C439BC8DD8BBBFC843E1DDD058984D6A1AA"
+                    "sha256": "99F0CB909486A6A2B18470327172DC5652C42DEB2F5416597FDBA5E235C4D64E"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.84",
-                    "size": 49046636,
-                    "sha256": "9985D8868854645C8041214D3472FD607C12A4091C7A680CF9EDCF3D8B0C7598"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.85",
+                    "size": 49046894,
+                    "sha256": "CDA58C6F23998F494D76F325FABE3405CF82A509AC24A09196FB4821C4ACBF99"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.84",
-            "size": 114164695,
-            "sha256": "15BED0609364845CBCD266D0CDA056111152928F218EA221D8CCB4C30CA46F28",
+            "version": "1.0.85",
+            "size": 114164953,
+            "sha256": "5134B420D32092E6BCF6063C3F99349CDA0A6F82427F09858821E1CE687A027D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.84",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.85",
                     "size": 83886080,
-                    "sha256": "DB0C558EEA2A38879553F38B55D07224FE134D019E2182C4E77FF547ED7B9EC6"
+                    "sha256": "9A9CF4A83B96947914AFC42F1A02EB6B41F929692D4992A32D9B962CAF141A6E"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.84",
-                    "size": 30278615,
-                    "sha256": "8C52B9D99D4ED196BAA9690150A7F2616A741AA2A015519F7383AC67CADBDB59"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.85",
+                    "size": 30278873,
+                    "sha256": "818A2EBBA925C71719A277BE3818F46BACC6D66A914BE6A2C47D6F5A67DBBABC"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.84",
-            "sha256": "1F6BEAABF2F54740B38D04E88FC1D79BEA3592F3B4C2A1C0EAC5B36DC834C35C"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.85",
+            "sha256": "09739AC795E761A83850B344052A33B99350DEA752E0022DCC54240064E77121"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.84",
-            "sha256": "58C0C3113AF1F3E1FD89BA7FA86C6A7224CC5D6D7B40BCCFDA93382577141C37"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.85",
+            "sha256": "902A0B9D323C6304D53B670E6A1DC1D246D7842C8C17BEBA745F6585B665F995"
         }
     },
-    "notes": "Kept automatic update storage fully internal and hidden from settings while preserving the hardened update flow.",
-    "releaseId": "1.0.84-E218DF17234F-15BED0609364"
+    "notes": "Improved the lock screen password mismatch message and highlighted the PIN boxes only while the error is active.",
+    "releaseId": "1.0.85-2533C3C12833-5134B420D320"
 }
