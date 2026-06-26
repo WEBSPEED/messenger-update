@@ -1,53 +1,53 @@
 {
-    "version": "1.0.85",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.85",
-    "sha256": "09739AC795E761A83850B344052A33B99350DEA752E0022DCC54240064E77121",
+    "version": "1.0.86",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.86",
+    "sha256": "69F4CA3E98A8355BAACBA2244C20A2E4F2A4ADF0F0C2C507FD7C9777AF2179C2",
     "packages": {
         "x64": {
-            "version": "1.0.85",
-            "size": 132932974,
-            "sha256": "2533C3C128334C5FC5D7F7CC3CAF950474F661C27FDF0510621CF66573862397",
+            "version": "1.0.86",
+            "size": 132933033,
+            "sha256": "CE619E27B6DF87612D8A27CC053B8BE2BE9F32C5E9E26BDDBC68F66563744D21",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.85",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.86",
                     "size": 83886080,
-                    "sha256": "99F0CB909486A6A2B18470327172DC5652C42DEB2F5416597FDBA5E235C4D64E"
+                    "sha256": "9E0B29A49DAEE14FB57724C05447413506231333224A788ABB1FDA4AEB299428"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.85",
-                    "size": 49046894,
-                    "sha256": "CDA58C6F23998F494D76F325FABE3405CF82A509AC24A09196FB4821C4ACBF99"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.86",
+                    "size": 49046953,
+                    "sha256": "D6933C6181607017CD10768AD6253539D577D8ADA7956DC7CDA7F1D1DFF3543D"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.85",
-            "size": 114164953,
-            "sha256": "5134B420D32092E6BCF6063C3F99349CDA0A6F82427F09858821E1CE687A027D",
+            "version": "1.0.86",
+            "size": 114165012,
+            "sha256": "23C271D5BDBF1B604EB5B6D3F80E5D01CA26164E1658C6E69999FFB68E8C6EF3",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.85",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.86",
                     "size": 83886080,
-                    "sha256": "9A9CF4A83B96947914AFC42F1A02EB6B41F929692D4992A32D9B962CAF141A6E"
+                    "sha256": "BC895220D4A9584426528BDDCE3EA48357E67E43D1C22E199CD293D1506A1506"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.85",
-                    "size": 30278873,
-                    "sha256": "818A2EBBA925C71719A277BE3818F46BACC6D66A914BE6A2C47D6F5A67DBBABC"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.86",
+                    "size": 30278932,
+                    "sha256": "0C8EC6AE65DD3D98DAD10E75461019625E4B3FE4A00708FA5A843693EA7A6A2A"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.85",
-            "sha256": "09739AC795E761A83850B344052A33B99350DEA752E0022DCC54240064E77121"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.86",
+            "sha256": "69F4CA3E98A8355BAACBA2244C20A2E4F2A4ADF0F0C2C507FD7C9777AF2179C2"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.85",
-            "sha256": "902A0B9D323C6304D53B670E6A1DC1D246D7842C8C17BEBA745F6585B665F995"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.86",
+            "sha256": "C9C308735EFFC2313FEC333CAD809DF86F7F64C10C41C883C267C73B1AA63F17"
         }
     },
-    "notes": "Improved the lock screen password mismatch message and highlighted the PIN boxes only while the error is active.",
-    "releaseId": "1.0.85-2533C3C12833-5134B420D320"
+    "notes": "Preserved the desktop login session when the app quits for automatic update application and relaunch.",
+    "releaseId": "1.0.86-CE619E27B6DF-23C271D5BDBF"
 }
