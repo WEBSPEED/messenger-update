@@ -1,53 +1,53 @@
 {
-    "version": "1.0.88",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.88",
-    "sha256": "525DEBDB2CE05C6111694A653EA4E7B46A8568BAFD4CEED91BA011FCA6CA942C",
+    "version": "1.0.89",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.89",
+    "sha256": "C86EE3A6E7A3FA16C55819D619D28F8175DB1EAA439F87CA66CBE60CBD15E7BC",
     "packages": {
         "x64": {
-            "version": "1.0.88",
-            "size": 132933064,
-            "sha256": "786DAE60E25FAE7E5647F37E1BBC173B51E80061FA1842877B2F40E287131F62",
+            "version": "1.0.89",
+            "size": 132933659,
+            "sha256": "992BA96935AA200F47CEABBA44930C87EE72B1ED63131D3C692FCAAD2F2F7043",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.88",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.89",
                     "size": 83886080,
-                    "sha256": "D8258817E403194BF0BBF37218D510E1851E8A1DDEB566F689C18476D88DED15"
+                    "sha256": "DC2939AA8ED9E7E9B0B733BC6257E6E657AF425592ED95FF3354AC0F9E1583AA"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.88",
-                    "size": 49046984,
-                    "sha256": "3280C0310C1010DEA16994F54F00A248E9DFEBFC77CB0595007C8603D3ADD308"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.89",
+                    "size": 49047579,
+                    "sha256": "3E81907CBD5388BB5E30084AA0951FEE2FE22A3A166B6402C8BFB38AAD908D52"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.88",
-            "size": 114165044,
-            "sha256": "D93DDBAF58DB715C3DC1BD534E4599142298B018AE98AA73EC3C98CA63A90AAF",
+            "version": "1.0.89",
+            "size": 114165636,
+            "sha256": "89BC6FAB2B483F6DCC5EF919D1116AB9BAECB8289144D402160C399AF3BBDDB6",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.88",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.89",
                     "size": 83886080,
-                    "sha256": "3831AE95E99882C90E99124CD0361D96FF8D3D757C497E1957E5619E1955491E"
+                    "sha256": "09D7E571B93D8674BDFEE141F0A5B453CE5F1EBE58C796E9D6907AAD075DF9DB"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.88",
-                    "size": 30278964,
-                    "sha256": "AB546306E6B2F6491A0CEAF93C32CBB9D83752DDE0F70AEC1880047F03D674DA"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.89",
+                    "size": 30279556,
+                    "sha256": "7FD8E8C263CAEB2016A6D4501EFC2A6DF8F23BD83C45CC6FF6B15697834C5FD8"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.88",
-            "sha256": "525DEBDB2CE05C6111694A653EA4E7B46A8568BAFD4CEED91BA011FCA6CA942C"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.89",
+            "sha256": "C86EE3A6E7A3FA16C55819D619D28F8175DB1EAA439F87CA66CBE60CBD15E7BC"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.88",
-            "sha256": "D8E95283360AC348868FE9EB6CA35A189BD9BE44D4F87C2A4E729B0CB0F503F1"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.89",
+            "sha256": "640CB9ABA8111332D8BAAFED16A6FCC0CD98637345FAB94223033885D6F699C5"
         }
     },
-    "notes": "근태 자동 실행이 토요일, 일요일 및 서버 휴무일에는 출퇴근 창을 열지 않도록 개선했습니다.",
-    "releaseId": "1.0.88-786DAE60E25F-D93DDBAF58DB"
+    "notes": "PC 메신저가 종료 또는 사용자 로그아웃 전까지 로그인 상태를 유지하도록 세션 keep-alive와 백그라운드 복구를 추가했습니다.",
+    "releaseId": "1.0.89-992BA96935AA-89BC6FAB2B48"
 }
