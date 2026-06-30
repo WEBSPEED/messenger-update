@@ -1,53 +1,53 @@
 {
-    "version": "1.0.95",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.95",
-    "sha256": "2FD6FEAE6A633FAE7580C900045CFE1CD3705CF1452DFF916FCBEF4A98139E48",
+    "version": "1.0.96",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.96",
+    "sha256": "9AAF872159B8676E71ED7A600C46ACD17089772FCEBE5866EF57C561231B5E99",
     "packages": {
         "x64": {
-            "version": "1.0.95",
-            "size": 132935825,
-            "sha256": "CACAB0CD8463B0B8E45D0E271764ED46A65EBD52BE4921BB074CA4687F68E9A5",
+            "version": "1.0.96",
+            "size": 132935926,
+            "sha256": "57EBB90CB3775CD0FAAA1DD53E9E5ADC5A53FCC7229BB1D9BB55C4332F61FE6D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.95",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.96",
                     "size": 83886080,
-                    "sha256": "1818A57EB541A22B2C18FD56720615CF8EBE37B00DAD5F9CA16EC4D4A71B71E0"
+                    "sha256": "58822F8A144174B0C1170BB112121C9F80A9F60E35DE7A60F443110E4FE0006A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.95",
-                    "size": 49049745,
-                    "sha256": "4B1C52A839A5B395E93110709CEDA5C6B92316C9DCE16F9B575CFA0CA18EA242"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.96",
+                    "size": 49049846,
+                    "sha256": "AE8FD06C97314103624B14C47A7267E798B32DCAA37ED02227C1F5EA183EE884"
                 }
             ]
         },
         "ia32": {
-            "version": "1.0.95",
-            "size": 114167806,
-            "sha256": "C1F5C60193678113EE5A4C532B53E57E6DC2A449327EC4C88A2A5AC0D3140CB6",
+            "version": "1.0.96",
+            "size": 114167904,
+            "sha256": "8096F678B25B3423017E2D2FB2A9E956B52CD864EE0DC4A7812EBBAFDB0A99C1",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.95",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.96",
                     "size": 83886080,
-                    "sha256": "D8D34292BA6D8C9F39D59A08B079D4C7E7A2A48F60809518CEEBA72E5BD79B05"
+                    "sha256": "DA48B84A08B891469134FAF5ECC9156957FD82D65BD14D27D4EB2E5CECD6AF59"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.95",
-                    "size": 30281726,
-                    "sha256": "BBF704C153F17504058284E331C492816FD28F424CD0C760D105B2DA8878850F"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.96",
+                    "size": 30281824,
+                    "sha256": "21E23A4DF59E9576E46CB1716CF1C92A40F9AB3A3C52ADE4D6B683423BF2AF9A"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.95",
-            "sha256": "2FD6FEAE6A633FAE7580C900045CFE1CD3705CF1452DFF916FCBEF4A98139E48"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.96",
+            "sha256": "9AAF872159B8676E71ED7A600C46ACD17089772FCEBE5866EF57C561231B5E99"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.95",
-            "sha256": "76B9F9A3B8DBE9A8C9D745AAB92BF8304DBA9BE4C282D5AD5A9A85E1794CD866"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.96",
+            "sha256": "CFBFE0BE5249EE308C1E25FBBFD2245B96DF01675161FA1272C638A03BF77569"
         }
     },
     "notes": "Polished desktop titlebar window controls and hover states.",
-    "releaseId": "1.0.95-CACAB0CD8463-C1F5C6019367"
+    "releaseId": "1.0.96-57EBB90CB377-8096F678B25B"
 }
