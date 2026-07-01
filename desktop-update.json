@@ -1,53 +1,53 @@
-{
-    "version": "1.0.101",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.101",
-    "sha256": "DC477A75AE158B6E2261A7A68DE6490FE48C883AFDB8E0D6FB1E54E3DA2E78B3",
-    "packages": {
-        "x64": {
-            "version": "1.0.101",
-            "size": 132937879,
-            "sha256": "979D7F92DEBEA5B3F6C0D5A27B02C61842504B20E5D894B28B85285F35931262",
-            "parts": [
-                {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.0.101",
-                    "size": 83886080,
-                    "sha256": "5EC764F144E1925E56108F14CF81627938BEBFF4B01617BE18B7E6B1D96FAF71"
-                },
-                {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.0.101",
-                    "size": 49051799,
-                    "sha256": "B781C4918DABBAD2961DF2A41049AB2061C4210B279FB7687D47C4A7F30D4B9E"
-                }
-            ]
-        },
-        "ia32": {
-            "version": "1.0.101",
-            "size": 114169847,
-            "sha256": "DAD9A01668117938AA065FAB680C06BE069FC566E5DF62C5BE7986A85ABC22AB",
-            "parts": [
-                {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.0.101",
-                    "size": 83886080,
-                    "sha256": "1821D066BA26AA3363A688E11B43758B47435E298AA0095BB5D21BA50FDDF42F"
-                },
-                {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.0.101",
-                    "size": 30283767,
-                    "sha256": "3214EC4F2CAF3A577840CDE22A3EE97C6F8DFA6CFFCC91C812571CCC6AE0FFFB"
-                }
-            ]
-        }
-    },
-    "installers": {
-        "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.0.101",
-            "sha256": "DC477A75AE158B6E2261A7A68DE6490FE48C883AFDB8E0D6FB1E54E3DA2E78B3"
-        },
-        "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.0.101",
-            "sha256": "5A3E141E4ECD07B7168A60B10B2A6C25507BD5C5722322E23E78C793095EFD4E"
-        }
-    },
-    "notes": "Polished desktop titlebar window controls and hover states.",
-    "releaseId": "1.0.101-979D7F92DEBE-DAD9A0166811"
+﻿{
+    "version":  "1.0.102",
+    "installerUrl":  "php/desktop_download.php?arch=x64\u0026version=1.0.102",
+    "sha256":  "5A9B41967EBEA16F9AC7C472E5DDFC97AE4485292CB1F6928C0D4E83A2F3494C",
+    "packages":  {
+                     "x64":  {
+                                 "version":  "1.0.102",
+                                 "size":  132937992,
+                                 "sha256":  "A858A53C7F0A8432C3A51AEFC055F71F3EC8EF2C7D7527B60F2AAC7F9A477743",
+                                 "parts":  [
+                                               {
+                                                   "url":  "php/desktop_update_download.php?arch=x64\u0026part=1\u0026version=1.0.102",
+                                                   "size":  83886080,
+                                                   "sha256":  "E764BC56117A21CEDB9546139B0523FD453FB8DC404E8715678E5102CE351AEE"
+                                               },
+                                               {
+                                                   "url":  "php/desktop_update_download.php?arch=x64\u0026part=2\u0026version=1.0.102",
+                                                   "size":  49051912,
+                                                   "sha256":  "F6C5D07649F670D734C59509C0B3489F7211818BC3871AE21A379E6ABE76B046"
+                                               }
+                                           ]
+                             },
+                     "ia32":  {
+                                  "version":  "1.0.102",
+                                  "size":  114169957,
+                                  "sha256":  "DEA3885CBBC3DC35729A40126F3BB637A5717574BBB105E2D0330A7C0F4E0513",
+                                  "parts":  [
+                                                {
+                                                    "url":  "php/desktop_update_download.php?arch=ia32\u0026part=1\u0026version=1.0.102",
+                                                    "size":  83886080,
+                                                    "sha256":  "E64FCCF036F7D90B51615AE28686B456BA3E8F823A4E62812FF8FE94DF1B037A"
+                                                },
+                                                {
+                                                    "url":  "php/desktop_update_download.php?arch=ia32\u0026part=2\u0026version=1.0.102",
+                                                    "size":  30283877,
+                                                    "sha256":  "A5FF91432E6C2A1C27AF90285D29D01E93286EE1B5FA66A2CEF1547C21223FDD"
+                                                }
+                                            ]
+                              }
+                 },
+    "installers":  {
+                       "x64":  {
+                                   "installerUrl":  "php/desktop_download.php?arch=x64\u0026version=1.0.102",
+                                   "sha256":  "5A9B41967EBEA16F9AC7C472E5DDFC97AE4485292CB1F6928C0D4E83A2F3494C"
+                               },
+                       "ia32":  {
+                                    "installerUrl":  "php/desktop_download.php?arch=ia32\u0026version=1.0.102",
+                                    "sha256":  "12B14A8833B970F926C02FD2F622A796CFC3194CF72C12F857EED3F0FAEC10DE"
+                                }
+                   },
+    "notes":  "Fix per-room chat window size and position restore.",
+    "releaseId":  "1.0.102-A858A53C7F0A-DEA3885CBBC3"
 }
