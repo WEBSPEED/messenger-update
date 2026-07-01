@@ -1,30 +1,30 @@
-﻿{
-    "version":  "1.0.102",
-    "releaseId":  "1.0.102-A858A53C7F0A-DEA3885CBBC3",
-    "files":  {
-                  "EmaxICT-Messenger-Setup-x64.exe":  {
-                                                          "size":  95647801,
-                                                          "sha256":  "5A9B41967EBEA16F9AC7C472E5DDFC97AE4485292CB1F6928C0D4E83A2F3494C"
-                                                      },
-                  "EmaxICT-Messenger-Update-x64.part1":  {
-                                                             "size":  83886080,
-                                                             "sha256":  "E764BC56117A21CEDB9546139B0523FD453FB8DC404E8715678E5102CE351AEE"
-                                                         },
-                  "EmaxICT-Messenger-Update-x64.part2":  {
-                                                             "size":  49051912,
-                                                             "sha256":  "F6C5D07649F670D734C59509C0B3489F7211818BC3871AE21A379E6ABE76B046"
-                                                         },
-                  "EmaxICT-Messenger-Setup-ia32.exe":  {
-                                                           "size":  82833503,
-                                                           "sha256":  "12B14A8833B970F926C02FD2F622A796CFC3194CF72C12F857EED3F0FAEC10DE"
-                                                       },
-                  "EmaxICT-Messenger-Update-ia32.part1":  {
-                                                              "size":  83886080,
-                                                              "sha256":  "E64FCCF036F7D90B51615AE28686B456BA3E8F823A4E62812FF8FE94DF1B037A"
-                                                          },
-                  "EmaxICT-Messenger-Update-ia32.part2":  {
-                                                              "size":  30283877,
-                                                              "sha256":  "A5FF91432E6C2A1C27AF90285D29D01E93286EE1B5FA66A2CEF1547C21223FDD"
-                                                          }
-              }
+{
+    "version": "1.0.103",
+    "releaseId": "1.0.103-C8DC00F124FA-2326AB0FDEDB",
+    "files": {
+        "EmaxICT-Messenger-Setup-x64.exe": {
+            "size": 95647970,
+            "sha256": "EEF3D36AA4C8537AF4D6B6A28454EFD2FBEF8B0DBED3842810C1B42C4054E824"
+        },
+        "EmaxICT-Messenger-Update-x64.part1": {
+            "size": 83886080,
+            "sha256": "6D22C0606A3992456D66202F037D1536EF7AB91CA08A674840A0DD071A9BF647"
+        },
+        "EmaxICT-Messenger-Update-x64.part2": {
+            "size": 49052060,
+            "sha256": "50BF37CFB6000CD3C214859DB38D9A636372B93505CB738D4B23356489B55AD0"
+        },
+        "EmaxICT-Messenger-Setup-ia32.exe": {
+            "size": 82833896,
+            "sha256": "8E82CDD31DB69AD9C30C9FA61AB11C924520E67FE96403AC44733E39075D6B42"
+        },
+        "EmaxICT-Messenger-Update-ia32.part1": {
+            "size": 83886080,
+            "sha256": "757B1592B06F5B39B1D3B057F727C952F7CDFBD5F546598D2E5158A769D492F1"
+        },
+        "EmaxICT-Messenger-Update-ia32.part2": {
+            "size": 30284027,
+            "sha256": "346E2C9A3EF984A1AFACE409DA7EB1C80A9418EC311F00603A54F3B62F7A7B42"
+        }
+    }
 }
