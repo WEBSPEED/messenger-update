@@ -1,53 +1,53 @@
 {
-    "version": "1.1.4",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.4",
-    "sha256": "016A940806B7DD6284DB0A9336FF9088F664FF0C14A451B9EDF584459CD43D2F",
+    "version": "1.1.5",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.5",
+    "sha256": "7D28342422A8AD7F5BDC2C02559FC1592FD7291E23E02D21CE151F2CB7E9D7ED",
     "packages": {
         "x64": {
-            "version": "1.1.4",
-            "size": 132938128,
-            "sha256": "FFB80332049AC9ACAAAE993D179C047352FAA5685BCF21975C39DB3C6DD59469",
+            "version": "1.1.5",
+            "size": 136623779,
+            "sha256": "6E1692CC3129CB5C86878659906CBFAAB6E6594F8F8C57BFE346AF74EACB37F9",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.4",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.5",
                     "size": 83886080,
-                    "sha256": "64C59CFFFC69B57A2F985F8B776B9F599208AB727CB5829D0830A8562B19BE46"
+                    "sha256": "A3EC855B779B4F76A33CA00F136D99BE650E1A49F27D2F01DDBD3A1D1BD2F03C"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.4",
-                    "size": 49052048,
-                    "sha256": "8FABF89F0A24B73BDFB862663D92604D647007667A2D14E21769ACB657DC3651"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.5",
+                    "size": 52737699,
+                    "sha256": "67AC036F72667E311B7D04D8CD86428F246E8E0236C2B9D463B4DDDBCA932D50"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.4",
-            "size": 114170094,
-            "sha256": "1DC309C2FEC16FD036EC33755D71CF6263B60922351177B90EC2244C06D28AA8",
+            "version": "1.1.5",
+            "size": 117243068,
+            "sha256": "B525BE51C4591EA3E2621F987486F0FF001968BDF98C19BDEE8073019225A7E2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.4",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.5",
                     "size": 83886080,
-                    "sha256": "80F69B465E60DFE33216D5A71CB083DB47B3CD5A81F47A57C69AFA64E1A9CD03"
+                    "sha256": "1E1A9FB3E39D326B1A02D91F06A2B0C27DD337BEE3F5A30CD7F7EED76572BA75"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.4",
-                    "size": 30284014,
-                    "sha256": "DB17F62EA2E3B7286076FCAF9C9A3C910B23975403EC90AE1C08852772AEC6BE"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.5",
+                    "size": 33356988,
+                    "sha256": "3C70F13C3E5456F526F414DE95F9EE056E7C5E71B15806ACED68CE09812F1608"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.4",
-            "sha256": "016A940806B7DD6284DB0A9336FF9088F664FF0C14A451B9EDF584459CD43D2F"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.5",
+            "sha256": "7D28342422A8AD7F5BDC2C02559FC1592FD7291E23E02D21CE151F2CB7E9D7ED"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.4",
-            "sha256": "1915AC307B5B66362A3C611DD8A0283AEE81DDF8BC2EAC005E77EB18499DF90A"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.5",
+            "sha256": "C07CDBBCF3ADBA10E7B105A3A3DF23480DA7A755B584D0F0ECFB169956ACC1CE"
         }
     },
-    "notes": "Open chat room windows at saved bounds without visible repositioning.",
-    "releaseId": "1.1.4-FFB80332049A-1DC309C2FEC1"
+    "notes": "Polished desktop titlebar window controls and hover states.",
+    "releaseId": "1.1.5-6E1692CC3129-B525BE51C459"
 }
