@@ -1,53 +1,53 @@
 {
-    "version": "1.1.6",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.6",
-    "sha256": "C71E2BAF37595FDDA537798449AACF4A212940249E54E1C9A7E90968EFDD42B6",
+    "version": "1.1.7",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.7",
+    "sha256": "660E7B90E8E7CA6DE31F1E920B895D8970260A5DE1BDC47BF779611114A6A7C2",
     "packages": {
         "x64": {
-            "version": "1.1.6",
-            "size": 136624600,
-            "sha256": "63A79A88FA2D0F681C8873A136B08CA17F5F426D69AC11D227489BE3060EB9D4",
+            "version": "1.1.7",
+            "size": 132939701,
+            "sha256": "32E2A6330CFB7CC0AAEF9E24FA23269C4DF9627E37BC9C8B003059476E1C394A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.6",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.7",
                     "size": 83886080,
-                    "sha256": "3D94FB53EDA196C0EE3878D8EE4745B44828EDFFD47E51C8E9EB3379BDDA1141"
+                    "sha256": "95358E660B05FEAD1D33EB80EC0047D153E1C814B5F65C37C1B18BB0F134F42F"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.6",
-                    "size": 52738520,
-                    "sha256": "308E75480B218379F25F0444A1D25A3DC1AC7DD39215A52BD6E8897D74C86DD7"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.7",
+                    "size": 49053621,
+                    "sha256": "19073B506A057F1E00A0A0B01272E637BF16778C6DC42A40F88B0A74A186CC97"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.6",
-            "size": 117243899,
-            "sha256": "2889A7879447FAD4A257F60ADBD2ECD0AF48B8862F67A0DFCD59462D171C61BB",
+            "version": "1.1.7",
+            "size": 114171680,
+            "sha256": "F176FFF914EFA9267B8E6FFA3EDFD4DAB6DB7A8E12E3EDCD4E2EF463A9E314B2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.6",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.7",
                     "size": 83886080,
-                    "sha256": "703D0B0C6D58128B9832B892EBD6C250199F4E3FF8D51B9E988946DE1182B085"
+                    "sha256": "CFC5957F4F5217037DC01F514B6CAEE6EFA7676BD0C96A59C47871F357B41C2A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.6",
-                    "size": 33357819,
-                    "sha256": "07DC385C92F560C763899AE36FF781541A0BD4B7053A4F4CCD85A736CEC3057F"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.7",
+                    "size": 30285600,
+                    "sha256": "147DEB154F034D1443235FD641FE819DF27B03DACADE867A4A3439547B694F61"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.6",
-            "sha256": "C71E2BAF37595FDDA537798449AACF4A212940249E54E1C9A7E90968EFDD42B6"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.7",
+            "sha256": "660E7B90E8E7CA6DE31F1E920B895D8970260A5DE1BDC47BF779611114A6A7C2"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.6",
-            "sha256": "80A26A3AF2FED422DDE5852F20D07407DC38A1C7FF0ABEF06EF6769280453F50"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.7",
+            "sha256": "EAEA52F74257AE379FFD80A6999A9E4EDFDC136948E875EC1AA6392497E0700B"
         }
     },
-    "notes": "Apply corporation web messenger branding to the desktop login screen.",
-    "releaseId": "1.1.6-63A79A88FA2D-2889A7879447"
+    "notes": "Polished desktop titlebar window controls and hover states.",
+    "releaseId": "1.1.7-32E2A6330CFB-F176FFF914EF"
 }
