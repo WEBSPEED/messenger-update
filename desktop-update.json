@@ -1,53 +1,53 @@
 {
-    "version": "1.1.16",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.16",
-    "sha256": "498E6007D43918AB9330AABA362D8148B55002080BFE613D507E49CAA3EBBBE5",
+    "version": "1.1.17",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.17",
+    "sha256": "9A7A60100DAD142C22618E3FC4C0F307AAB1134AB36353961F186068CC31C6AC",
     "packages": {
         "x64": {
-            "version": "1.1.16",
-            "size": 132943838,
-            "sha256": "7F350D286F2CF553073C90C0A5DA4B017BA4E2D78AD242D212BA0D33A4AEA5CD",
+            "version": "1.1.17",
+            "size": 132944055,
+            "sha256": "525E7353F857BEFC76A952F625AD765F89AB32ED0C6CABB497329B7403CF1B1E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.16",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.17",
                     "size": 83886080,
-                    "sha256": "5D5D609EEB7394B31FE2C6925B5A74070684D341ECFC8E9882B9AE33EB376EA0"
+                    "sha256": "D07BB092755EB4AF5D8FF3496BE2A26C5413ED5D5D05BB2F8F645515C24628D7"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.16",
-                    "size": 49057758,
-                    "sha256": "62F2DB32EFBFF0B31504461B67B310CF77BDAA432739A9B9AEA32296BC085238"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.17",
+                    "size": 49057975,
+                    "sha256": "8AB1F17C58D1D4EA747E922D8E60A7239BB524364F840EDE8D774290D6567E65"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.16",
-            "size": 114175819,
-            "sha256": "FE49966F80390CF2B489C4E51D80238C561E8085A8E98036279DFA8E04E6747B",
+            "version": "1.1.17",
+            "size": 114176033,
+            "sha256": "41F0F7BC4E4D33B95A9822BCAF2343F1118B530F74DB797F960D77BDF3CF64CF",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.16",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.17",
                     "size": 83886080,
-                    "sha256": "6307EADD5D474D0667C5DE9FD893318E2C632896900AE6316BC9ED781C2EB8D9"
+                    "sha256": "31BCE034D9F95530436B15C17DDC46AC9AD1DBB835CFC4ADA48BEEFCAD81718E"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.16",
-                    "size": 30289739,
-                    "sha256": "EA2E9020732C8BDC5D148EB029B3CB3A9AA45C9249E101CE35EB1AB11101CCB7"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.17",
+                    "size": 30289953,
+                    "sha256": "E0522775C1ADBC54A63C33D9A8F00876C9A53E43AFDAD3E1B3057383C977DD71"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.16",
-            "sha256": "498E6007D43918AB9330AABA362D8148B55002080BFE613D507E49CAA3EBBBE5"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.17",
+            "sha256": "9A7A60100DAD142C22618E3FC4C0F307AAB1134AB36353961F186068CC31C6AC"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.16",
-            "sha256": "16ABA12C3489AB39490A35C61A6B505E620712F579EB03D839865B42F085C8D3"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.17",
+            "sha256": "67886FE61BB2CF942639C6296094A6F455001BEA0F97A36C67303CC73D51FB94"
         }
     },
-    "notes": "Store desktop user settings in the server user preferences database.",
-    "releaseId": "1.1.16-7F350D286F2C-FE49966F8039"
+    "notes": "Store security settings after server confirmation.",
+    "releaseId": "1.1.17-525E7353F857-41F0F7BC4E4D"
 }
