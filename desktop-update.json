@@ -1,53 +1,53 @@
 {
-    "version": "1.1.15",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.15",
-    "sha256": "1B8E90B00E8DF8D425DDAC74BE394F1D6A42E93D1C5B4AD4EA24AEA566DE3AB9",
+    "version": "1.1.16",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.16",
+    "sha256": "498E6007D43918AB9330AABA362D8148B55002080BFE613D507E49CAA3EBBBE5",
     "packages": {
         "x64": {
-            "version": "1.1.15",
-            "size": 132943428,
-            "sha256": "81AE23DF1007273226662BC7C1F6E6BDA40D52A739E7FF561B2B4AD3A8297D26",
+            "version": "1.1.16",
+            "size": 132943838,
+            "sha256": "7F350D286F2CF553073C90C0A5DA4B017BA4E2D78AD242D212BA0D33A4AEA5CD",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.15",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.16",
                     "size": 83886080,
-                    "sha256": "F16BCE57B263EF9DBE1D276DC6680572746F626331883735B95DFACFABBE6DAA"
+                    "sha256": "5D5D609EEB7394B31FE2C6925B5A74070684D341ECFC8E9882B9AE33EB376EA0"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.15",
-                    "size": 49057348,
-                    "sha256": "9C3363ABEADD5FA7B729A3164E8A6EDAF5717B9539E81173CE6B4BA5653DCC3D"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.16",
+                    "size": 49057758,
+                    "sha256": "62F2DB32EFBFF0B31504461B67B310CF77BDAA432739A9B9AEA32296BC085238"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.15",
-            "size": 114175405,
-            "sha256": "931FBE9D65E1E5631E78E6CC7744776F662AED60FD2C51BF1C02DFBCD43A7902",
+            "version": "1.1.16",
+            "size": 114175819,
+            "sha256": "FE49966F80390CF2B489C4E51D80238C561E8085A8E98036279DFA8E04E6747B",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.15",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.16",
                     "size": 83886080,
-                    "sha256": "FB07874C614D5EA78D185AEF86DE15B9D9635AF96E7CD3A0A18C2E122A1C3275"
+                    "sha256": "6307EADD5D474D0667C5DE9FD893318E2C632896900AE6316BC9ED781C2EB8D9"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.15",
-                    "size": 30289325,
-                    "sha256": "392FCD0820710C5B27950052AB125FBA47D9345AEC8E34F26D830496ED629F90"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.16",
+                    "size": 30289739,
+                    "sha256": "EA2E9020732C8BDC5D148EB029B3CB3A9AA45C9249E101CE35EB1AB11101CCB7"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.15",
-            "sha256": "1B8E90B00E8DF8D425DDAC74BE394F1D6A42E93D1C5B4AD4EA24AEA566DE3AB9"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.16",
+            "sha256": "498E6007D43918AB9330AABA362D8148B55002080BFE613D507E49CAA3EBBBE5"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.15",
-            "sha256": "8BDD8CEDD853787E0E91C822ABA2565D175FCCF303D23F8FADBC6DD11E84F853"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.16",
+            "sha256": "16ABA12C3489AB39490A35C61A6B505E620712F579EB03D839865B42F085C8D3"
         }
     },
-    "notes": "Polished desktop titlebar window controls and hover states.",
-    "releaseId": "1.1.15-81AE23DF1007-931FBE9D65E1"
+    "notes": "Store desktop user settings in the server user preferences database.",
+    "releaseId": "1.1.16-7F350D286F2C-FE49966F8039"
 }
