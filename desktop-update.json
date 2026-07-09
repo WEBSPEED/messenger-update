@@ -1,53 +1,53 @@
 {
-    "version": "1.1.23",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.23",
-    "sha256": "0764C2A8EC5AB260645E50D60751E8829363C22B4A2E4029C21EF7820D3F24C7",
+    "version": "1.1.24",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.24",
+    "sha256": "3467401F594D11F6F183653410CF0B5AD2B391F368AC8A2399B8996A964C0829",
     "packages": {
         "x64": {
-            "version": "1.1.23",
-            "size": 132945726,
-            "sha256": "B4E94C73F9F324241973A588773AA509F8325C96C77851A5E14C50983387563E",
+            "version": "1.1.24",
+            "size": 132945881,
+            "sha256": "DCFBD9C1CA83F9862720C20E0697229CC42B68EB6CD56DAEF7222D88F48B65B4",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.23",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.24",
                     "size": 83886080,
-                    "sha256": "0C5FB26CACBE60E8B8DE426E814CFE05CC4FB46469DDB1009159468A96C664B2"
+                    "sha256": "B43470FA28D7CDE2C56F30DF19170AF4E1546C8B43ACD106291243AEDA568A40"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.23",
-                    "size": 49059646,
-                    "sha256": "93380161859FA9A671217F18635C64C26F4D638DE36B27AAB190EE112EC01556"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.24",
+                    "size": 49059801,
+                    "sha256": "FB09675CEFDE6BE3AB8AFCF6411850A70587E9A1C52F120EE997489022A33C41"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.23",
-            "size": 114177758,
-            "sha256": "1B74F42B992C523B7BADB7AAB5A3DC813AFC22BE0405768A599982CFFCA98402",
+            "version": "1.1.24",
+            "size": 114177855,
+            "sha256": "8A0E95AF081F4522A79D13DEE5D3C107F643DD09FBA8C369A3B6C46A4E7A6BD8",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.23",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.24",
                     "size": 83886080,
-                    "sha256": "74716E779EFFD5517CB9B71C3E8DED36DAC60AF271E30FEEBA6DE44895D38EAC"
+                    "sha256": "AFEBAE54CD4C67D377DA95B51CB53404474C9BB8EAAA7537B8DC899212E5D52D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.23",
-                    "size": 30291678,
-                    "sha256": "B6F56BA733DC74541DBCEB50620C3C4AA6E354E11FD72C41F0FDCB34B56007AB"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.24",
+                    "size": 30291775,
+                    "sha256": "935CC126178A5D70B7EAAF100691822A636447108D35E9091E0E27A4DB2AD997"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.23",
-            "sha256": "0764C2A8EC5AB260645E50D60751E8829363C22B4A2E4029C21EF7820D3F24C7"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.24",
+            "sha256": "3467401F594D11F6F183653410CF0B5AD2B391F368AC8A2399B8996A964C0829"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.23",
-            "sha256": "1513DC9E2AC1FB7B6A0598334C1399DBAF31A4574370131A80799919DFA69340"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.24",
+            "sha256": "0B24FECF7C5796394178A188C63900BA038D6655C6A4E96CE04AF8A3D0B06DBB"
         }
     },
-    "notes": "Improve employee login toast profile images and configurable notification duration.",
-    "releaseId": "1.1.23-B4E94C73F9F3-1B74F42B992C"
+    "notes": "Improve employee login notification profile image handling.",
+    "releaseId": "1.1.24-DCFBD9C1CA83-8A0E95AF081F"
 }
