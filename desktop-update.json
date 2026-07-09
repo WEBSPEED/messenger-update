@@ -1,53 +1,53 @@
 {
-    "version": "1.1.21",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.21",
-    "sha256": "2D89A8E26AD56DC1C24D1C56394D59839D1E24F58376B572E35A48C81BAA10A2",
+    "version": "1.1.22",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.22",
+    "sha256": "D068361E7BA4236BD56A7319481A0D912CBDC6A352470A4B3F4AEC84696BCC13",
     "packages": {
         "x64": {
-            "version": "1.1.21",
-            "size": 132945384,
-            "sha256": "21D09E5D78974BCB7026494D7E11E599B167B412D1490B957E975F3A3ACA7089",
+            "version": "1.1.22",
+            "size": 132945677,
+            "sha256": "8B7BC36754BC00A631BF9D0D9A30F61E80FB953E717EF727C73E22857BD4B186",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.21",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.22",
                     "size": 83886080,
-                    "sha256": "6ED76F25BF2C2D023DB5A1B480AE79889C362829CB79DE5CA6CD6AC6F1DFD675"
+                    "sha256": "A78688FE3E5A04C29B031891567A3E8D306A253ABFE15BE964C29191FE1854BD"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.21",
-                    "size": 49059304,
-                    "sha256": "B5BF7CABDB24C9DC9E12DD0DCEF3372B84621848AD9CDDCAA263A76FD4CA7826"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.22",
+                    "size": 49059597,
+                    "sha256": "D35C2F6F551EED0E619F578B6B0147297F98EABB9B54E9C1464FA74C6A76821C"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.21",
-            "size": 114177415,
-            "sha256": "5C3AD3CF3546BD2BEE6B14E370C1E28C817F525CE5C451F4511198CBD8A27F6A",
+            "version": "1.1.22",
+            "size": 114177711,
+            "sha256": "716C5BB0465A21D756EDE1BABEC55A7E218929CA41B1314303119E1DB52B22D0",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.21",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.22",
                     "size": 83886080,
-                    "sha256": "CEB053DED7C58AE8156A9DB2ACE42D30F9477D0864C95951A458CEAA342EC017"
+                    "sha256": "0BD62F1D46437F438B20D5EF9973637C565773E6BBFF162C7F3190E144F3C858"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.21",
-                    "size": 30291335,
-                    "sha256": "38A1D886DD2F32E33B340085A2997742217AFE7C4EA3548D0A24151EC833992E"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.22",
+                    "size": 30291631,
+                    "sha256": "BC29B80357669FA9636D8A700D6F1114B10A486DB8A980E6A760A16DC9B58E74"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.21",
-            "sha256": "2D89A8E26AD56DC1C24D1C56394D59839D1E24F58376B572E35A48C81BAA10A2"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.22",
+            "sha256": "D068361E7BA4236BD56A7319481A0D912CBDC6A352470A4B3F4AEC84696BCC13"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.21",
-            "sha256": "EC9BCD22712716B501E6C8C11F5BF928B1D235D29A6F7F2D571B9DACBA5A6489"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.22",
+            "sha256": "E7A93EFDD4ED253A9DD66D28FF467D7AFCD9D6B013DE961F2DAE5CE07D5A71D1"
         }
     },
-    "notes": "Harden desktop update manifest parsing and employee login notifications.",
-    "releaseId": "1.1.21-21D09E5D7897-5C3AD3CF3546"
+    "notes": "Improve employee login toast profile images and configurable notification duration.",
+    "releaseId": "1.1.22-8B7BC36754BC-716C5BB0465A"
 }
