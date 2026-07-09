@@ -1,53 +1,53 @@
 {
-    "version": "1.1.22",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.22",
-    "sha256": "D068361E7BA4236BD56A7319481A0D912CBDC6A352470A4B3F4AEC84696BCC13",
+    "version": "1.1.23",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.23",
+    "sha256": "0764C2A8EC5AB260645E50D60751E8829363C22B4A2E4029C21EF7820D3F24C7",
     "packages": {
         "x64": {
-            "version": "1.1.22",
-            "size": 132945677,
-            "sha256": "8B7BC36754BC00A631BF9D0D9A30F61E80FB953E717EF727C73E22857BD4B186",
+            "version": "1.1.23",
+            "size": 132945726,
+            "sha256": "B4E94C73F9F324241973A588773AA509F8325C96C77851A5E14C50983387563E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.22",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.23",
                     "size": 83886080,
-                    "sha256": "A78688FE3E5A04C29B031891567A3E8D306A253ABFE15BE964C29191FE1854BD"
+                    "sha256": "0C5FB26CACBE60E8B8DE426E814CFE05CC4FB46469DDB1009159468A96C664B2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.22",
-                    "size": 49059597,
-                    "sha256": "D35C2F6F551EED0E619F578B6B0147297F98EABB9B54E9C1464FA74C6A76821C"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.23",
+                    "size": 49059646,
+                    "sha256": "93380161859FA9A671217F18635C64C26F4D638DE36B27AAB190EE112EC01556"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.22",
-            "size": 114177711,
-            "sha256": "716C5BB0465A21D756EDE1BABEC55A7E218929CA41B1314303119E1DB52B22D0",
+            "version": "1.1.23",
+            "size": 114177758,
+            "sha256": "1B74F42B992C523B7BADB7AAB5A3DC813AFC22BE0405768A599982CFFCA98402",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.22",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.23",
                     "size": 83886080,
-                    "sha256": "0BD62F1D46437F438B20D5EF9973637C565773E6BBFF162C7F3190E144F3C858"
+                    "sha256": "74716E779EFFD5517CB9B71C3E8DED36DAC60AF271E30FEEBA6DE44895D38EAC"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.22",
-                    "size": 30291631,
-                    "sha256": "BC29B80357669FA9636D8A700D6F1114B10A486DB8A980E6A760A16DC9B58E74"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.23",
+                    "size": 30291678,
+                    "sha256": "B6F56BA733DC74541DBCEB50620C3C4AA6E354E11FD72C41F0FDCB34B56007AB"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.22",
-            "sha256": "D068361E7BA4236BD56A7319481A0D912CBDC6A352470A4B3F4AEC84696BCC13"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.23",
+            "sha256": "0764C2A8EC5AB260645E50D60751E8829363C22B4A2E4029C21EF7820D3F24C7"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.22",
-            "sha256": "E7A93EFDD4ED253A9DD66D28FF467D7AFCD9D6B013DE961F2DAE5CE07D5A71D1"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.23",
+            "sha256": "1513DC9E2AC1FB7B6A0598334C1399DBAF31A4574370131A80799919DFA69340"
         }
     },
     "notes": "Improve employee login toast profile images and configurable notification duration.",
-    "releaseId": "1.1.22-8B7BC36754BC-716C5BB0465A"
+    "releaseId": "1.1.23-B4E94C73F9F3-1B74F42B992C"
 }
