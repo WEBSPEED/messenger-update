@@ -1,53 +1,53 @@
-﻿{
-    "version":  "1.1.20",
-    "installerUrl":  "php/desktop_download.php?arch=x64\u0026version=1.1.20",
-    "sha256":  "175897A7C5161F57B19AD8E7A48CC92CE9522ADCB246DA2E36B7B6C160856A0D",
-    "packages":  {
-                     "x64":  {
-                                 "version":  "1.1.20",
-                                 "size":  132945105,
-                                 "sha256":  "EDCFE2A8AD9B57A169004AACC3712D8372D3230DA35916912CC3874625F8CF9C",
-                                 "parts":  [
-                                               {
-                                                   "url":  "php/desktop_update_download.php?arch=x64\u0026part=1\u0026version=1.1.20",
-                                                   "size":  83886080,
-                                                   "sha256":  "41F5FF27113CC6464682A38BC5B1DE36237D1DE152CCD821B279BF66860240AC"
-                                               },
-                                               {
-                                                   "url":  "php/desktop_update_download.php?arch=x64\u0026part=2\u0026version=1.1.20",
-                                                   "size":  49059025,
-                                                   "sha256":  "4D1E22A2C44C7A7FF22D2A5B47D13AA3E098B93738A11CB0480B1B88C15034EE"
-                                               }
-                                           ]
-                             },
-                     "ia32":  {
-                                  "version":  "1.1.20",
-                                  "size":  114177139,
-                                  "sha256":  "B2F88C5898457100CD22A60B8ED751ADE766BC69AC3C76524FFA7953604D0F55",
-                                  "parts":  [
-                                                {
-                                                    "url":  "php/desktop_update_download.php?arch=ia32\u0026part=1\u0026version=1.1.20",
-                                                    "size":  83886080,
-                                                    "sha256":  "2B3103E24794A8D5482F2F85225E47957CFC62D2622EFD438336A5742CC538D9"
-                                                },
-                                                {
-                                                    "url":  "php/desktop_update_download.php?arch=ia32\u0026part=2\u0026version=1.1.20",
-                                                    "size":  30291059,
-                                                    "sha256":  "57B42E907EFE1A4006851F4096EF655136945F3E57C6111EAB16C801E3398B9D"
-                                                }
-                                            ]
-                              }
-                 },
-    "installers":  {
-                       "x64":  {
-                                   "installerUrl":  "php/desktop_download.php?arch=x64\u0026version=1.1.20",
-                                   "sha256":  "175897A7C5161F57B19AD8E7A48CC92CE9522ADCB246DA2E36B7B6C160856A0D"
-                               },
-                       "ia32":  {
-                                    "installerUrl":  "php/desktop_download.php?arch=ia32\u0026version=1.1.20",
-                                    "sha256":  "295E3EBE2B4D994D0207F073F100151C265F0F36EFE8F602D5FB41CCC27C1937"
-                                }
-                   },
-    "notes":  "Show employee login toast profile and open direct chat from the notification.",
-    "releaseId":  "1.1.20-EDCFE2A8AD9B-B2F88C589845"
+{
+    "version": "1.1.21",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.21",
+    "sha256": "2D89A8E26AD56DC1C24D1C56394D59839D1E24F58376B572E35A48C81BAA10A2",
+    "packages": {
+        "x64": {
+            "version": "1.1.21",
+            "size": 132945384,
+            "sha256": "21D09E5D78974BCB7026494D7E11E599B167B412D1490B957E975F3A3ACA7089",
+            "parts": [
+                {
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.21",
+                    "size": 83886080,
+                    "sha256": "6ED76F25BF2C2D023DB5A1B480AE79889C362829CB79DE5CA6CD6AC6F1DFD675"
+                },
+                {
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.21",
+                    "size": 49059304,
+                    "sha256": "B5BF7CABDB24C9DC9E12DD0DCEF3372B84621848AD9CDDCAA263A76FD4CA7826"
+                }
+            ]
+        },
+        "ia32": {
+            "version": "1.1.21",
+            "size": 114177415,
+            "sha256": "5C3AD3CF3546BD2BEE6B14E370C1E28C817F525CE5C451F4511198CBD8A27F6A",
+            "parts": [
+                {
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.21",
+                    "size": 83886080,
+                    "sha256": "CEB053DED7C58AE8156A9DB2ACE42D30F9477D0864C95951A458CEAA342EC017"
+                },
+                {
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.21",
+                    "size": 30291335,
+                    "sha256": "38A1D886DD2F32E33B340085A2997742217AFE7C4EA3548D0A24151EC833992E"
+                }
+            ]
+        }
+    },
+    "installers": {
+        "x64": {
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.21",
+            "sha256": "2D89A8E26AD56DC1C24D1C56394D59839D1E24F58376B572E35A48C81BAA10A2"
+        },
+        "ia32": {
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.21",
+            "sha256": "EC9BCD22712716B501E6C8C11F5BF928B1D235D29A6F7F2D571B9DACBA5A6489"
+        }
+    },
+    "notes": "Harden desktop update manifest parsing and employee login notifications.",
+    "releaseId": "1.1.21-21D09E5D7897-5C3AD3CF3546"
 }
