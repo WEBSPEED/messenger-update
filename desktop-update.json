@@ -1,53 +1,53 @@
 {
-    "version": "1.1.24",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.24",
-    "sha256": "3467401F594D11F6F183653410CF0B5AD2B391F368AC8A2399B8996A964C0829",
+    "version": "1.1.25",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.25",
+    "sha256": "D0A0F5B12562DB7084050AC62B6612D83E9D89571EEDFE31C7749B42B14C77A5",
     "packages": {
         "x64": {
-            "version": "1.1.24",
-            "size": 132945881,
-            "sha256": "DCFBD9C1CA83F9862720C20E0697229CC42B68EB6CD56DAEF7222D88F48B65B4",
+            "version": "1.1.25",
+            "size": 124035598,
+            "sha256": "FB384DB18A01864362B93E481EC55F238A695C9A974D895DF2B130AC2E2201E0",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.24",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.25",
                     "size": 83886080,
-                    "sha256": "B43470FA28D7CDE2C56F30DF19170AF4E1546C8B43ACD106291243AEDA568A40"
+                    "sha256": "582CB122AD63350AF1D0E100AA555F2C8D88BCD971CE86B9BC7F2EE9AE20A656"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.24",
-                    "size": 49059801,
-                    "sha256": "FB09675CEFDE6BE3AB8AFCF6411850A70587E9A1C52F120EE997489022A33C41"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.25",
+                    "size": 40149518,
+                    "sha256": "FE29166FEC8C86232BD23EFEAEEF710DC8F38E1015217CCE097DA367D0BE2730"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.24",
-            "size": 114177855,
-            "sha256": "8A0E95AF081F4522A79D13DEE5D3C107F643DD09FBA8C369A3B6C46A4E7A6BD8",
+            "version": "1.1.25",
+            "size": 114178095,
+            "sha256": "35AC2424C976C308375E8B297082E5FF22F99EDED3899EA282ED58D7BCE16289",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.24",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.25",
                     "size": 83886080,
-                    "sha256": "AFEBAE54CD4C67D377DA95B51CB53404474C9BB8EAAA7537B8DC899212E5D52D"
+                    "sha256": "09ABFC8DF26E91845025E411EE4BBE45617DCF94DA8B753BEDF869845E9A8AD3"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.24",
-                    "size": 30291775,
-                    "sha256": "935CC126178A5D70B7EAAF100691822A636447108D35E9091E0E27A4DB2AD997"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.25",
+                    "size": 30292015,
+                    "sha256": "35C33D8A659EA48F2F860825696B20F27844CB1F617289E31258D7E6299F2A04"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.24",
-            "sha256": "3467401F594D11F6F183653410CF0B5AD2B391F368AC8A2399B8996A964C0829"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.25",
+            "sha256": "D0A0F5B12562DB7084050AC62B6612D83E9D89571EEDFE31C7749B42B14C77A5"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.24",
-            "sha256": "0B24FECF7C5796394178A188C63900BA038D6655C6A4E96CE04AF8A3D0B06DBB"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.25",
+            "sha256": "0020CA22305241D7FF2D2460C992708D0CF8D652B74B58E5B6DD5F8A6556D755"
         }
     },
-    "notes": "Improve employee login notification profile image handling.",
-    "releaseId": "1.1.24-DCFBD9C1CA83-8A0E95AF081F"
+    "notes": "Open chat rooms directly at their saved window position.",
+    "releaseId": "1.1.25-FB384DB18A01-35AC2424C976"
 }
