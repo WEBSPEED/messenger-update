@@ -1,53 +1,53 @@
 {
-    "version": "1.1.28",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.28",
-    "sha256": "449E6E16FA12153A686A35B948F889C0F444B57051A26C9FFA0984BA4CFD5701",
+    "version": "1.1.29",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.29",
+    "sha256": "48279860EDCE051C060037A5D8C9541C1497A0C07F21BF5958E7F4875FDCDA4C",
     "packages": {
         "x64": {
-            "version": "1.1.28",
-            "size": 132946343,
-            "sha256": "75061C4E1AB560352B83E8D512B935B7136E859780D4E04E513B00AAA495B217",
+            "version": "1.1.29",
+            "size": 132946365,
+            "sha256": "22D6D31475C40298DDD7F97FDD118C443E642257755DB9FFB6AD986EBFA84B45",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.28",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.29",
                     "size": 83886080,
-                    "sha256": "D0C69B893633C7AFD68745B551F3C4C6559E84731EB5175EE8611DCEEAE3254A"
+                    "sha256": "750673A10EA45999E5F625B6024A175E18562938A71ED4E9B47C4F48A54E66D6"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.28",
-                    "size": 49060263,
-                    "sha256": "60DCCF8B4DE44D0AF8C34BFC2F4FF441D9350BEB3D10744E444E3D936F16285B"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.29",
+                    "size": 49060285,
+                    "sha256": "82678E3A487E8C6E10F8B537AA295ED84ACD0B68F146752E1D015C4BBDA9F343"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.28",
-            "size": 114178353,
-            "sha256": "53629D97C67DDE6B8E3CF305C0DEA7C44E45C01F32281A11B90A09FECD00AA52",
+            "version": "1.1.29",
+            "size": 114178376,
+            "sha256": "268B57093C91910A541790925C0FAA070551043CDC215427754093B3E7D7CB5E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.28",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.29",
                     "size": 83886080,
-                    "sha256": "FD34B11C069FF9A0ECB859701A34E4B2E42951BBFB9EF31F553B528A0E8F10B4"
+                    "sha256": "4273772A5FC203756A73431CD06DB85DA49A076A0C2C25E85B81D36795DC5CBF"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.28",
-                    "size": 30292273,
-                    "sha256": "A73BFCFA676F75D24C9A5FD58858EED702AAC85119BF997A937C42F05501107B"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.29",
+                    "size": 30292296,
+                    "sha256": "B34D4D01AD94C119E3E70AF0E4AD7E962CC8D8EB6E0876F8B8006A9B94123B0D"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.28",
-            "sha256": "449E6E16FA12153A686A35B948F889C0F444B57051A26C9FFA0984BA4CFD5701"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.29",
+            "sha256": "48279860EDCE051C060037A5D8C9541C1497A0C07F21BF5958E7F4875FDCDA4C"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.28",
-            "sha256": "E46F3878D189DF7EE46545488577908E65686D65167B04EF3C9F13A608018213"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.29",
+            "sha256": "FCB5EADB2B5BDCAC382AFE42C392C5AA720A70379DEBA91E8134DAD1B3A31BAD"
         }
     },
-    "notes": "Retry desktop session confirmation after login.",
-    "releaseId": "1.1.28-75061C4E1AB5-53629D97C67D"
+    "notes": "Fallback to groupware login when desktop session confirmation fails.",
+    "releaseId": "1.1.29-22D6D31475C4-268B57093C91"
 }
