@@ -1,53 +1,53 @@
 {
-    "version": "1.1.31",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.31",
-    "sha256": "873E4C834B01FE5A3A1290D3FE9805E3346D5600AE69F810BE3C9689120967F5",
+    "version": "1.1.32",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.32",
+    "sha256": "64A9482355023E673702EFBA9AD574B47EBF0937719EB2F0051C2BB05313DBB1",
     "packages": {
         "x64": {
-            "version": "1.1.31",
-            "size": 132946196,
-            "sha256": "53DF3BF4C0473514CDE8DB9BE2AE6DF14FB809B199BC3B25594729E5DA1B4726",
+            "version": "1.1.32",
+            "size": 132953247,
+            "sha256": "55DC34353C7E04F01224D405331CA3E19F82C6E704EEF1AE5E1B150B5409BAC2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.31",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.32",
                     "size": 83886080,
-                    "sha256": "1ECA427B5917096A08EB20711C6EC19918CD26E45B4A9A976D8FB85EE0B4C3DB"
+                    "sha256": "76473DE231608C9B10AC29DD6DA56AEAF097FF96C29D65A17177A86CC7687C19"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.31",
-                    "size": 49060116,
-                    "sha256": "E55A57C9776FC56DD18386B66F36762601FFDAB79530DFC8BB2189F11DCD5648"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.32",
+                    "size": 49067167,
+                    "sha256": "26CD94C9CE88266752234B4D5EFE2C4CEB5CA035E3A848A444FFD7E7D540974A"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.31",
-            "size": 114178171,
-            "sha256": "14169F4A8B566CE1DBB441DAAD53FEBD8DFC46946E329E74A9A53FDE64768D12",
+            "version": "1.1.32",
+            "size": 114185258,
+            "sha256": "F961AAB0654C206B9AA0555C5F6FE74B8DA19A13F57C0910B838A49A51F49336",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.31",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.32",
                     "size": 83886080,
-                    "sha256": "FC87B26EE087F80339CAA0017D53D899B7010BC020D2E2626698E5157ED9EDB4"
+                    "sha256": "062BE89DB710DA51B91ABB097DEEA73F1FBDDBEFBD3F8FBE5092FEF419C75774"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.31",
-                    "size": 30292091,
-                    "sha256": "6BE57017D02F8A2A4C8333C988761D1B5C0B0E3229949C927E2DC7127D661C00"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.32",
+                    "size": 30299178,
+                    "sha256": "D4BDA63D0ECC848D3710D6C4B8F4DCFB8342B937AECF68D377106C01B67016B1"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.31",
-            "sha256": "873E4C834B01FE5A3A1290D3FE9805E3346D5600AE69F810BE3C9689120967F5"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.32",
+            "sha256": "64A9482355023E673702EFBA9AD574B47EBF0937719EB2F0051C2BB05313DBB1"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.31",
-            "sha256": "09041A7C5B9DB6A62C7EC5111A90555F6839706D5CE25E17A70142FA2C3882DE"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.32",
+            "sha256": "22489F6E0F87C1838266689FA3C5FD547934840401009DC750E96171E8C1E8B3"
         }
     },
-    "notes": "Restore stable desktop login and isolate attachment download streaming.",
-    "releaseId": "1.1.31-53DF3BF4C047-14169F4A8B56"
+    "notes": "Add desktop debug console for messenger events and process diagnostics.",
+    "releaseId": "1.1.32-55DC34353C7E-F961AAB0654C"
 }
