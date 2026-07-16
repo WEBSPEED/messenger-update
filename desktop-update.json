@@ -1,53 +1,53 @@
 {
-    "version": "1.1.43",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.43",
-    "sha256": "DEE5D19F8F7824F25FBF56581AA19B491136A88849AF20A16265C1189A44A996",
+    "version": "1.1.44",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.44",
+    "sha256": "81FF107108CF849E9A186792FAEE6F29408825153BA369A9D1416C80006AD005",
     "packages": {
         "x64": {
-            "version": "1.1.43",
-            "size": 132946835,
-            "sha256": "BDC90E4FEDF4D1C2D0FC93279F5283B28723A9CD1A0AEC35084565EFBD147732",
+            "version": "1.1.44",
+            "size": 132946837,
+            "sha256": "C049E5D090DAAA8113BB19A5F5422120932C9BEA4A4C78186137B653F3B1A285",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.43",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.44",
                     "size": 83886080,
-                    "sha256": "9A9233C3B0B20795BC4DA964FF1C6ED0E435A8FE2FBD66FBB7483AD9BC270184"
+                    "sha256": "61BE0CAEA394427FAF2AE1731D4EF9D5E1437A18E96965868AF33ACC51956F5D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.43",
-                    "size": 49060755,
-                    "sha256": "C2D6FD76E68574563B4C4983316322EE1CC19E2CB968251407F363CBB60285C5"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.44",
+                    "size": 49060757,
+                    "sha256": "9E75206C3047709BE9FE143B85E1D91E645899F08E6474A41CC3DF764715DEBC"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.43",
-            "size": 114178808,
-            "sha256": "0A8730FFEA6C15BBA4BDCB7221B5181B27A0BD4D97B14E37D18B5AE186F8F0A1",
+            "version": "1.1.44",
+            "size": 114178810,
+            "sha256": "809A25EE39F8938300A53496F5DB245CEC79CCA85769B5D4A98687EB36138ED8",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.43",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.44",
                     "size": 83886080,
-                    "sha256": "FF00EDF8F470ED2C5228FE441F03BE999D2BEDC5C140D24ABDC22A97703C1CED"
+                    "sha256": "A9079F695F81E4F28EFCD7F2DDFD8E8C2D5A11A527757361B90CE3DE48FEEBAE"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.43",
-                    "size": 30292728,
-                    "sha256": "8C7D2B603EC52A9E866965AA9E807028737A5F08F14373306CA2B3789F7DE450"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.44",
+                    "size": 30292730,
+                    "sha256": "2E34999614864DE628E68E5C41CA0B817DABE3BE6E6106AC487CADC4B408CFCF"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.43",
-            "sha256": "DEE5D19F8F7824F25FBF56581AA19B491136A88849AF20A16265C1189A44A996"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.44",
+            "sha256": "81FF107108CF849E9A186792FAEE6F29408825153BA369A9D1416C80006AD005"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.43",
-            "sha256": "03118F9D1BBD7FE94C62614F0889973BA1E573DDD6603F731680B7BCC531514A"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.44",
+            "sha256": "EA248EE8983AAD3F4CD6DC05FD95B718B8E66FE51B1F63959ECD94747F57BB67"
         }
     },
-    "notes": "Show immediate feedback and start large attachment downloads through the desktop download engine.",
-    "releaseId": "1.1.43-BDC90E4FEDF4-0A8730FFEA6C"
+    "notes": "Ask for a save location before starting attachment downloads.",
+    "releaseId": "1.1.44-C049E5D090DA-809A25EE39F8"
 }
