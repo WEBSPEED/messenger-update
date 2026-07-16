@@ -1,53 +1,53 @@
 {
-    "version": "1.1.34",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.34",
-    "sha256": "A6DB7E309CA1BE9947DBCC667C06B8E02707109336B426D306434F7A5321B725",
+    "version": "1.1.36",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.36",
+    "sha256": "98CC1B85EB3D8E2AF823EAA674C3521F3EA624B3D12B97150F317F69041DEE7C",
     "packages": {
         "x64": {
-            "version": "1.1.34",
-            "size": 132954155,
-            "sha256": "0ECFBE647093C7BDD3DC4E8203600A7D7B21CA31A361A598A54400A66715B382",
+            "version": "1.1.36",
+            "size": 132953951,
+            "sha256": "6215A1A8912225948C18AAD948F4C86BC6AC3C7F46AB499A12E7902EE090FECE",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.34",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.36",
                     "size": 83886080,
-                    "sha256": "B1399AD01268DB5DB3C651547EB67B0685AE159F2604AE9027A40D8A41A698BD"
+                    "sha256": "730BEE8B3490A9527895A761C67362484A45295EF67836CA7AB1CB216ED2C5E6"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.34",
-                    "size": 49068075,
-                    "sha256": "0EF2A62025FA0806C4408B6A61F2DDD9F0BFEA6DE075F615DF8662E11CA4443F"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.36",
+                    "size": 49067871,
+                    "sha256": "2469CE1BEFB8D4BBB59D4EE5FE23DFF9F4B5C679134DF5B4A51DDEE4BDA51F8D"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.34",
-            "size": 114186127,
-            "sha256": "32D68DC8A02C6E57C5CC7D00F0DCABAE36593564160DB752F4B901CC1B760228",
+            "version": "1.1.36",
+            "size": 114185925,
+            "sha256": "E58BA463E46877C6C75D87124D9105BAD4BDF1B2147077D37BD03AE25E74944A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.34",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.36",
                     "size": 83886080,
-                    "sha256": "3CE11454CEF698FD348BFDA3EE26C7AA6A48AC574FD2A5113BC6EB4B5B83035B"
+                    "sha256": "89D7130256F1D1380AF00A43E7B9C484C731D6B94960AC9A6F5AF72A1B2C0D43"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.34",
-                    "size": 30300047,
-                    "sha256": "DDE2735650B8C7A595749EFFB3BADBA109611C9E456A792CC2EF580A7E032869"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.36",
+                    "size": 30299845,
+                    "sha256": "5927F22DC36FDD9B407988B3AD6E7B7EFA55AD159DAB28B1D33FBC44C012F30E"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.34",
-            "sha256": "A6DB7E309CA1BE9947DBCC667C06B8E02707109336B426D306434F7A5321B725"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.36",
+            "sha256": "98CC1B85EB3D8E2AF823EAA674C3521F3EA624B3D12B97150F317F69041DEE7C"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.34",
-            "sha256": "35B86DE46098ED2AC88BE5EE79989E09367EE75A6B644F309C684AC55D2C616B"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.36",
+            "sha256": "05EC70D8C830442E9E7CEDA47E097F190AB30E5ACF2A32374EB260EEC27D3F09"
         }
     },
-    "notes": "Improve debug console filter dropdown and close control.",
-    "releaseId": "1.1.34-0ECFBE647093-32D68DC8A02C"
+    "notes": "Keep debug console hidden behind the keyboard shortcut.",
+    "releaseId": "1.1.36-6215A1A89122-E58BA463E468"
 }
