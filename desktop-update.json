@@ -1,53 +1,53 @@
 {
-    "version": "1.1.41",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.41",
-    "sha256": "5D7B219A062B961F6ED93D3607FB02D9B78B689197BBA47C69377A14D84285B5",
+    "version": "1.1.42",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.42",
+    "sha256": "16D6201BFCD5CD46EABD4660139293817F4F72768ADA6A7C5983A79C29CF7FF5",
     "packages": {
         "x64": {
-            "version": "1.1.41",
-            "size": 132946364,
-            "sha256": "846E9ABD94DB47579C9C1C77421B47E6F802E2EBD05792692B00EBDB14581878",
+            "version": "1.1.42",
+            "size": 132946706,
+            "sha256": "BB9C9204F12397B68C3D737520A3507F457631980D49EB1426BBC06C36F320AB",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.41",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.42",
                     "size": 83886080,
-                    "sha256": "6DA84793894A308E7AC8696E0B675D837B96496B6275B99B3FEEAD40157E9560"
+                    "sha256": "9A7E4251608535E8FDDCC64C21EC93FFA83AE53B2F179FFE849A358AD7D3B6A4"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.41",
-                    "size": 49060284,
-                    "sha256": "DF7846EB3B27FA42C1917152B923227F88A6839CEBF1D7426566E6B2FF11AE75"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.42",
+                    "size": 49060626,
+                    "sha256": "4F9EF79E185090BBC77C25C546E94F6CDE94FB3940D3B1D8C419C05A55C40B1F"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.41",
-            "size": 114178338,
-            "sha256": "7E863E6010AADA7B809D81B46DFB20A9A1C5B5964D2BD3424D6D72C753F1DCDF",
+            "version": "1.1.42",
+            "size": 114178718,
+            "sha256": "2442BD3ED65D016E7633A7CB12633CC33D2194B771E57D37E4C6B3AF2BC5E133",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.41",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.42",
                     "size": 83886080,
-                    "sha256": "686E67B5B8FC907E840DD037CBDFF71B8B419A9EF532FEB6DFCA608333A2EB5F"
+                    "sha256": "CFF9AA7D1A1E1597AB636B425BF882FEFD7A193AD9E81CDA3F993FFCF1C194EA"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.41",
-                    "size": 30292258,
-                    "sha256": "7ACDAC1E6C021A8994F39261E574B4E546917A3678EA92AACAE0759863FD1DA4"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.42",
+                    "size": 30292638,
+                    "sha256": "7BA43CB91337A55CC0C580092049E1C5FD45BF59DC1E620C0F5F5A93C9F98131"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.41",
-            "sha256": "5D7B219A062B961F6ED93D3607FB02D9B78B689197BBA47C69377A14D84285B5"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.42",
+            "sha256": "16D6201BFCD5CD46EABD4660139293817F4F72768ADA6A7C5983A79C29CF7FF5"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.41",
-            "sha256": "C4DFA9CC37AFD02EEB74AFDBE29E508B8CB4962610C01170977B23686A8BC555"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.42",
+            "sha256": "52C6D1F32FB5556B05A7C1E08F78FA88E9172A545EB828E7ABA9584DB3854754"
         }
     },
-    "notes": "Fix desktop login session fallback and lock reset navigation loops.",
-    "releaseId": "1.1.41-846E9ABD94DB-7E863E6010AA"
+    "notes": "Start large attachment save-as downloads through the native desktop download engine.",
+    "releaseId": "1.1.42-BB9C9204F123-2442BD3ED65D"
 }
