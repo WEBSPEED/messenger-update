@@ -1,53 +1,53 @@
 {
-    "version": "1.1.40",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.40",
-    "sha256": "24129EA5E0521C4C6BD95A0E78DA28381373ECC61F58E171D8EB10D42DC7E302",
+    "version": "1.1.41",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.41",
+    "sha256": "5D7B219A062B961F6ED93D3607FB02D9B78B689197BBA47C69377A14D84285B5",
     "packages": {
         "x64": {
-            "version": "1.1.40",
-            "size": 132946329,
-            "sha256": "32295DF54112D239714B5A36CBBB51768539E459E2DF1872E86C2A7B79DBA09C",
+            "version": "1.1.41",
+            "size": 132946364,
+            "sha256": "846E9ABD94DB47579C9C1C77421B47E6F802E2EBD05792692B00EBDB14581878",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.40",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.41",
                     "size": 83886080,
-                    "sha256": "DF37BC508493C971068CD096473372AC49AC3FB435AEC513EF9B996F700ED24E"
+                    "sha256": "6DA84793894A308E7AC8696E0B675D837B96496B6275B99B3FEEAD40157E9560"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.40",
-                    "size": 49060249,
-                    "sha256": "DE04D4E06A00F436E483FDAFBA3FF6E6B4D2A1DEFB49BB8ED912B4333CDB7E3A"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.41",
+                    "size": 49060284,
+                    "sha256": "DF7846EB3B27FA42C1917152B923227F88A6839CEBF1D7426566E6B2FF11AE75"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.40",
-            "size": 114178305,
-            "sha256": "A052FE282AFB1008DB39E1963746EA1EE7F9197B14A0C5DAD40509BC41550CF1",
+            "version": "1.1.41",
+            "size": 114178338,
+            "sha256": "7E863E6010AADA7B809D81B46DFB20A9A1C5B5964D2BD3424D6D72C753F1DCDF",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.40",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.41",
                     "size": 83886080,
-                    "sha256": "A019E20E97D50EBFC8701A2B6E8273A8421D522871F4BB60EB6BD21EF44380D4"
+                    "sha256": "686E67B5B8FC907E840DD037CBDFF71B8B419A9EF532FEB6DFCA608333A2EB5F"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.40",
-                    "size": 30292225,
-                    "sha256": "2A43FB2ED09E0F58B95E5E18BC30585327829AC6723252D3009F19B00F9E7FFA"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.41",
+                    "size": 30292258,
+                    "sha256": "7ACDAC1E6C021A8994F39261E574B4E546917A3678EA92AACAE0759863FD1DA4"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.40",
-            "sha256": "24129EA5E0521C4C6BD95A0E78DA28381373ECC61F58E171D8EB10D42DC7E302"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.41",
+            "sha256": "5D7B219A062B961F6ED93D3607FB02D9B78B689197BBA47C69377A14D84285B5"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.40",
-            "sha256": "DB622EFAC7DE7C1517E80E46D1D3554BAE487488A5BE80DB9E95B0FC8FB34829"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.41",
+            "sha256": "C4DFA9CC37AFD02EEB74AFDBE29E508B8CB4962610C01170977B23686A8BC555"
         }
     },
-    "notes": "Restore stable desktop login and isolate attachment download streaming.",
-    "releaseId": "1.1.40-32295DF54112-A052FE282AFB"
+    "notes": "Fix desktop login session fallback and lock reset navigation loops.",
+    "releaseId": "1.1.41-846E9ABD94DB-7E863E6010AA"
 }
