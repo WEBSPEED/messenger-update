@@ -1,53 +1,53 @@
 {
-    "version": "1.1.48",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.48",
-    "sha256": "300552CA51EF238CA5C3AE2E8CF41A9CA54DA308E135A94494250726AEF053B2",
+    "version": "1.1.49",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.49",
+    "sha256": "BB2DC9F60188D0DB8378561C1BE6217C1142F74D9620D922CCCCEE88E1217434",
     "packages": {
         "x64": {
-            "version": "1.1.48",
-            "size": 132950659,
-            "sha256": "E7FCC5EEFD7987C2D363B4BC4C1AC886782946526C3B587C1AF9C4D6E69D5DED",
+            "version": "1.1.49",
+            "size": 132952908,
+            "sha256": "2E2170319249F6A6F69E9F3ADF17369B3F46301DCE47884C61F9AB02F935670A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.48",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.49",
                     "size": 83886080,
-                    "sha256": "16538D3390FABBED94D0FA7C308790B75B910E75AFBD608A747A7B621E374549"
+                    "sha256": "7D569B6E262B5845C306365B38F40229494F5A0E1AB8D1A0C385A2E7CD0350E5"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.48",
-                    "size": 49064579,
-                    "sha256": "AAA41B1D796429CC1A8154197363E5597DCF68D83AC079F2A3EF4346593046BA"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.49",
+                    "size": 49066828,
+                    "sha256": "7C0C81F0D85AA98EA781E79794FD8B4BFA587D05D8E17E974CD3608F263EB054"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.48",
-            "size": 114182636,
-            "sha256": "5154D4A968E60CACC5450E954E38392D8D403669D304EDD1AA6E4E876F6163E3",
+            "version": "1.1.49",
+            "size": 114184883,
+            "sha256": "8E5CD4217F688A61886041873A2EDA9EC2AD5F72CE483EBB1D630DFD5874FD4B",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.48",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.49",
                     "size": 83886080,
-                    "sha256": "CC9E6B7188724326FC1D84C5E51F07F179DA7B534B8399BFA41E8097F9831A5F"
+                    "sha256": "CD2BDC03F860232A7879CD730A540189C7D89282F38419BF60C06C3818A2CCDD"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.48",
-                    "size": 30296556,
-                    "sha256": "C2701AB150DD771FD5E1861F5039CAEA6DFFE0FE8EF15CBA11912845FCBC5C12"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.49",
+                    "size": 30298803,
+                    "sha256": "BDCD405312A01955C9CA62FD20E04C012BD48AC2FD4613DAEA6798B5624DCEEC"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.48",
-            "sha256": "300552CA51EF238CA5C3AE2E8CF41A9CA54DA308E135A94494250726AEF053B2"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.49",
+            "sha256": "BB2DC9F60188D0DB8378561C1BE6217C1142F74D9620D922CCCCEE88E1217434"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.48",
-            "sha256": "37169378BB1014B1C101077C182AAE4EF4639C27EE859AD83156925036AD8CEE"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.49",
+            "sha256": "D71E815B0620705336B2722796C77BA29A5EC3FFB4FC500E3649BF19779AE8BA"
         }
     },
     "notes": "Restore stable desktop login and isolate attachment download streaming.",
-    "releaseId": "1.1.48-E7FCC5EEFD79-5154D4A968E6"
+    "releaseId": "1.1.49-2E2170319249-8E5CD4217F68"
 }
