@@ -1,53 +1,53 @@
 {
-    "version": "1.1.55",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.55",
-    "sha256": "EAF8C3DE368C6FF7CD4EEA5CC50E9A6B0FE841EFD7DE87C721F7054CE7E3E404",
+    "version": "1.1.56",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.56",
+    "sha256": "1E41D1FE739F91DF551749700FF0F1FEF6C23DAF7A5AF0C888C68597F44977AE",
     "packages": {
         "x64": {
-            "version": "1.1.55",
-            "size": 132954961,
-            "sha256": "51E21A5A0D13E44CE88990404583856366A812AE2646B058D63F9FD90C509A03",
+            "version": "1.1.56",
+            "size": 132955204,
+            "sha256": "A051D207D11F6B7110F2A4607199BEBBB87B8B0B9A97C9A7EC7220070FFD0442",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.55",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.56",
                     "size": 83886080,
-                    "sha256": "1E9AAD22EA2D2375F0EEA49A56FFCC22F6E38A0FCE1D4AB488DE8DDA06EECCEE"
+                    "sha256": "32842D5B27259ED66EC4DA34A6A4A9759E3ACFEAD62649DB4CDB17BAB149695D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.55",
-                    "size": 49068881,
-                    "sha256": "9CF53ED519C949B5635AF7950C7C7D96DBCFD5865B715A0DC4D6D93E2DB08152"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.56",
+                    "size": 49069124,
+                    "sha256": "0D0BE7EA83657A2D4C20A66A14E052060866F62372E2797295FA75DC65FEB2EB"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.55",
-            "size": 114186936,
-            "sha256": "68B65BF6E3EABCD319D83B276EBEB465AE6E4A606F696B3FA1F17CCC60077149",
+            "version": "1.1.56",
+            "size": 114187181,
+            "sha256": "5D1C2C254039AD58B715F0CC85B1789097BA883C88031E578F950D43B02E33EA",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.55",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.56",
                     "size": 83886080,
-                    "sha256": "287BED0CE113CEC058BED47EEC946107DC72D36CCF516BCA0E2DCCFC55705A6E"
+                    "sha256": "3E142DF04F0456AFFFFC156368D1FB2C35A1C1954ED1E3DA26F7871D26180867"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.55",
-                    "size": 30300856,
-                    "sha256": "FA3F9277CB0D8EE134712CA06D54A65954A69EB972489BC14D73D3AC96598A32"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.56",
+                    "size": 30301101,
+                    "sha256": "9490FB86A9D8134AA678B1BEA65E7ACBCDF825E87D4383CAF76FDAFE0235CADC"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.55",
-            "sha256": "EAF8C3DE368C6FF7CD4EEA5CC50E9A6B0FE841EFD7DE87C721F7054CE7E3E404"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.56",
+            "sha256": "1E41D1FE739F91DF551749700FF0F1FEF6C23DAF7A5AF0C888C68597F44977AE"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.55",
-            "sha256": "18D4BE74841B6E43E4D57E746D8AE6DC99A69CB66DD179E75406161690481F53"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.56",
+            "sha256": "0B54EDBDD778825F1BBFFDD851FDC4E9257145D56946230E9725BFC1A68F1F4C"
         }
     },
-    "notes": "Make the desktop hub exit menu quit the messenger application.",
-    "releaseId": "1.1.55-51E21A5A0D13-68B65BF6E3EA"
+    "notes": "Add an automatic login checkbox to the desktop login screen.",
+    "releaseId": "1.1.56-A051D207D11F-5D1C2C254039"
 }
