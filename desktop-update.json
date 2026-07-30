@@ -1,53 +1,53 @@
 {
-    "version": "1.1.54",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.54",
-    "sha256": "E33E017A447B2CFC4A25017A05BCB1CE58420259A24AEA941FA2E0E9A91FC14F",
+    "version": "1.1.55",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.55",
+    "sha256": "EAF8C3DE368C6FF7CD4EEA5CC50E9A6B0FE841EFD7DE87C721F7054CE7E3E404",
     "packages": {
         "x64": {
-            "version": "1.1.54",
-            "size": 132954920,
-            "sha256": "690492166B7EACDD73169D2E05C508EB6BD2989F5487F68297613C5A6FA65A49",
+            "version": "1.1.55",
+            "size": 132954961,
+            "sha256": "51E21A5A0D13E44CE88990404583856366A812AE2646B058D63F9FD90C509A03",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.54",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.55",
                     "size": 83886080,
-                    "sha256": "8E5BEA59A872FF59ADAAA7964E3BB31A618E0903483CCE2A1D55AB7FE65EB642"
+                    "sha256": "1E9AAD22EA2D2375F0EEA49A56FFCC22F6E38A0FCE1D4AB488DE8DDA06EECCEE"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.54",
-                    "size": 49068840,
-                    "sha256": "679EEA68C7B2824F2CE551E9857305BDC6A9840FC8CF4254EF2CFA35A8951DDD"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.55",
+                    "size": 49068881,
+                    "sha256": "9CF53ED519C949B5635AF7950C7C7D96DBCFD5865B715A0DC4D6D93E2DB08152"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.54",
-            "size": 114186894,
-            "sha256": "D57A70B8222D327993C039ECC9A1DC880B055C49CE1BB8345F2DA72CA23E80AF",
+            "version": "1.1.55",
+            "size": 114186936,
+            "sha256": "68B65BF6E3EABCD319D83B276EBEB465AE6E4A606F696B3FA1F17CCC60077149",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.54",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.55",
                     "size": 83886080,
-                    "sha256": "BF0460933D92F484F21E29D5E3EEEF5FCE8EE410AB778036607213F35984217B"
+                    "sha256": "287BED0CE113CEC058BED47EEC946107DC72D36CCF516BCA0E2DCCFC55705A6E"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.54",
-                    "size": 30300814,
-                    "sha256": "FC1A52FCA2A06661E79107CF0C00048409BA8B924DED887392F51B925B30D784"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.55",
+                    "size": 30300856,
+                    "sha256": "FA3F9277CB0D8EE134712CA06D54A65954A69EB972489BC14D73D3AC96598A32"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.54",
-            "sha256": "E33E017A447B2CFC4A25017A05BCB1CE58420259A24AEA941FA2E0E9A91FC14F"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.55",
+            "sha256": "EAF8C3DE368C6FF7CD4EEA5CC50E9A6B0FE841EFD7DE87C721F7054CE7E3E404"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.54",
-            "sha256": "BD015F66406C4F540871E2D204F7A9DE2E0E88EE9283D90B00AE322D0DE6FB60"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.55",
+            "sha256": "18D4BE74841B6E43E4D57E746D8AE6DC99A69CB66DD179E75406161690481F53"
         }
     },
-    "notes": "Restore stable desktop login and isolate attachment download streaming.",
-    "releaseId": "1.1.54-690492166B7E-D57A70B8222D"
+    "notes": "Make the desktop hub exit menu quit the messenger application.",
+    "releaseId": "1.1.55-51E21A5A0D13-68B65BF6E3EA"
 }
