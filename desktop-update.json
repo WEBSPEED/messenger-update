@@ -1,53 +1,53 @@
 {
-    "version": "1.1.56",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.56",
-    "sha256": "1E41D1FE739F91DF551749700FF0F1FEF6C23DAF7A5AF0C888C68597F44977AE",
+    "version": "1.1.57",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.57",
+    "sha256": "D32B3F2B3680BE3D2CEB1D158E1CCF3C2FA48F958169DE9848660586DD9CD347",
     "packages": {
         "x64": {
-            "version": "1.1.56",
-            "size": 132955204,
-            "sha256": "A051D207D11F6B7110F2A4607199BEBBB87B8B0B9A97C9A7EC7220070FFD0442",
+            "version": "1.1.57",
+            "size": 132955363,
+            "sha256": "972B97EA0EA0FE3A27A5BE6CBAB76A5D2FB7527CE44CAD0B8AC874AA23CBFB4D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.56",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.57",
                     "size": 83886080,
-                    "sha256": "32842D5B27259ED66EC4DA34A6A4A9759E3ACFEAD62649DB4CDB17BAB149695D"
+                    "sha256": "B78AA4CC74027CDCE5905905FBA820C9E4A0D99B3DB259B9C101BCB713E10E4C"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.56",
-                    "size": 49069124,
-                    "sha256": "0D0BE7EA83657A2D4C20A66A14E052060866F62372E2797295FA75DC65FEB2EB"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.57",
+                    "size": 49069283,
+                    "sha256": "5F6EF71556FAE203DE1BE21836EAAC33D7E8913B62FCB5CBED4579400E4A631E"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.56",
-            "size": 114187181,
-            "sha256": "5D1C2C254039AD58B715F0CC85B1789097BA883C88031E578F950D43B02E33EA",
+            "version": "1.1.57",
+            "size": 114187339,
+            "sha256": "946FED3EBF6D0FD694BDEEAEDB9FA710DB5A94259E713B5F3ECC1F516C72BF01",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.56",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.57",
                     "size": 83886080,
-                    "sha256": "3E142DF04F0456AFFFFC156368D1FB2C35A1C1954ED1E3DA26F7871D26180867"
+                    "sha256": "9F284B8D1AEB22703AB2986F1907C32A6802CFBE1DC07A64D2DF496A24D32D1C"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.56",
-                    "size": 30301101,
-                    "sha256": "9490FB86A9D8134AA678B1BEA65E7ACBCDF825E87D4383CAF76FDAFE0235CADC"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.57",
+                    "size": 30301259,
+                    "sha256": "39BB1532CD281B3968347F842037050D2F1C4D437BE2EDFA58EF3473EEB0DE77"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.56",
-            "sha256": "1E41D1FE739F91DF551749700FF0F1FEF6C23DAF7A5AF0C888C68597F44977AE"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.57",
+            "sha256": "D32B3F2B3680BE3D2CEB1D158E1CCF3C2FA48F958169DE9848660586DD9CD347"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.56",
-            "sha256": "0B54EDBDD778825F1BBFFDD851FDC4E9257145D56946230E9725BFC1A68F1F4C"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.57",
+            "sha256": "9B0F7CB682637DF07B323BD2E59B2EEDBD47E411B3673B8FCF1F2778B76C0D41"
         }
     },
-    "notes": "Add an automatic login checkbox to the desktop login screen.",
-    "releaseId": "1.1.56-A051D207D11F-5D1C2C254039"
+    "notes": "Improve desktop login fallback navigation to avoid intermittent timeout after groupware login succeeds.",
+    "releaseId": "1.1.57-972B97EA0EA0-946FED3EBF6D"
 }
