@@ -1,53 +1,53 @@
 {
-    "version": "1.1.57",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.57",
-    "sha256": "D32B3F2B3680BE3D2CEB1D158E1CCF3C2FA48F958169DE9848660586DD9CD347",
+    "version": "1.1.58",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.58",
+    "sha256": "1CA322448F258A8E66D0D956A9AD168646C9C54907042661F0DA7E30CB5E53F3",
     "packages": {
         "x64": {
-            "version": "1.1.57",
-            "size": 132955363,
-            "sha256": "972B97EA0EA0FE3A27A5BE6CBAB76A5D2FB7527CE44CAD0B8AC874AA23CBFB4D",
+            "version": "1.1.58",
+            "size": 132955610,
+            "sha256": "F667876A70042343119982EE7C22FDE46227C61935800B71D0047A2D86221381",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.57",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.58",
                     "size": 83886080,
-                    "sha256": "B78AA4CC74027CDCE5905905FBA820C9E4A0D99B3DB259B9C101BCB713E10E4C"
+                    "sha256": "D4665DD171747E1DF8D870789E7BD355865F5CBB4B0A5FFF25E1BE99D53DA3A9"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.57",
-                    "size": 49069283,
-                    "sha256": "5F6EF71556FAE203DE1BE21836EAAC33D7E8913B62FCB5CBED4579400E4A631E"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.58",
+                    "size": 49069530,
+                    "sha256": "D4CFCD6964A80A1387E00B9E34CA19A11C76E242654E2FF058FF67110C31E453"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.57",
-            "size": 114187339,
-            "sha256": "946FED3EBF6D0FD694BDEEAEDB9FA710DB5A94259E713B5F3ECC1F516C72BF01",
+            "version": "1.1.58",
+            "size": 114187584,
+            "sha256": "ADC78F87D0EF3397DBBF43126E2B4453EC0388F59B0180E45DAEE96710A4B604",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.57",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.58",
                     "size": 83886080,
-                    "sha256": "9F284B8D1AEB22703AB2986F1907C32A6802CFBE1DC07A64D2DF496A24D32D1C"
+                    "sha256": "C69B3369DAA22B8BC19BCB76AF1ABDA49B2F513E0AB25ACD1C5D00160B90D2E1"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.57",
-                    "size": 30301259,
-                    "sha256": "39BB1532CD281B3968347F842037050D2F1C4D437BE2EDFA58EF3473EEB0DE77"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.58",
+                    "size": 30301504,
+                    "sha256": "BB05860A65DB91E9C2AE8EA4CD0C7D62F86BD97B03D1768EDD884B6CCD0D140D"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.57",
-            "sha256": "D32B3F2B3680BE3D2CEB1D158E1CCF3C2FA48F958169DE9848660586DD9CD347"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.58",
+            "sha256": "1CA322448F258A8E66D0D956A9AD168646C9C54907042661F0DA7E30CB5E53F3"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.57",
-            "sha256": "9B0F7CB682637DF07B323BD2E59B2EEDBD47E411B3673B8FCF1F2778B76C0D41"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.58",
+            "sha256": "50F45D69D72F57732EFF124FEAB11B7147FDACBA99FE35FC7B691C647AA0026D"
         }
     },
-    "notes": "Improve desktop login fallback navigation to avoid intermittent timeout after groupware login succeeds.",
-    "releaseId": "1.1.57-972B97EA0EA0-946FED3EBF6D"
+    "notes": "Re-establish the desktop messenger session with a one-time token after password login succeeds.",
+    "releaseId": "1.1.58-F667876A7004-ADC78F87D0EF"
 }
