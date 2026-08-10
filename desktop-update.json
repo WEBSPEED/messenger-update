@@ -1,53 +1,53 @@
 {
-    "version": "1.1.59",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.59",
-    "sha256": "C2CAD4A593776525EF2E2F60F7DB90410EF83A8918C1665645070DE33CF2C365",
+    "version": "1.1.60",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.60",
+    "sha256": "AEEDBCCCA10055D9EE9EA6692611307377D17F6FDC0086A5751C8E2A964E8287",
     "packages": {
         "x64": {
-            "version": "1.1.59",
-            "size": 132955750,
-            "sha256": "A6C45435F1745DEB932AF7369439FA0FAB3A39A29E5764FD3EA22C4BED56F206",
+            "version": "1.1.60",
+            "size": 132955791,
+            "sha256": "C8D860508592649DD6FD45F6024418E98C8F04DDE433EA2ECAE99FDE3A700642",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.59",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.60",
                     "size": 83886080,
-                    "sha256": "CB77963FF76B9CF5B9FF7FEB9B2AF19A327C2ADEAF8C8B4ADED8A95AD4699F44"
+                    "sha256": "84F2BFE17A8A70DA7B47779D306F7E2A87202916CB550363A30B60DA68FCA090"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.59",
-                    "size": 49069670,
-                    "sha256": "103AE2B2A6321B6F11C0DB8A2CB00A5BF2954BCCD2B313440A14704352D16953"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.60",
+                    "size": 49069711,
+                    "sha256": "E8F3BAD07811AA7CED3D7AC539808B117C87C5CB00A77390917CC476C3B5F4E5"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.59",
-            "size": 114187724,
-            "sha256": "D6CE147DAA04FB23CC925EF572E0B1C6888DC93C798906DC692523D734AA67C4",
+            "version": "1.1.60",
+            "size": 114187797,
+            "sha256": "A3C4D916423756C4E27F9A2CC0DEA01BAD4EE52D3FCACD6BAD23B540F48F1F2D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.59",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.60",
                     "size": 83886080,
-                    "sha256": "F61EEAE67B713941E78CD57F5BC7104297F038BAB3485480D4CA269320F04051"
+                    "sha256": "DB1122E0523A0A67D4AABC66914EC97372DC44E7443C96E4E4EEA8657496CCCA"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.59",
-                    "size": 30301644,
-                    "sha256": "D31D822505B096A2205C018C8359F79D92A425D2791FB45084128E161C6A8EE4"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.60",
+                    "size": 30301717,
+                    "sha256": "F96D9B9C772931F422590D5F07397EFE9F355EB3CA449AC7AA017FDAC9C15AE5"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.59",
-            "sha256": "C2CAD4A593776525EF2E2F60F7DB90410EF83A8918C1665645070DE33CF2C365"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.60",
+            "sha256": "AEEDBCCCA10055D9EE9EA6692611307377D17F6FDC0086A5751C8E2A964E8287"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.59",
-            "sha256": "0BB475A0C6C25860CE32472CBE15E77EBEE50F8071A70D245CD4D4F1BDFD3541"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.60",
+            "sha256": "D21F432559F6DE0B3EF15623F106C478BD63A638024F35028F592D754CA79E3A"
         }
     },
-    "notes": "Keep desktop lock password settings active locally even when server sync is temporarily unavailable.",
-    "releaseId": "1.1.59-A6C45435F174-D6CE147DAA04"
+    "notes": "Store desktop lock settings per user in site_messenger_user_settings and sync them across PCs.",
+    "releaseId": "1.1.60-C8D860508592-A3C4D9164237"
 }
