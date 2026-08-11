@@ -1,53 +1,53 @@
 {
-    "version": "1.1.62",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.62",
-    "sha256": "BC87E6648605C378CFE4960339BF02AAC70813878E22552FF92A17A1E75EF303",
+    "version": "1.1.63",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.63",
+    "sha256": "5B3628F121680F799E88C5C5ABC9FB0F87AC2E37CF203D7A67482A630DCCFD00",
     "packages": {
         "x64": {
-            "version": "1.1.62",
-            "size": 132955691,
-            "sha256": "BA24A7DCA738C1522BC67F5E122BCF89BCA96B6D5BA8A2F97CF728003A45A18F",
+            "version": "1.1.63",
+            "size": 132955833,
+            "sha256": "B7670F4C6D788ECA8EC8C9E4E3231428ED05E6A930D3896810C5A98A94D1816A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.62",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.63",
                     "size": 83886080,
-                    "sha256": "CE18111C5323B9FD7B83AAD79D674BE0F4B29CF52BC56464FA2D3534754901AE"
+                    "sha256": "D262972370DC1E757B70231681168AE660B2BBDDC16F53838A9F1F15495AA5F2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.62",
-                    "size": 49069611,
-                    "sha256": "34DC62C28A1E49070C770D4242933A58856ECFA6AB6C40BEC2DBA3E29BCE8FA7"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.63",
+                    "size": 49069753,
+                    "sha256": "7CF6538D4C6E19E5B69ED280D8FC8B122EB0F5CEF981A0CCC61E5F1ABC423D37"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.62",
-            "size": 114187701,
-            "sha256": "00D5A15A56231EF9E2D00CE0662A4097752C35DBB7DF699528FEB747D904CCB2",
+            "version": "1.1.63",
+            "size": 114187809,
+            "sha256": "E6E9D682F927511E616870F59FF1A7A355C1E85BE08C89519994D67D93D38907",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.62",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.63",
                     "size": 83886080,
-                    "sha256": "89B8EE44B7BC8D650F389F2AB6D393709431148CEBBDF203DAB44919E67854D2"
+                    "sha256": "CD42837C69825E93563977E4DE99634886B973AFEA326FC9198D6331DE8C3ADC"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.62",
-                    "size": 30301621,
-                    "sha256": "9464397F250E351793DA436B82120A0A7FFB7808BACD8AFFF770ACC3664CBF78"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.63",
+                    "size": 30301729,
+                    "sha256": "7406F5495C1E1F2A7DFB906A16A45DE0D070A314D5F8DD677ECB1876A21C72A5"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.62",
-            "sha256": "BC87E6648605C378CFE4960339BF02AAC70813878E22552FF92A17A1E75EF303"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.63",
+            "sha256": "5B3628F121680F799E88C5C5ABC9FB0F87AC2E37CF203D7A67482A630DCCFD00"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.62",
-            "sha256": "0D58BE7BCC36B631E1E399CCCE5FA09ED8D911C94EAFEDF5E45C331DD2A2B7DB"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.63",
+            "sha256": "EC001F55E83AE901A1959B556A015ED39F2B2BF484F96219F17C6AB1FD540F0A"
         }
     },
-    "notes": "Use user settings DB as the only lock source and clear stale local lock values.",
-    "releaseId": "1.1.62-BA24A7DCA738-00D5A15A5623"
+    "notes": "Fix lock password saving when desktop session lookup is unstable.",
+    "releaseId": "1.1.63-B7670F4C6D78-E6E9D682F927"
 }
