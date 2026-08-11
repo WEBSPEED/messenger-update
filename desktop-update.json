@@ -1,53 +1,53 @@
 {
-    "version": "1.1.65",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.65",
-    "sha256": "CADAED2A97C26A6FCD461F071E1B8ABDD6723C7C122AEA37A4AB9D84B2909272",
+    "version": "1.1.66",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.66",
+    "sha256": "244588642A525F020C92802F480496D6CBC914D13D918B5086A33C57B581333E",
     "packages": {
         "x64": {
-            "version": "1.1.65",
-            "size": 132961563,
-            "sha256": "4BE8DF0AF937EB53AB1D90963D774BC619C6432B0394007FA660EAC0C1B93767",
+            "version": "1.1.66",
+            "size": 132961684,
+            "sha256": "CC592916C6D220A02BD9F319DC1C2B27EAE05F27B39A6F1CF09D58DA5E6B166D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.65",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.66",
                     "size": 83886080,
-                    "sha256": "A7739F5229D1C40F1CD7CFCB058C38710925302653DE95CC0164C4F126E08A61"
+                    "sha256": "B0ECD217784F1F0615C7CCAE6A08DABC27D66346B4572CE096E3867F64F7EE48"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.65",
-                    "size": 49075483,
-                    "sha256": "41344D4B0F4122A8D28AD305949A9A72F7EAC68CD7D4A3D58AC4CB1208301009"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.66",
+                    "size": 49075604,
+                    "sha256": "747A91ADD508E3059B2ABFB4251E4F6EF7666DD94C32E67D8A194B13396D2660"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.65",
-            "size": 114193567,
-            "sha256": "1B07CE7FAF896C5F098A348BCCF10B0203E7AA7C1D4BD6F9923A541F58757365",
+            "version": "1.1.66",
+            "size": 114193659,
+            "sha256": "C7918B9647E150F1781CB73DE89799062BA9483749688FBDE0C195D94E325970",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.65",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.66",
                     "size": 83886080,
-                    "sha256": "D5AFC016C887A129504EEC103A60A4A2099D4E2FAFC4CF9284305DD651F78A30"
+                    "sha256": "D31B1DE1EEF712FE4589903A6C4664EEA878E7F9299E97C5C830A3435B326EFA"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.65",
-                    "size": 30307487,
-                    "sha256": "DCEC70520F41919364486FC0BC579F9E9826C0203DF4C02134AEBF21287F11E9"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.66",
+                    "size": 30307579,
+                    "sha256": "A6C6118BB0D95147603922F52564068F529B06B0548F1ED925A8B0640D1F8A1A"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.65",
-            "sha256": "CADAED2A97C26A6FCD461F071E1B8ABDD6723C7C122AEA37A4AB9D84B2909272"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.66",
+            "sha256": "244588642A525F020C92802F480496D6CBC914D13D918B5086A33C57B581333E"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.65",
-            "sha256": "78A7DD6830DE0D6F8A2B60291D813114BDCE5260244614BC8FEE625EAD2C9DC1"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.66",
+            "sha256": "7FA8D6A8232BD3912DDA1EB5D74597A4EA02E12EF8B9D78E7FD40A5253FF921E"
         }
     },
-    "notes": "Add a hidden network debug console for server request and response inspection.",
-    "releaseId": "1.1.65-4BE8DF0AF937-1B07CE7FAF89"
+    "notes": "Restrict the hidden network debug console to system administrators.",
+    "releaseId": "1.1.66-CC592916C6D2-C7918B9647E1"
 }
