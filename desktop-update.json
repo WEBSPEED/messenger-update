@@ -1,53 +1,53 @@
 {
-    "version": "1.1.63",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.63",
-    "sha256": "5B3628F121680F799E88C5C5ABC9FB0F87AC2E37CF203D7A67482A630DCCFD00",
+    "version": "1.1.64",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.64",
+    "sha256": "591465D7CC691BFC942C48EBBC951C4A080B4522A65929695AEB49C9B544638E",
     "packages": {
         "x64": {
-            "version": "1.1.63",
-            "size": 132955833,
-            "sha256": "B7670F4C6D788ECA8EC8C9E4E3231428ED05E6A930D3896810C5A98A94D1816A",
+            "version": "1.1.64",
+            "size": 132955831,
+            "sha256": "AFD6F024FDFD2CE60C225D00783F3245D70950D086CF1B51CB5CD52A4A55B010",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.63",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.64",
                     "size": 83886080,
-                    "sha256": "D262972370DC1E757B70231681168AE660B2BBDDC16F53838A9F1F15495AA5F2"
+                    "sha256": "1307D9AB5090F912DBD251A25137391E164FCA59622BDE466481B0CE56DA2C87"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.63",
-                    "size": 49069753,
-                    "sha256": "7CF6538D4C6E19E5B69ED280D8FC8B122EB0F5CEF981A0CCC61E5F1ABC423D37"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.64",
+                    "size": 49069751,
+                    "sha256": "703F0ADB32D52268B245B130B1FA417AF97311CC8031DE52C986466E96865C0B"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.63",
-            "size": 114187809,
-            "sha256": "E6E9D682F927511E616870F59FF1A7A355C1E85BE08C89519994D67D93D38907",
+            "version": "1.1.64",
+            "size": 114187778,
+            "sha256": "B437C30AF817352DD07F00A3C4B65EEF6FA4C585770AA98EEF084DFDE274C297",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.63",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.64",
                     "size": 83886080,
-                    "sha256": "CD42837C69825E93563977E4DE99634886B973AFEA326FC9198D6331DE8C3ADC"
+                    "sha256": "11C54B53976AF386604739F78B60445764485ED3B3DED4CB4EC607942689FC9A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.63",
-                    "size": 30301729,
-                    "sha256": "7406F5495C1E1F2A7DFB906A16A45DE0D070A314D5F8DD677ECB1876A21C72A5"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.64",
+                    "size": 30301698,
+                    "sha256": "BBE0D2F44F2001CDDB9D1BDFC3C2FB6416674DD7111384E7D1A7107EF20D2BE3"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.63",
-            "sha256": "5B3628F121680F799E88C5C5ABC9FB0F87AC2E37CF203D7A67482A630DCCFD00"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.64",
+            "sha256": "591465D7CC691BFC942C48EBBC951C4A080B4522A65929695AEB49C9B544638E"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.63",
-            "sha256": "EC001F55E83AE901A1959B556A015ED39F2B2BF484F96219F17C6AB1FD540F0A"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.64",
+            "sha256": "7574067022103FED9E55128C5602C44447777CA438A6FF4A017F4A8D662FF9AD"
         }
     },
-    "notes": "Fix lock password saving when desktop session lookup is unstable.",
-    "releaseId": "1.1.63-B7670F4C6D78-E6E9D682F927"
+    "notes": "Normalize desktop user code for lock setting saves.",
+    "releaseId": "1.1.64-AFD6F024FDFD-B437C30AF817"
 }
