@@ -1,53 +1,53 @@
 {
-    "version": "1.1.67",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.67",
-    "sha256": "212A3D03E99017FF5C5ABE11025879685A42F6F6DD8D8865AE2AB3A6C1F8A39A",
+    "version": "1.1.68",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.68",
+    "sha256": "0AB5742DBDDAC724CE8DD6ED2F5662E01DC19E96FBFEBEB3779FE53CA904D00B",
     "packages": {
         "x64": {
-            "version": "1.1.67",
-            "size": 132961789,
-            "sha256": "6A02F14C64E0EA6A9BA2C7832EF6F48C8A62BF0AD698B254DE370F13B47C9B51",
+            "version": "1.1.68",
+            "size": 132962085,
+            "sha256": "2316BA773BE29939A841CCD7ADE03A55AE4FF165230B64F68EA6688FF2DCAD43",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.67",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.68",
                     "size": 83886080,
-                    "sha256": "22423F3E9175FFC3044D02FCDCA7DF01BEBB09CACC1BA14E2DF7F06DD2A69B57"
+                    "sha256": "66519B0E906F6E03A6BB3898DE5B1FC19B3511780432B34B2C58070857DE09F4"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.67",
-                    "size": 49075709,
-                    "sha256": "80171D83521D0C86CE59123550C013879C1F5109F185EEBC81BC8CEDE078CF94"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.68",
+                    "size": 49076005,
+                    "sha256": "6FDAC5708DD6244F969D8B30CBBE2E30DDB6DAD7D52E3BFC8C5F3BEFA3000A99"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.67",
-            "size": 114193764,
-            "sha256": "7826FAB2D8FABE9C6B02F1EB5E673E76F439D713B1BF86B09C107766CF613C27",
+            "version": "1.1.68",
+            "size": 114194059,
+            "sha256": "1CF5408B8BC33709790CCBF58C6C3981ED42D7C70388A3795CAE4F689F5E97F2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.67",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.68",
                     "size": 83886080,
-                    "sha256": "23AEAEBF41EF4FE35361B41B4ED1C861D3EBB6B5E17AEE541CE5B97E105D756E"
+                    "sha256": "F284FEBB2DE842DC532D0139653D6F7D5BF4DE87468D2F0E655B93EC5FA3C1B2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.67",
-                    "size": 30307684,
-                    "sha256": "8B6DD50334D56EE9E6C1A94AD8A0E8E975987781DF12FC6FDB42362480694BC3"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.68",
+                    "size": 30307979,
+                    "sha256": "88F169A56F6B84DE593034530241C340B946115209DE46B7BBEF4540F0A6D50F"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.67",
-            "sha256": "212A3D03E99017FF5C5ABE11025879685A42F6F6DD8D8865AE2AB3A6C1F8A39A"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.68",
+            "sha256": "0AB5742DBDDAC724CE8DD6ED2F5662E01DC19E96FBFEBEB3779FE53CA904D00B"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.67",
-            "sha256": "0B1DA057985707C8E98AB0378C4BE7693A554CBC2C45DFBFD1E5DD99C5441934"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.68",
+            "sha256": "C07790ED46A4DD005BDF233AB47D5E34F2B494A9A312E6FB6135BACABC8D934D"
         }
     },
-    "notes": "Add a Windows screen capture shortcut beside chat attachments.",
-    "releaseId": "1.1.67-6A02F14C64E0-7826FAB2D8FA"
+    "notes": "Ensure the chat screen capture shortcut appears after desktop updates.",
+    "releaseId": "1.1.68-2316BA773BE2-1CF5408B8BC3"
 }
