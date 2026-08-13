@@ -1,53 +1,53 @@
 {
-    "version": "1.1.70",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.70",
-    "sha256": "0A398C703B5ABD1D35C254A87189422A44670CA5E64200E0838E991199D1754D",
+    "version": "1.1.71",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.71",
+    "sha256": "29FE421801F8FC35CD37E25B4E95C5E80AF7AB025C84880FB1B9C835D17E65B0",
     "packages": {
         "x64": {
-            "version": "1.1.70",
-            "size": 132966078,
-            "sha256": "D6B9089EFF0F18493B7BF5A1DDFAA81196FFB9FF763DE6BF1B094038FD5718F3",
+            "version": "1.1.71",
+            "size": 132966300,
+            "sha256": "1DEF18F95497DB4BF787B5B0F34B8501097A027A832A537EA55ACCB56806873E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.70",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.71",
                     "size": 83886080,
-                    "sha256": "FB5F47122AB325A92F720A2B79C54EF2795533C251EF7DB4BE82848F3F337630"
+                    "sha256": "C5B83E246F2EDD1CC783DF38A17BB5F280FB4FB52D8E92D5287B9786279CC0D9"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.70",
-                    "size": 49079998,
-                    "sha256": "FB55FEC7F5DD397C3AD466F959F21F675DED949143926EDF09FAD2798D24F577"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.71",
+                    "size": 49080220,
+                    "sha256": "8BF32A2A605B863F398D8FA3E22D624846876772A47F63219806DDFD1E4F5F07"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.70",
-            "size": 114198052,
-            "sha256": "45BF486AE400EDBA4529653069E427754E6C3F8338DDB867908CFE8BE85AE66A",
+            "version": "1.1.71",
+            "size": 114198274,
+            "sha256": "277D7CD2FD5B65700042BC4D2C50C1C067993D0868D5232F54F192907F46F09D",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.70",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.71",
                     "size": 83886080,
-                    "sha256": "33D8D8DD207E81E3E3FD63EA2121B9B9A1E1FB60807D27D4D44B4061880E7A2C"
+                    "sha256": "1163070B4303F824F0204B2C93138E8E4F70D6354F3057B3424674ABEC16767C"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.70",
-                    "size": 30311972,
-                    "sha256": "5A37DE269E647340C36CD726ACE316DB5B4DDAF01224951D21D3B6031E107CD8"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.71",
+                    "size": 30312194,
+                    "sha256": "3DB85F3CF21498E9E2725D101CA7B609FD0FF103B866D1BFF0AC5210798A6560"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.70",
-            "sha256": "0A398C703B5ABD1D35C254A87189422A44670CA5E64200E0838E991199D1754D"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.71",
+            "sha256": "29FE421801F8FC35CD37E25B4E95C5E80AF7AB025C84880FB1B9C835D17E65B0"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.70",
-            "sha256": "93E33398B6D1A531911FD8199CCE5398C7B49B49F7BE5D1A86FE65A3A489F257"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.71",
+            "sha256": "10F23A37B714E18A8080F3DBB28C9312C3C604B052EFB9FA7233E6E25A4FE771"
         }
     },
     "notes": "Ensure the chat screen capture shortcut appears after desktop updates.",
-    "releaseId": "1.1.70-D6B9089EFF0F-45BF486AE400"
+    "releaseId": "1.1.71-1DEF18F95497-277D7CD2FD5B"
 }
