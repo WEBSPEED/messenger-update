@@ -1,53 +1,53 @@
 {
-    "version": "1.1.73",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.73",
-    "sha256": "FCE05B9D2D96BBD3A8B6DA99CB670F2858F1E0D3FF18AAC9BD0C7BCBD281CB32",
+    "version": "1.1.74",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.74",
+    "sha256": "A9789DBBE40E088DC7CDF0C1CEC8FB7CC82C13817E59535737744C5CBD397320",
     "packages": {
         "x64": {
-            "version": "1.1.73",
-            "size": 132966609,
-            "sha256": "00CC79EB72081E2D4A81282972F8D1B093ABFFC756C01281AD0337C1DBBC769C",
+            "version": "1.1.74",
+            "size": 132966591,
+            "sha256": "DA0EFD1924EF80D1BF49E98D9A229F80F4670766083308E67584E2E0E12A9BFE",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.73",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.74",
                     "size": 83886080,
-                    "sha256": "4E34D667AFDEB7862CDC694D87CEC7C6D5F24E7CE623B5F6226E3CE65EEC687D"
+                    "sha256": "078CCD83B3A7459FB972509E11D7A2A61C38148648F02ADF6300D9464625759D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.73",
-                    "size": 49080529,
-                    "sha256": "088BCDBFBC124FB34D8B47FFEE5B8012EFE792AC1B245C279B0FECEDC01755AA"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.74",
+                    "size": 49080511,
+                    "sha256": "736F41F2A6197BAFCF56805AB7A9AB75F8618AD29B7BBCADED9793A2A01060B4"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.73",
-            "size": 114198585,
-            "sha256": "62125FEF5970D9EBA47AD3157E10F76668905AF083E2DC1EB1B1AB6D12FEFB7A",
+            "version": "1.1.74",
+            "size": 114198567,
+            "sha256": "41CB628771E370E7F84797E8270AD7D566A7460490D13B5C82E526EC899BA66C",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.73",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.74",
                     "size": 83886080,
-                    "sha256": "395CFE4AD786AB63F7D5B2F94546E1BAAD3665CD9F313AB54A5E6927F46BB277"
+                    "sha256": "2C31A28B71C620EA722F3C681E163AA15A2951ED9F90C133FEE45B055F4A6503"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.73",
-                    "size": 30312505,
-                    "sha256": "34A52008CF5A6C7A2FA3386E81EBF8DFD9EC6AACBB2AE81FF29B10D6CEA07B51"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.74",
+                    "size": 30312487,
+                    "sha256": "25EF1D37DF1D84688736F9D0BFA5C7B7D6EF443C52EF5208F8AD3252D17E87C1"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.73",
-            "sha256": "FCE05B9D2D96BBD3A8B6DA99CB670F2858F1E0D3FF18AAC9BD0C7BCBD281CB32"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.74",
+            "sha256": "A9789DBBE40E088DC7CDF0C1CEC8FB7CC82C13817E59535737744C5CBD397320"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.73",
-            "sha256": "0CBA55F24C298B04518D76F1954BFA1717CB640724276A5522D6A2A2B087CFC4"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.74",
+            "sha256": "5BB7859005CA9FBE0D786912CB1B4AC723AFF095AD68C74B8361F0713A3C7290"
         }
     },
-    "notes": "Bring an already open chat room to the foreground when selected.",
-    "releaseId": "1.1.73-00CC79EB7208-62125FEF5970"
+    "notes": "Fix the settings window size and synchronize each room notice display state.",
+    "releaseId": "1.1.74-DA0EFD1924EF-41CB628771E3"
 }
