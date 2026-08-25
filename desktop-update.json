@@ -1,53 +1,53 @@
 {
-    "version": "1.1.75",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.75",
-    "sha256": "BE9D8CD87D2C566C9700F8A19B1D8281CB80EC3AC124FE08D1ABC222ED8392BB",
+    "version": "1.1.76",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.76",
+    "sha256": "554C77FB08885D7F736DB9AF04E33D3C40A301999F2DA53574C7EF8D6197E876",
     "packages": {
         "x64": {
-            "version": "1.1.75",
-            "size": 132967102,
-            "sha256": "07B62EA93392E4E336EF1007F7D6004CE10D08B1A76FB7247D6F4E17ED80FF85",
+            "version": "1.1.76",
+            "size": 135358590,
+            "sha256": "D5BA8600EE639CB795CAE146E78DEEF57B1642AE30F5144D75FA1D404B53E1B7",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.75",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.76",
                     "size": 83886080,
-                    "sha256": "D26945B54B78661D4022E5F75382102F53DFAA724B0B804EB52927DD17A01597"
+                    "sha256": "A74AAD1A83D8F19C1AAED44A5D7E074E1172707D50C4AF7BCBFE7E5E77E71271"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.75",
-                    "size": 49081022,
-                    "sha256": "9CC5E5ED2A7B6D8F0DFE87CEF67E95BDD23638033997AFF8CC71618A94E6BD3E"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.76",
+                    "size": 51472510,
+                    "sha256": "DADA46CE550451B163EFFD87531AE34A0EEBE6C29117E3138F8DF3E60960BF77"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.75",
-            "size": 114199078,
-            "sha256": "85F15D046816C70C72959978A5E9A303F438DF1EA5CC782B56C835D2A0201D3C",
+            "version": "1.1.76",
+            "size": 116590565,
+            "sha256": "E1AD2A8EE9EF48FF37438F009F73D61AD5A6426C657E352A82ADFA7E5AE5AF3B",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.75",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.76",
                     "size": 83886080,
-                    "sha256": "264022396CDD37B9E52347D6DBA373B0D68DB0189B75FDF6F156DE1F1810EDA2"
+                    "sha256": "F3EB1F193813D09DF269E9CE83847377B95D1B096A342D3FF579F399ABFB601C"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.75",
-                    "size": 30312998,
-                    "sha256": "9C1DE7FFA5C86030D8914996B1999CC4C88611C58AC07280D86643991AACECD0"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.76",
+                    "size": 32704485,
+                    "sha256": "C6E9D07838D7D35637725DD55699C33ED192DD62BDEDFBBAA94ACE8980EE5977"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.75",
-            "sha256": "BE9D8CD87D2C566C9700F8A19B1D8281CB80EC3AC124FE08D1ABC222ED8392BB"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.76",
+            "sha256": "554C77FB08885D7F736DB9AF04E33D3C40A301999F2DA53574C7EF8D6197E876"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.75",
-            "sha256": "8ECAC7FD823F5A8536C550DB9A33FD955C60DA19D30D4B98B9BB903B0765FF93"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.76",
+            "sha256": "10DB15CED00214A9B0B8B0CD2D4D1834C8C0DFDF8828CC25B408AC0041D690BE"
         }
     },
-    "notes": "Open only the target chat room when a message notification is clicked.",
-    "releaseId": "1.1.75-07B62EA93392-85F15D046816"
+    "notes": "Bundle Font Awesome CSS and fonts so messenger icons remain available without the configured server URL.",
+    "releaseId": "1.1.76-D5BA8600EE63-E1AD2A8EE9EF"
 }
