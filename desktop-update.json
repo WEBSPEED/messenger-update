@@ -1,53 +1,53 @@
 {
-    "version": "1.1.76",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.76",
-    "sha256": "554C77FB08885D7F736DB9AF04E33D3C40A301999F2DA53574C7EF8D6197E876",
+    "version": "1.1.77",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.77",
+    "sha256": "E6723F9C40B24996A91E77D4A8C30611F12EAB1C7E179E96D24B717B937A9146",
     "packages": {
         "x64": {
-            "version": "1.1.76",
-            "size": 135358590,
-            "sha256": "D5BA8600EE639CB795CAE146E78DEEF57B1642AE30F5144D75FA1D404B53E1B7",
+            "version": "1.1.77",
+            "size": 135686625,
+            "sha256": "BD7387515C3BB3A27F5413CB6569FC6BEBC8F10AB2291CFED6B39144C04EAA08",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.76",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.77",
                     "size": 83886080,
-                    "sha256": "A74AAD1A83D8F19C1AAED44A5D7E074E1172707D50C4AF7BCBFE7E5E77E71271"
+                    "sha256": "D1D2AAC2DDC050A303B47211372895E3FFDE64B14A9477003E305C336A640A9D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.76",
-                    "size": 51472510,
-                    "sha256": "DADA46CE550451B163EFFD87531AE34A0EEBE6C29117E3138F8DF3E60960BF77"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.77",
+                    "size": 51800545,
+                    "sha256": "C521C025BD35CDC5D6D35FE7F97CBBD5103DCC839FE930C32B67FE57876472FE"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.76",
-            "size": 116590565,
-            "sha256": "E1AD2A8EE9EF48FF37438F009F73D61AD5A6426C657E352A82ADFA7E5AE5AF3B",
+            "version": "1.1.77",
+            "size": 116918635,
+            "sha256": "CB436B5D0967DFA0F4BA34013B3BA9E9D6C0F459A2803FD3BFB8C8DBADC272C7",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.76",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.77",
                     "size": 83886080,
-                    "sha256": "F3EB1F193813D09DF269E9CE83847377B95D1B096A342D3FF579F399ABFB601C"
+                    "sha256": "75DDE522A5D496D1E8AC060EAE53A236EB7A02918B897F4F3487A050F9354D5A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.76",
-                    "size": 32704485,
-                    "sha256": "C6E9D07838D7D35637725DD55699C33ED192DD62BDEDFBBAA94ACE8980EE5977"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.77",
+                    "size": 33032555,
+                    "sha256": "1A2AC55A80280203DF90555D2BFCE6511A467F1A5E8E87F69D0C48A2BBA04F1D"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.76",
-            "sha256": "554C77FB08885D7F736DB9AF04E33D3C40A301999F2DA53574C7EF8D6197E876"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.77",
+            "sha256": "E6723F9C40B24996A91E77D4A8C30611F12EAB1C7E179E96D24B717B937A9146"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.76",
-            "sha256": "10DB15CED00214A9B0B8B0CD2D4D1834C8C0DFDF8828CC25B408AC0041D690BE"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.77",
+            "sha256": "C997B4D141EFF9A67D4800428669928FC7F49D6B2C1A111DAFBD20045A373DD6"
         }
     },
-    "notes": "Bundle Font Awesome CSS and fonts so messenger icons remain available without the configured server URL.",
-    "releaseId": "1.1.76-D5BA8600EE63-E1AD2A8EE9EF"
+    "notes": "Bundle every messenger font icon, and make connection setup close controls return to the login screen.",
+    "releaseId": "1.1.77-BD7387515C3B-CB436B5D0967"
 }
