@@ -1,53 +1,53 @@
 {
-    "version": "1.1.80",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.80",
-    "sha256": "2EFF36D55A317940087DE7B43A73307E7D9238887D58C6729864C936A32543C7",
+    "version": "1.1.81",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.81",
+    "sha256": "0ED431D6715B52C8D86861169989DF3A6C163974A49BF16810563D667EE3EA88",
     "packages": {
         "x64": {
-            "version": "1.1.80",
+            "version": "1.1.81",
             "size": 135687080,
-            "sha256": "8EE8E2FADDA0ADE9D3249D07ECC6C9F00B9396DEB41C4C8BCE3F83EC5497AA80",
+            "sha256": "25535070622D097FCBB8EBFD994EB0EB5540D675D64E886BE2120AD6E44827D9",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.80",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.81",
                     "size": 83886080,
-                    "sha256": "64C41A8F0D24956ACBDCB5F52E5E5A8C38569A6CB5F25E692F2B4B3DDF7B85CF"
+                    "sha256": "0897060763F6DBE2758D4E80EC443A69FE19C0DEE54F57EC86711B5833706E2D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.80",
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.81",
                     "size": 51801000,
-                    "sha256": "7F0953621283A087E2BB7602F656314DB4BF4ED5E9C7528173C922DC466B2E1F"
+                    "sha256": "4233D141B6B5EB7FBAFF2B9613536D910B07D9CCD6C1A489177DA0DBA1FFDC31"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.80",
+            "version": "1.1.81",
             "size": 116919054,
-            "sha256": "54D43CEF2D4D497EB2DBCD9283AA0D13417F95446FD193ECE0CAE2B9749FEE1A",
+            "sha256": "6023058458B25A702C651EADCEACF6FA0B2FDD2A679511D6A7223BFB0C8991B2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.80",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.81",
                     "size": 83886080,
-                    "sha256": "7E4F02689334E722F7FFA42EB3FC6E81789E058FCB8AAF8753E53C7E82B58F76"
+                    "sha256": "C0602547DD852466839E032E64426505DD5BB605C1CA09A8CE7CD146F0E488F1"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.80",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.81",
                     "size": 33032974,
-                    "sha256": "9347AD79BCE2CE346B6CF05A343A21AC4B8F32E68E67A1D8BCD599163BC54C21"
+                    "sha256": "359599EC4B7BFAC6F511755807B80570D6559273E159C21E5A3BE5852DF1F574"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.80",
-            "sha256": "2EFF36D55A317940087DE7B43A73307E7D9238887D58C6729864C936A32543C7"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.81",
+            "sha256": "0ED431D6715B52C8D86861169989DF3A6C163974A49BF16810563D667EE3EA88"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.80",
-            "sha256": "82C20E7C4CF2EC3413EA1598FD1F953A0E07E81F0CD70DF4A4D1969D6693AF04"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.81",
+            "sha256": "5D316A20B9B986FBC21E0E2BB68A634A68FE5D5368A10E90ADDBB1B122BEA1B2"
         }
     },
-    "notes": "Add grouped selection for room-background drags, preserve message text selection, and unify centered item spacing.",
-    "releaseId": "1.1.80-8EE8E2FADDA0-54D43CEF2D4D"
+    "notes": "Defer rejoining a previously left direct room until the first message is sent.",
+    "releaseId": "1.1.81-25535070622D-6023058458B2"
 }
