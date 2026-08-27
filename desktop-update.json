@@ -1,53 +1,53 @@
 {
-    "version": "1.1.79",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.79",
-    "sha256": "FE9F617321F2E77D93423EC04765C7E33F00936E72B626D80C95C1BB1FF4AB02",
+    "version": "1.1.80",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.80",
+    "sha256": "2EFF36D55A317940087DE7B43A73307E7D9238887D58C6729864C936A32543C7",
     "packages": {
         "x64": {
-            "version": "1.1.79",
-            "size": 135686899,
-            "sha256": "FF83490795F18C95F4E12A35C32C223D44B92D19761E25B8F75A0607D021B0B3",
+            "version": "1.1.80",
+            "size": 135687080,
+            "sha256": "8EE8E2FADDA0ADE9D3249D07ECC6C9F00B9396DEB41C4C8BCE3F83EC5497AA80",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.79",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.80",
                     "size": 83886080,
-                    "sha256": "CA3C97A1C6B97BE57770A47340706423C23C08E59F0ED98DA9C4BD6BFA53D982"
+                    "sha256": "64C41A8F0D24956ACBDCB5F52E5E5A8C38569A6CB5F25E692F2B4B3DDF7B85CF"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.79",
-                    "size": 51800819,
-                    "sha256": "4DFF4C555155E67C1BFA5B4A98A22C742B86ADB89540D5DC76BC5A7575EBFBD2"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.80",
+                    "size": 51801000,
+                    "sha256": "7F0953621283A087E2BB7602F656314DB4BF4ED5E9C7528173C922DC466B2E1F"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.79",
-            "size": 116918875,
-            "sha256": "B1637CE3CA1AB086EFB1A09716AFA0034B94A235431F571D3AA9F11E5064D050",
+            "version": "1.1.80",
+            "size": 116919054,
+            "sha256": "54D43CEF2D4D497EB2DBCD9283AA0D13417F95446FD193ECE0CAE2B9749FEE1A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.79",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.80",
                     "size": 83886080,
-                    "sha256": "704D17E4561C0FDDFED0B03876F5566E572853406E03172E93A99FD7DB499874"
+                    "sha256": "7E4F02689334E722F7FFA42EB3FC6E81789E058FCB8AAF8753E53C7E82B58F76"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.79",
-                    "size": 33032795,
-                    "sha256": "4AC1EFF7C375F4D4780FC797107902556D831979DFEFFB557B835E5BC60B7FE5"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.80",
+                    "size": 33032974,
+                    "sha256": "9347AD79BCE2CE346B6CF05A343A21AC4B8F32E68E67A1D8BCD599163BC54C21"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.79",
-            "sha256": "FE9F617321F2E77D93423EC04765C7E33F00936E72B626D80C95C1BB1FF4AB02"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.80",
+            "sha256": "2EFF36D55A317940087DE7B43A73307E7D9238887D58C6729864C936A32543C7"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.79",
-            "sha256": "58117AF99426236F38AD22F9CAFE047D6A619CD652A511C94ACE0A0B9054993F"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.80",
+            "sha256": "82C20E7C4CF2EC3413EA1598FD1F953A0E07E81F0CD70DF4A4D1969D6693AF04"
         }
     },
-    "notes": "Support message and conversation drag selection, and balance spacing above and below room date dividers.",
-    "releaseId": "1.1.79-FF83490795F1-B1637CE3CA1A"
+    "notes": "Add grouped selection for room-background drags, preserve message text selection, and unify centered item spacing.",
+    "releaseId": "1.1.80-8EE8E2FADDA0-54D43CEF2D4D"
 }
