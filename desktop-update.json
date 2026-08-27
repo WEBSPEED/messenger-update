@@ -1,53 +1,53 @@
 {
-    "version": "1.1.78",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.78",
-    "sha256": "9A18AB167103A187E0F977860E2A2886251D1D639AD25964C3D3BF111E41E740",
+    "version": "1.1.79",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.79",
+    "sha256": "FE9F617321F2E77D93423EC04765C7E33F00936E72B626D80C95C1BB1FF4AB02",
     "packages": {
         "x64": {
-            "version": "1.1.78",
-            "size": 135686891,
-            "sha256": "D74535FB19B9A8A9CEA3D65D6AFC00AEB3AE4B06D2789EA5677C7265C5A2F61E",
+            "version": "1.1.79",
+            "size": 135686899,
+            "sha256": "FF83490795F18C95F4E12A35C32C223D44B92D19761E25B8F75A0607D021B0B3",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.78",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.79",
                     "size": 83886080,
-                    "sha256": "DCB63CC05EF02CAC61DE959764CA3E1D853D17B579B7DE91443A49F256BB9D9F"
+                    "sha256": "CA3C97A1C6B97BE57770A47340706423C23C08E59F0ED98DA9C4BD6BFA53D982"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.78",
-                    "size": 51800811,
-                    "sha256": "CFA49D043153CBC29FCFADD05086AFED981EE365F8F182EB13267C03B4199116"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.79",
+                    "size": 51800819,
+                    "sha256": "4DFF4C555155E67C1BFA5B4A98A22C742B86ADB89540D5DC76BC5A7575EBFBD2"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.78",
-            "size": 116918866,
-            "sha256": "BA8E5D0B73C880572CF6BC6654D79D8108A1F543E53638798E1A3D006A250B80",
+            "version": "1.1.79",
+            "size": 116918875,
+            "sha256": "B1637CE3CA1AB086EFB1A09716AFA0034B94A235431F571D3AA9F11E5064D050",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.78",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.79",
                     "size": 83886080,
-                    "sha256": "87D54C14BD0F65D50497CF5BA93C9B32425CA16C60AEAA1C1095C25CC1C46C52"
+                    "sha256": "704D17E4561C0FDDFED0B03876F5566E572853406E03172E93A99FD7DB499874"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.78",
-                    "size": 33032786,
-                    "sha256": "B3A814A1909B18964C3E88DA8F853C8BF4D039C573B866D2EC49306E8C837419"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.79",
+                    "size": 33032795,
+                    "sha256": "4AC1EFF7C375F4D4780FC797107902556D831979DFEFFB557B835E5BC60B7FE5"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.78",
-            "sha256": "9A18AB167103A187E0F977860E2A2886251D1D639AD25964C3D3BF111E41E740"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.79",
+            "sha256": "FE9F617321F2E77D93423EC04765C7E33F00936E72B626D80C95C1BB1FF4AB02"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.78",
-            "sha256": "28AFCA83A8D6B78CBCA9118264994A890CFBB5C3969BADF38CDC08BE12D0D4BF"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.79",
+            "sha256": "58117AF99426236F38AD22F9CAFE047D6A619CD652A511C94ACE0A0B9054993F"
         }
     },
-    "notes": "Prevent accidental text selection across desktop messenger screens while preserving editable fields.",
-    "releaseId": "1.1.78-D74535FB19B9-BA8E5D0B73C8"
+    "notes": "Support message and conversation drag selection, and balance spacing above and below room date dividers.",
+    "releaseId": "1.1.79-FF83490795F1-B1637CE3CA1A"
 }
