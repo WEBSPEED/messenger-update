@@ -1,53 +1,53 @@
 {
-    "version": "1.1.82",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.82",
-    "sha256": "F581D2DEC99C94FFCFE32C876EC183A8FEE355826FE3051447BC3F7445E1E42C",
+    "version": "1.1.83",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.83",
+    "sha256": "364562AF99FEA1DEFCFA2B196EEB9187393D1ED9CE67A259CBD71518F88A2435",
     "packages": {
         "x64": {
-            "version": "1.1.82",
-            "size": 135687090,
-            "sha256": "04D9F240C64E7B779C67057442DA23FCAAE0713643CF720AA6DA8B3D7433053B",
+            "version": "1.1.83",
+            "size": 135686996,
+            "sha256": "97FC3F17367CEB3C8A7996B83164C5FCBE150C00BA8FADFE6D95C27956DAA6AD",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.82",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.83",
                     "size": 83886080,
-                    "sha256": "B0C8A4726E000C7CADE5249A1279730808ECE1255A7BFD5D406231E754B9667E"
+                    "sha256": "8E43A8A2EC7888E0E1ABCC015066033200D1B5CA6BDD4AB6EE6E3A73F55D691A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.82",
-                    "size": 51801010,
-                    "sha256": "8865C67EE838DFD94F9408A26D652018A9FF6F5283A9C71578395B62F367C9E8"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.83",
+                    "size": 51800916,
+                    "sha256": "83E170FEF54478B52A587AC995D7464D075352BF5349181F574E8BE9F967456E"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.82",
-            "size": 116919102,
-            "sha256": "515CB4454ABABD5ECA21A805717EBBDB01FC6556E175C3B841E194CC4FB6A456",
+            "version": "1.1.83",
+            "size": 116918970,
+            "sha256": "C44FC89033D4B03A5D3B20ED2E4C329606478289C7D143A5F6A0762A1A837B25",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.82",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.83",
                     "size": 83886080,
-                    "sha256": "D2E44EF77DD4C1B83B4DC685C4CCFB109BDE3D2A1EB6AE476A4DFFEB48D6E213"
+                    "sha256": "DB0F9A768723A868BE7B378CFE74A3258B0BC743D7BD1A15772DA602E9ED30C3"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.82",
-                    "size": 33033022,
-                    "sha256": "245ADFA5D525076979F79A44C8092B4F59B9FFB96F7C47A35C7E1618DDEA6BDC"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.83",
+                    "size": 33032890,
+                    "sha256": "88AF6126C3CDE8FF2B69C562A641871C1F4799DC86183A8471E2A41FF4FB77C1"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.82",
-            "sha256": "F581D2DEC99C94FFCFE32C876EC183A8FEE355826FE3051447BC3F7445E1E42C"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.83",
+            "sha256": "364562AF99FEA1DEFCFA2B196EEB9187393D1ED9CE67A259CBD71518F88A2435"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.82",
-            "sha256": "D7D2082E8609DAC07CA4260911DC39D817BD9B34328024B1AD3BB99CD4273CF0"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.83",
+            "sha256": "68555F8978077EE6D34AA9B27A1AB4565AB965617BE6EFB732B701261318D230"
         }
     },
-    "notes": "Delete all database records, scheduled messages, profile images, and attachments when a room is permanently removed.",
-    "releaseId": "1.1.82-04D9F240C64E-515CB4454ABA"
+    "notes": "Clear room unread badges immediately after read confirmation and restore lock reset setup guidance after login.",
+    "releaseId": "1.1.83-97FC3F17367C-C44FC89033D4"
 }
