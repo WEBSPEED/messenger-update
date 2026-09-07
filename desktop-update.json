@@ -1,53 +1,53 @@
 {
-    "version": "1.1.84",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.84",
-    "sha256": "59CEA5CD3C4BD1B0121AB7FD596F511B84AC9302C41C9B818550FA86391C14F8",
+    "version": "1.1.85",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.85",
+    "sha256": "AE817308A44C7DF3995B96248A9E79799B9A96DA0DA73881227784478F3958C1",
     "packages": {
         "x64": {
-            "version": "1.1.84",
-            "size": 137021410,
-            "sha256": "FF1F24260FF5E1401E110D70505AD0209380F362EDC296E417C2A9F3227FFC80",
+            "version": "1.1.85",
+            "size": 137021649,
+            "sha256": "72A9C640F1005FB21BA9C670B70E28956246DD354BD60856679714934169CAA9",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.84",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.85",
                     "size": 83886080,
-                    "sha256": "263CD3905F9A78D9891D873190231ECE3367CF02027B00F9CB86E7CDEA7CAC2B"
+                    "sha256": "91EB786287206FDDFC8DEF722227BC84AB943EBDF8D434B8CDD8DB9F88A9CDE4"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.84",
-                    "size": 53135330,
-                    "sha256": "E6BCB3526C56CC166C2F9C524625EC8EA6066840CFE9F57F6DD4B7C36EF6866A"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.85",
+                    "size": 53135569,
+                    "sha256": "2FC6C039C62E08CCDFB3A86F660AE6F57A4CB45708121A722D16263E9A211E14"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.84",
-            "size": 118253384,
-            "sha256": "7D5F7934D196E3D2E66AA5A373529B268F83EF87ED7F90AC8CDD86032D211D2E",
+            "version": "1.1.85",
+            "size": 118253625,
+            "sha256": "4CBFB5AD9813BD7996F23CA92E7939FE7F149F4858CA7BB80D89B492708602C2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.84",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.85",
                     "size": 83886080,
-                    "sha256": "4F4F27262027187ED7699E4B56BAF774B848B6945EFA4372BB7841AA5F0B1EB5"
+                    "sha256": "634C2193FCD6E4594ED3F5EEE74B58861E455566CB450F4DBF182CBB9E1805BE"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.84",
-                    "size": 34367304,
-                    "sha256": "A1B642426E12E6CB945DADBFE8A3A4FCD720A76570845D95CD08FD468CBCFFD6"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.85",
+                    "size": 34367545,
+                    "sha256": "989E1A5107C9FFC06935595364CC158A5AC0BCBE1521A60BCF526E624FDE7C54"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.84",
-            "sha256": "59CEA5CD3C4BD1B0121AB7FD596F511B84AC9302C41C9B818550FA86391C14F8"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.85",
+            "sha256": "AE817308A44C7DF3995B96248A9E79799B9A96DA0DA73881227784478F3958C1"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.84",
-            "sha256": "863C0CE76F723F6607A16DC179860E4B6BD34179DD8EF92E2EADABCCC8E15DD1"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.85",
+            "sha256": "46E8523701AB613C047FEBB929AAE0D6B11F969FBFABDDA3E2BDB7ED3F06743A"
         }
     },
-    "notes": "Add per-user notification sound settings for login, employee login, messages, and attendance alerts, with bundled install resources.",
-    "releaseId": "1.1.84-FF1F24260FF5-7D5F7934D196"
+    "notes": "Fix Windows taskbar application identity and move release workspace under groupware_v10.",
+    "releaseId": "1.1.85-72A9C640F100-4CBFB5AD9813"
 }
