@@ -1,53 +1,53 @@
 {
-    "version": "1.1.85",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.85",
-    "sha256": "AE817308A44C7DF3995B96248A9E79799B9A96DA0DA73881227784478F3958C1",
+    "version": "1.1.86",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.86",
+    "sha256": "0997D09D50594DED069A88C6F390B974CBF786A50E72CF889912FF50A91CD399",
     "packages": {
         "x64": {
-            "version": "1.1.85",
-            "size": 137021649,
-            "sha256": "72A9C640F1005FB21BA9C670B70E28956246DD354BD60856679714934169CAA9",
+            "version": "1.1.86",
+            "size": 137027079,
+            "sha256": "698C685B196C6EF61ED76B12937DEEEEB079AE1826B0B685D904B53AD201E38E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.85",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.86",
                     "size": 83886080,
-                    "sha256": "91EB786287206FDDFC8DEF722227BC84AB943EBDF8D434B8CDD8DB9F88A9CDE4"
+                    "sha256": "C9B2F8532D22C8A08952C9E9CCBD34613FB14D22FFC7A6479392D8EC61856D02"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.85",
-                    "size": 53135569,
-                    "sha256": "2FC6C039C62E08CCDFB3A86F660AE6F57A4CB45708121A722D16263E9A211E14"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.86",
+                    "size": 53140999,
+                    "sha256": "9D7F2B1E2982F0ED5AEF2C9D17473B4B6D2108904A1C58BCC67A89C162BDF3C4"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.85",
-            "size": 118253625,
-            "sha256": "4CBFB5AD9813BD7996F23CA92E7939FE7F149F4858CA7BB80D89B492708602C2",
+            "version": "1.1.86",
+            "size": 118259056,
+            "sha256": "029950661EA648A4F0646083ED48BAE9365119A8557364A5D3C7A797013DA050",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.85",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.86",
                     "size": 83886080,
-                    "sha256": "634C2193FCD6E4594ED3F5EEE74B58861E455566CB450F4DBF182CBB9E1805BE"
+                    "sha256": "AC9AB99C490306011875FBE4E8FB8B825324397455097F7AF6DC5D7EA807D7FF"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.85",
-                    "size": 34367545,
-                    "sha256": "989E1A5107C9FFC06935595364CC158A5AC0BCBE1521A60BCF526E624FDE7C54"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.86",
+                    "size": 34372976,
+                    "sha256": "6BEC002F6B0A9055176CEDB735DC76E7C07300CB8CDF0D38E755B2A388DE36FD"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.85",
-            "sha256": "AE817308A44C7DF3995B96248A9E79799B9A96DA0DA73881227784478F3958C1"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.86",
+            "sha256": "0997D09D50594DED069A88C6F390B974CBF786A50E72CF889912FF50A91CD399"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.85",
-            "sha256": "46E8523701AB613C047FEBB929AAE0D6B11F969FBFABDDA3E2BDB7ED3F06743A"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.86",
+            "sha256": "92684469471D7345DA885ECEB9E24045A91ACCF71B188AA65AD39648EEB57A4B"
         }
     },
-    "notes": "Fix Windows taskbar application identity and move release workspace under groupware_v10.",
-    "releaseId": "1.1.85-72A9C640F100-4CBFB5AD9813"
+    "notes": "Use distinct online, offline, and locked tray icons, remember when a user dismisses the post-reset lock setup prompt, and place attendance above notifications.",
+    "releaseId": "1.1.86-698C685B196C-029950661EA6"
 }
