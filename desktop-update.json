@@ -1,53 +1,53 @@
 {
-    "version": "1.1.86",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.86",
-    "sha256": "0997D09D50594DED069A88C6F390B974CBF786A50E72CF889912FF50A91CD399",
+    "version": "1.1.87",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.87",
+    "sha256": "358AEA779BB6E7C6647DF18BAF11F4E9982F51C520E5C2F7FFC1F46C69CC71F9",
     "packages": {
         "x64": {
-            "version": "1.1.86",
-            "size": 137027079,
-            "sha256": "698C685B196C6EF61ED76B12937DEEEEB079AE1826B0B685D904B53AD201E38E",
+            "version": "1.1.87",
+            "size": 137029212,
+            "sha256": "7454CDFAD6E4F5FFF710C7180CA43A85D20E52EDA001A776E43D2B59B1F8BA36",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.86",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.87",
                     "size": 83886080,
-                    "sha256": "C9B2F8532D22C8A08952C9E9CCBD34613FB14D22FFC7A6479392D8EC61856D02"
+                    "sha256": "F8D1FE599B5737DC3498A03F4ADF8C5D5DF85B98F86168FB645142DCBC6888A3"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.86",
-                    "size": 53140999,
-                    "sha256": "9D7F2B1E2982F0ED5AEF2C9D17473B4B6D2108904A1C58BCC67A89C162BDF3C4"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.87",
+                    "size": 53143132,
+                    "sha256": "78515FFB8B7FCBF635C733BC3EB81A075F5CADAA7B20CF01B7D8CFCEC67FA761"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.86",
-            "size": 118259056,
-            "sha256": "029950661EA648A4F0646083ED48BAE9365119A8557364A5D3C7A797013DA050",
+            "version": "1.1.87",
+            "size": 118261185,
+            "sha256": "0AEE0269BC671A15A5E3836E04B1F8369B6B709F35DE61390CDE1764D8080607",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.86",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.87",
                     "size": 83886080,
-                    "sha256": "AC9AB99C490306011875FBE4E8FB8B825324397455097F7AF6DC5D7EA807D7FF"
+                    "sha256": "DE5EF1C079BABB62A34ECDC4334BB1FCD35BD82DEDB7C3C1AA7D97BCB5B0D1DF"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.86",
-                    "size": 34372976,
-                    "sha256": "6BEC002F6B0A9055176CEDB735DC76E7C07300CB8CDF0D38E755B2A388DE36FD"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.87",
+                    "size": 34375105,
+                    "sha256": "E545C4EE3F21A69FFE1534ACD80331815247D9D3DE021B4BCAFD6A11FB22A32A"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.86",
-            "sha256": "0997D09D50594DED069A88C6F390B974CBF786A50E72CF889912FF50A91CD399"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.87",
+            "sha256": "358AEA779BB6E7C6647DF18BAF11F4E9982F51C520E5C2F7FFC1F46C69CC71F9"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.86",
-            "sha256": "92684469471D7345DA885ECEB9E24045A91ACCF71B188AA65AD39648EEB57A4B"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.87",
+            "sha256": "AAEDD01F2618EE6C5941224962C1827F57C1F856596D2865C3F538AD8D326912"
         }
     },
-    "notes": "Use distinct online, offline, and locked tray icons, remember when a user dismisses the post-reset lock setup prompt, and place attendance above notifications.",
-    "releaseId": "1.1.86-698C685B196C-029950661EA6"
+    "notes": "Keep the existing EMAX tray icon design when offline and apply the inactive gray color treatment.",
+    "releaseId": "1.1.87-7454CDFAD6E4-0AEE0269BC67"
 }
