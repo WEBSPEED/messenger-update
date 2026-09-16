@@ -1,53 +1,53 @@
 {
-    "version": "1.1.91",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.91",
-    "sha256": "8CCA6331538D0BA415DD79D9FB19FE36B24AA30AC56A6385B64454AB381C3B98",
+    "version": "1.1.92",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.92",
+    "sha256": "BAB8802F18116DA45A4E4B8B5C86D14F71F3AD490618A27827EC6E96D20B979A",
     "packages": {
         "x64": {
-            "version": "1.1.91",
-            "size": 137295126,
-            "sha256": "3C128460D3D299569A8DB1385A73A4A950F66037420AFB9168E7A1BA1F9CD55B",
+            "version": "1.1.92",
+            "size": 137295151,
+            "sha256": "142F1C07B1AECE9FABD21B7C0EA601DCB473EBD2D856D2C0379513F1174BDA3B",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.91",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.92",
                     "size": 83886080,
-                    "sha256": "C04E1184D7789E679CF265220BEB96F7C0AA809058CCC02EBB18099991DC0B93"
+                    "sha256": "9B0E7245B0ABC6A3DA8DF1E5FCD72A3DF1B08262C69E93AFA88DDD1B319AB232"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.91",
-                    "size": 53409046,
-                    "sha256": "D4B44F9B8A745E1FAACD514FF12A4C114E4C67EDC3005A40A3621B7327C78CF8"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.92",
+                    "size": 53409071,
+                    "sha256": "B447DE77849C9806680A77FAD009832723FB57A9A4C3671CF04C1B3A917D2A87"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.91",
-            "size": 118527101,
-            "sha256": "BBD56A5D7E513BF3E969F6AD62BE9D84A90EF04B8C70261F503C40DCAC712793",
+            "version": "1.1.92",
+            "size": 118527162,
+            "sha256": "9E26FB1E1A19341570A833956C82A47262F220B9FCCD64551E26096E8B948941",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.91",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.92",
                     "size": 83886080,
-                    "sha256": "EF07242907F962006C587A0CA855BA7C64207B54E3D9D6CC04531BFE9163F5DE"
+                    "sha256": "0D610C2D60E808B5743A86B09EED2273FB676EAC89526D769D0EA3449C49CA50"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.91",
-                    "size": 34641021,
-                    "sha256": "BBB7C7F8B9107E41503ED5BC215CA7FCC48F18BB1A3B0DE66A1F720F68732E8B"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.92",
+                    "size": 34641082,
+                    "sha256": "4D3EAF811B77B21908EE22D0BAD84989A1C61C964F6E169CEE2278FED68B3625"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.91",
-            "sha256": "8CCA6331538D0BA415DD79D9FB19FE36B24AA30AC56A6385B64454AB381C3B98"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.92",
+            "sha256": "BAB8802F18116DA45A4E4B8B5C86D14F71F3AD490618A27827EC6E96D20B979A"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.91",
-            "sha256": "D8A5798C4725F6B2CF0AFA75799BA7E96A5F9ACCE35668F8106C8A876EFAD18E"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.92",
+            "sha256": "11B8AC1AE54E858481552E3C876FAF83F6CFEFD103882BE511CAFC0506696B9E"
         }
     },
-    "notes": "Bundle the PC Messenger main, room, settings and attendance screens with the installed app while retaining the existing server API, attachment and realtime contracts.",
-    "releaseId": "1.1.91-3C128460D3D2-BBD56A5D7E51"
+    "notes": "Show the company-specific Messenger copyright in a fixed main-window footer, with the EMAXICT copyright used when no company value is configured.",
+    "releaseId": "1.1.92-142F1C07B1AE-9E26FB1E1A19"
 }
