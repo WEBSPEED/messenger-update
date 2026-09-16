@@ -1,53 +1,53 @@
 {
-    "version": "1.1.92",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.92",
-    "sha256": "BAB8802F18116DA45A4E4B8B5C86D14F71F3AD490618A27827EC6E96D20B979A",
+    "version": "1.1.93",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.93",
+    "sha256": "17BE2B260C241EE8EF0171D9572BE163C6C24AE3E98EAB05984F208A11CACE44",
     "packages": {
         "x64": {
-            "version": "1.1.92",
-            "size": 137295151,
-            "sha256": "142F1C07B1AECE9FABD21B7C0EA601DCB473EBD2D856D2C0379513F1174BDA3B",
+            "version": "1.1.93",
+            "size": 137296141,
+            "sha256": "0B6514819C14E1F48C118873A66583CE3C04D284FDE98474B68975FE9EA9BC8E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.92",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.93",
                     "size": 83886080,
-                    "sha256": "9B0E7245B0ABC6A3DA8DF1E5FCD72A3DF1B08262C69E93AFA88DDD1B319AB232"
+                    "sha256": "AC6E2001521E4A6398A5D1C260A505DA194158CD36EE77F94AD4751F25C8DF1F"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.92",
-                    "size": 53409071,
-                    "sha256": "B447DE77849C9806680A77FAD009832723FB57A9A4C3671CF04C1B3A917D2A87"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.93",
+                    "size": 53410061,
+                    "sha256": "74FFEA8C150709C1823823B4BB9938F629F5005DCD79B274F37020E1711CF90D"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.92",
-            "size": 118527162,
-            "sha256": "9E26FB1E1A19341570A833956C82A47262F220B9FCCD64551E26096E8B948941",
+            "version": "1.1.93",
+            "size": 118528116,
+            "sha256": "C4D88152B016A7247677FCC78A4E9A968856BA73706F959395EB9080D09C22FC",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.92",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.93",
                     "size": 83886080,
-                    "sha256": "0D610C2D60E808B5743A86B09EED2273FB676EAC89526D769D0EA3449C49CA50"
+                    "sha256": "CEF6F8A669745CE64CAFD143050EBB9D7F49E7C67B7486E09E44854A0C47E280"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.92",
-                    "size": 34641082,
-                    "sha256": "4D3EAF811B77B21908EE22D0BAD84989A1C61C964F6E169CEE2278FED68B3625"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.93",
+                    "size": 34642036,
+                    "sha256": "566B6131233687BFB84875E63CA988194C8BDD27787318C753041573662F67C7"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.92",
-            "sha256": "BAB8802F18116DA45A4E4B8B5C86D14F71F3AD490618A27827EC6E96D20B979A"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.93",
+            "sha256": "17BE2B260C241EE8EF0171D9572BE163C6C24AE3E98EAB05984F208A11CACE44"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.92",
-            "sha256": "11B8AC1AE54E858481552E3C876FAF83F6CFEFD103882BE511CAFC0506696B9E"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.93",
+            "sha256": "CF7E987B405D92ECABF8A81BABC552AA71E08C673B269AFF1AEEFDD752377C67"
         }
     },
     "notes": "Show the company-specific Messenger copyright in a fixed main-window footer, with the EMAXICT copyright used when no company value is configured.",
-    "releaseId": "1.1.92-142F1C07B1AE-9E26FB1E1A19"
+    "releaseId": "1.1.93-0B6514819C14-C4D88152B016"
 }
