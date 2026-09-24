@@ -1,53 +1,53 @@
 {
-    "version": "1.1.99",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.99",
-    "sha256": "588B8AD9C018B7315766E590422ED9DD512A13B96F6CC0D17BF899623D2AF26E",
+    "version": "1.2.0",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.0",
+    "sha256": "93228F329F58AA61368520A56D4FBD2F353789F826FDF02ECA3CA189C1BCA5F1",
     "packages": {
         "x64": {
-            "version": "1.1.99",
-            "size": 137302920,
-            "sha256": "B96397E406C52154F4B82FAF16CBF7461145C869BEF893CF08017342B9CD28B5",
+            "version": "1.2.0",
+            "size": 137304911,
+            "sha256": "24CA3687956BD073FE6A582806243495CE1A599575E8C82E72186E3CAE2D15C4",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.99",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.0",
                     "size": 83886080,
-                    "sha256": "C14A3BBAA4D15A86B19C3014CBD4E1DE240033FB55C1EAE129E3BC3A44D0162D"
+                    "sha256": "7B0B2FA4AC6DD4E3116FF283A638A653438127D04599FDAA02DBC98CCFBCF6A6"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.99",
-                    "size": 53416840,
-                    "sha256": "C66EC4D40F0F4ED7FAF6E70CB3671A5804CDED920FFDFE935F1440ED25AC02E6"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.0",
+                    "size": 53418831,
+                    "sha256": "CA993F7FCB7574002E7CF7828617D9BD78E7F8B3E2AC4AEB8C18194F6ED1A278"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.99",
-            "size": 118534894,
-            "sha256": "5DD9BEB51748E8BBA3524A3A3C1CCD9F87AF3AECACD5B0C0AD085E3B6EC2DC24",
+            "version": "1.2.0",
+            "size": 118536884,
+            "sha256": "DA2AA1C06EC4758355FE853346266ABD03C5498AECBE9C24CABC414CE5544EBA",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.99",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.0",
                     "size": 83886080,
-                    "sha256": "3AC5DA3D1AACA805334CBA10B0BAF25DEAD4F21292231EBDC5FD93D4FF940BD2"
+                    "sha256": "EF2AC117E8D20BDE402496F4F64AA38CC8807900F1ADF57296A9E70BA22F07B1"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.99",
-                    "size": 34648814,
-                    "sha256": "F04D3BC61A59B5C31D78A1FF079AE8CCBFE5EF9CB8BCD06E5B7B795E3F164F58"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.0",
+                    "size": 34650804,
+                    "sha256": "5B5DA022804CCC446F05FCFE671DDD214468A95EC209536F51AAC858F737B024"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.99",
-            "sha256": "588B8AD9C018B7315766E590422ED9DD512A13B96F6CC0D17BF899623D2AF26E"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.0",
+            "sha256": "93228F329F58AA61368520A56D4FBD2F353789F826FDF02ECA3CA189C1BCA5F1"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.99",
-            "sha256": "82EDF80F0CEB2D6F2EA466C3EB5D130D620841EAC7D8F15F2317D5088A9A3DD0"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.0",
+            "sha256": "D2C0533BE74AFDA3FDD2C8B9DDC3BFA53378888E07A883D1EC3D15D7DF0B3B7C"
         }
     },
-    "notes": "Improve SSE-to-polling recovery without a WebSocket server, bound notification request timeouts, and add connection diagnostics with private-data-free export.",
-    "releaseId": "1.1.99-B96397E406C5-5DD9BEB51748"
+    "notes": "Show the system message room icon reliably by using the explicit server logo and a bundled installed-UI fallback.",
+    "releaseId": "1.2.0-24CA3687956B-DA2AA1C06EC4"
 }
