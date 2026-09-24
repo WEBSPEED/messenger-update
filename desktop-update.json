@@ -1,53 +1,53 @@
 {
-    "version": "1.1.98",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.98",
-    "sha256": "99D3C1B08027A2A1351AF7257DC1D962F7DB9842E6CD4BE9C7886E970DCC2E51",
+    "version": "1.1.99",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.99",
+    "sha256": "588B8AD9C018B7315766E590422ED9DD512A13B96F6CC0D17BF899623D2AF26E",
     "packages": {
         "x64": {
-            "version": "1.1.98",
-            "size": 137301163,
-            "sha256": "39CB3253E51A0A2D539DE78ED86C14389592FAAAA973A3D645191E3E05AEE161",
+            "version": "1.1.99",
+            "size": 137302920,
+            "sha256": "B96397E406C52154F4B82FAF16CBF7461145C869BEF893CF08017342B9CD28B5",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.98",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.1.99",
                     "size": 83886080,
-                    "sha256": "D7BA66D1DE7D04646815B1C3F61B4DE3C0BCD5F7A8E0EE41C8F65C030B002A5D"
+                    "sha256": "C14A3BBAA4D15A86B19C3014CBD4E1DE240033FB55C1EAE129E3BC3A44D0162D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.98",
-                    "size": 53415083,
-                    "sha256": "179896542C4C7F43EFD2FCF0B4933BD66863E5BB3E45D545AFAB9C4CBA59E0D3"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.1.99",
+                    "size": 53416840,
+                    "sha256": "C66EC4D40F0F4ED7FAF6E70CB3671A5804CDED920FFDFE935F1440ED25AC02E6"
                 }
             ]
         },
         "ia32": {
-            "version": "1.1.98",
-            "size": 118533138,
-            "sha256": "1E7B326BCF4599E6AD012A04CB775A7C728B2147B2C3E15D9C0F9FCC30B863A2",
+            "version": "1.1.99",
+            "size": 118534894,
+            "sha256": "5DD9BEB51748E8BBA3524A3A3C1CCD9F87AF3AECACD5B0C0AD085E3B6EC2DC24",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.98",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.1.99",
                     "size": 83886080,
-                    "sha256": "F4E9D1E10F9C4A5F9A121FBEE39C7E871B792D63748E772CD850498A0D458DA6"
+                    "sha256": "3AC5DA3D1AACA805334CBA10B0BAF25DEAD4F21292231EBDC5FD93D4FF940BD2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.98",
-                    "size": 34647058,
-                    "sha256": "7954A7733AB6D7608B124FA6322DFF45EB33984121BFEA613AE87C5F2F8CA349"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.1.99",
+                    "size": 34648814,
+                    "sha256": "F04D3BC61A59B5C31D78A1FF079AE8CCBFE5EF9CB8BCD06E5B7B795E3F164F58"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.98",
-            "sha256": "99D3C1B08027A2A1351AF7257DC1D962F7DB9842E6CD4BE9C7886E970DCC2E51"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.1.99",
+            "sha256": "588B8AD9C018B7315766E590422ED9DD512A13B96F6CC0D17BF899623D2AF26E"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.98",
-            "sha256": "7BF854EA807A9583E9D2E4946F59F8E7FDD34487107F2FAA4BEC123B8BBC9C5D"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.1.99",
+            "sha256": "82EDF80F0CEB2D6F2EA466C3EB5D130D620841EAC7D8F15F2317D5088A9A3DD0"
         }
     },
-    "notes": "Add signed customer-specific enrollment, lock the company server origin in encrypted storage, and remove Messenger URL display and editing from the desktop UI.",
-    "releaseId": "1.1.98-39CB3253E51A-1E7B326BCF45"
+    "notes": "Improve SSE-to-polling recovery without a WebSocket server, bound notification request timeouts, and add connection diagnostics with private-data-free export.",
+    "releaseId": "1.1.99-B96397E406C5-5DD9BEB51748"
 }
