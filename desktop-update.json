@@ -1,53 +1,53 @@
 {
-    "version": "1.2.0",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.0",
-    "sha256": "93228F329F58AA61368520A56D4FBD2F353789F826FDF02ECA3CA189C1BCA5F1",
+    "version": "1.2.1",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.1",
+    "sha256": "EC1B822FD886906968C3490173753D7172402D60E6C952BCDC6321D0E144F8F8",
     "packages": {
         "x64": {
-            "version": "1.2.0",
-            "size": 137304911,
-            "sha256": "24CA3687956BD073FE6A582806243495CE1A599575E8C82E72186E3CAE2D15C4",
+            "version": "1.2.1",
+            "size": 137306969,
+            "sha256": "8991A55B37AC2A8024A8EDB63ABFC85A43BA52424FBAB2FC9ADEBB0E5B0CB3BC",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.0",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.1",
                     "size": 83886080,
-                    "sha256": "7B0B2FA4AC6DD4E3116FF283A638A653438127D04599FDAA02DBC98CCFBCF6A6"
+                    "sha256": "29715581603626DE95B33AB30FA5F16E29A68621D25664FC0C68FDAC8BB1D112"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.0",
-                    "size": 53418831,
-                    "sha256": "CA993F7FCB7574002E7CF7828617D9BD78E7F8B3E2AC4AEB8C18194F6ED1A278"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.1",
+                    "size": 53420889,
+                    "sha256": "9622295775BB5B386F7B38F40DF72E638F897357115760C068A1FF565D041F63"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.0",
-            "size": 118536884,
-            "sha256": "DA2AA1C06EC4758355FE853346266ABD03C5498AECBE9C24CABC414CE5544EBA",
+            "version": "1.2.1",
+            "size": 118538980,
+            "sha256": "5F6F132FA8301434FA444E2F6458491232C74F8B351AB781D6737351FBEDAE9A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.0",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.1",
                     "size": 83886080,
-                    "sha256": "EF2AC117E8D20BDE402496F4F64AA38CC8807900F1ADF57296A9E70BA22F07B1"
+                    "sha256": "32633C862DC402A88D2A989C83AB4D8D6EF57A5BBE020D7193E0C1AF360B0915"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.0",
-                    "size": 34650804,
-                    "sha256": "5B5DA022804CCC446F05FCFE671DDD214468A95EC209536F51AAC858F737B024"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.1",
+                    "size": 34652900,
+                    "sha256": "31C6C926BB7AA4A011A84F58858BBAF150F9AC8C5D8AF90FF876F7A9EFC10C47"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.0",
-            "sha256": "93228F329F58AA61368520A56D4FBD2F353789F826FDF02ECA3CA189C1BCA5F1"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.1",
+            "sha256": "EC1B822FD886906968C3490173753D7172402D60E6C952BCDC6321D0E144F8F8"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.0",
-            "sha256": "D2C0533BE74AFDA3FDD2C8B9DDC3BFA53378888E07A883D1EC3D15D7DF0B3B7C"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.1",
+            "sha256": "5B41B8D615E422B11E254826AA3D6B8C093AD2CE4004A1A4AEE0255D95FB7F7A"
         }
     },
-    "notes": "Show the system message room icon reliably by using the explicit server logo and a bundled installed-UI fallback.",
-    "releaseId": "1.2.0-24CA3687956B-DA2AA1C06EC4"
+    "notes": "Use WebSocket, SSE, then polling for main notifications, acknowledge streamed events in batches, and release PHP sessions during long-lived transports.",
+    "releaseId": "1.2.1-8991A55B37AC-5F6F132FA830"
 }
