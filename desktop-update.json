@@ -1,53 +1,53 @@
 {
-    "version": "1.2.4",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.4",
-    "sha256": "EE2BC83D1D2D9E12FD0507E2B067BC789D32349671AA8468B0E658DBB6610610",
+    "version": "1.2.5",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.5",
+    "sha256": "C71C126543FAA15EB8B6D7C5EF2D3F57899336BF130BB05473F94A69D9808E91",
     "packages": {
         "x64": {
-            "version": "1.2.4",
-            "size": 137309094,
-            "sha256": "F6F0AA9EE42FF9C297010D5756E19B0BB50AA2CC062A76B2F9D2A534075EDADF",
+            "version": "1.2.5",
+            "size": 137309726,
+            "sha256": "8E906DBE99A9AFF4D8AB0B8BCF010328A7FF18DDE08E42ECF0F33C05CE53CF7E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.4",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.5",
                     "size": 83886080,
-                    "sha256": "6E365EDD5DDF8FF22B443809F0728D44E66A2CE9B12EF7DF195F210709E81CDB"
+                    "sha256": "56882939046182A029E84591CFE4AD3DDC661816E1D2B144198C2811CD4C4D4F"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.4",
-                    "size": 53423014,
-                    "sha256": "E47CCE88C140E6EBC7E39926EFFE4DAFE7C95B16B496E7DDDCC6FA8213D791AC"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.5",
+                    "size": 53423646,
+                    "sha256": "4E221922EA4DBAE62FC8F223E7B1873265CE0203C916188D19D668E61DB49D42"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.4",
-            "size": 118541035,
-            "sha256": "96E5496960AEA6D3C686B1B8FF0C7844AD767153BE49992138AA1574FE555E68",
+            "version": "1.2.5",
+            "size": 118541688,
+            "sha256": "D82E4D442F1146A3B6BF37615B61D5364CE69B08213F4F3CFCD4E623587CB409",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.4",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.5",
                     "size": 83886080,
-                    "sha256": "CAFCB150FA8A64A639DF81664E65053EBFD2723F68F716BC0C960AD48CD118F9"
+                    "sha256": "4896C73DE9B06B45F1D9169BE33384CE6AA5E3F44F87157C823ED7EC4E3778FC"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.4",
-                    "size": 34654955,
-                    "sha256": "B74E94E73205C6C5802584BF600B978A8E3A930A4E13D0394C844556F9EF6AB9"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.5",
+                    "size": 34655608,
+                    "sha256": "7CEE31E7574C2836B022CB4BC13410889E11D75279B0CFB5203BA689F1D4D355"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.4",
-            "sha256": "EE2BC83D1D2D9E12FD0507E2B067BC789D32349671AA8468B0E658DBB6610610"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.5",
+            "sha256": "C71C126543FAA15EB8B6D7C5EF2D3F57899336BF130BB05473F94A69D9808E91"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.4",
-            "sha256": "713DF32FE6AD93AB53A830122C9823001EA380E7DB0B421C2D3B49E49CED8EBA"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.5",
+            "sha256": "2D90807FDFE99A4C833D820E119C2E5B9D185EFE733B54230ADFBB360D756105"
         }
     },
-    "notes": "Add a pre-login titlebar menu for manual update checks and safe application exit.",
-    "releaseId": "1.2.4-F6F0AA9EE42F-96E5496960AE"
+    "notes": "Keep the Windows startup entry synchronized with the saved setting and remove legacy duplicate entries.",
+    "releaseId": "1.2.5-8E906DBE99A9-D82E4D442F11"
 }
