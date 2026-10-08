@@ -1,53 +1,53 @@
 {
-    "version": "1.2.6",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.6",
-    "sha256": "AB627FE051F13B72594D18799CD033337FC5816BBB7802FD427F1D9B0111BE85",
+    "version": "1.2.7",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.7",
+    "sha256": "AE0286E1D78B59D604ADBA32B44BF9DFAEE66BF1C05CB551D51E011F90F4A3E2",
     "packages": {
         "x64": {
-            "version": "1.2.6",
-            "size": 137314088,
-            "sha256": "1181DCF363AB03F053DA6A9A01804CA52018EF33181DF59C3654742FCBF22ACC",
+            "version": "1.2.7",
+            "size": 137317050,
+            "sha256": "545143B9954F244EFC87BF42AC45B8F1D75DD121AA30AC19010D85C7B330067F",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.6",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.7",
                     "size": 83886080,
-                    "sha256": "F9F6329CE4795FCCCE2E695430E781643B2CC24BE23F47208C375DCB16F677CE"
+                    "sha256": "A5AD4AAC8A75609CB68E18BFFC3CE5EEF9E6E15E55A6A39F459D8B96B71107DD"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.6",
-                    "size": 53428008,
-                    "sha256": "BCDA0C88CE5178E4207BA63954C03CE244D0FF1C08875F2E7941C73E8A4880CA"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.7",
+                    "size": 53430970,
+                    "sha256": "F76ABCE95BEBEE7A4415DA8E73B075C982C6616E6069F1F9781180D00A3A0BC1"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.6",
-            "size": 118546050,
-            "sha256": "08216DCD0DC0D90F5ABCE4A00778D7E3057CF3CA2ED734BBBBD5B4F58727B779",
+            "version": "1.2.7",
+            "size": 118549012,
+            "sha256": "29C3BDF428297CF8205D201F4B6206A806CE1E5E1CBAA785122EB2DFB204EF87",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.6",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.7",
                     "size": 83886080,
-                    "sha256": "F433BE05FA761421233A447B161A81332B70C52AC0A3EBB5EBFF0AA13E37E150"
+                    "sha256": "44CFE309D062C63F239E3D0F2E1AB175075E9FCC36CAF091CE431BD036061573"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.6",
-                    "size": 34659970,
-                    "sha256": "900C558B54242E40F771CADCEDA85B73065FBB406151BDD538E5F31601FB06ED"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.7",
+                    "size": 34662932,
+                    "sha256": "FAB7678FF48D68B4BE7DA50FEE06D1FD1634841DEED400CC54AB6B8E373D7F94"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.6",
-            "sha256": "AB627FE051F13B72594D18799CD033337FC5816BBB7802FD427F1D9B0111BE85"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.7",
+            "sha256": "AE0286E1D78B59D604ADBA32B44BF9DFAEE66BF1C05CB551D51E011F90F4A3E2"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.6",
-            "sha256": "C45DFC88FDBC39DE87F60AF2ED1D25B0B9F31900B6A68D9956A2EBE45A24DB5B"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.7",
+            "sha256": "2042F0DE7180E004EF551C287E2236F5CC91DF07789EA0E537B8F2B1DF60559C"
         }
     },
-    "notes": "Improve scheduled message editing and history with photo/file attachments, five-minute time slots and mobile reminders.",
-    "releaseId": "1.2.6-1181DCF363AB-08216DCD0DC0"
+    "notes": "Open scheduled message editing and lists in separate native windows without covering or duplicating the conversation.",
+    "releaseId": "1.2.7-545143B9954F-29C3BDF42829"
 }
