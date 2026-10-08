@@ -1,53 +1,53 @@
 {
-    "version": "1.2.5",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.5",
-    "sha256": "C71C126543FAA15EB8B6D7C5EF2D3F57899336BF130BB05473F94A69D9808E91",
+    "version": "1.2.6",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.6",
+    "sha256": "AB627FE051F13B72594D18799CD033337FC5816BBB7802FD427F1D9B0111BE85",
     "packages": {
         "x64": {
-            "version": "1.2.5",
-            "size": 137309726,
-            "sha256": "8E906DBE99A9AFF4D8AB0B8BCF010328A7FF18DDE08E42ECF0F33C05CE53CF7E",
+            "version": "1.2.6",
+            "size": 137314088,
+            "sha256": "1181DCF363AB03F053DA6A9A01804CA52018EF33181DF59C3654742FCBF22ACC",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.5",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.6",
                     "size": 83886080,
-                    "sha256": "56882939046182A029E84591CFE4AD3DDC661816E1D2B144198C2811CD4C4D4F"
+                    "sha256": "F9F6329CE4795FCCCE2E695430E781643B2CC24BE23F47208C375DCB16F677CE"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.5",
-                    "size": 53423646,
-                    "sha256": "4E221922EA4DBAE62FC8F223E7B1873265CE0203C916188D19D668E61DB49D42"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.6",
+                    "size": 53428008,
+                    "sha256": "BCDA0C88CE5178E4207BA63954C03CE244D0FF1C08875F2E7941C73E8A4880CA"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.5",
-            "size": 118541688,
-            "sha256": "D82E4D442F1146A3B6BF37615B61D5364CE69B08213F4F3CFCD4E623587CB409",
+            "version": "1.2.6",
+            "size": 118546050,
+            "sha256": "08216DCD0DC0D90F5ABCE4A00778D7E3057CF3CA2ED734BBBBD5B4F58727B779",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.5",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.6",
                     "size": 83886080,
-                    "sha256": "4896C73DE9B06B45F1D9169BE33384CE6AA5E3F44F87157C823ED7EC4E3778FC"
+                    "sha256": "F433BE05FA761421233A447B161A81332B70C52AC0A3EBB5EBFF0AA13E37E150"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.5",
-                    "size": 34655608,
-                    "sha256": "7CEE31E7574C2836B022CB4BC13410889E11D75279B0CFB5203BA689F1D4D355"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.6",
+                    "size": 34659970,
+                    "sha256": "900C558B54242E40F771CADCEDA85B73065FBB406151BDD538E5F31601FB06ED"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.5",
-            "sha256": "C71C126543FAA15EB8B6D7C5EF2D3F57899336BF130BB05473F94A69D9808E91"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.6",
+            "sha256": "AB627FE051F13B72594D18799CD033337FC5816BBB7802FD427F1D9B0111BE85"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.5",
-            "sha256": "2D90807FDFE99A4C833D820E119C2E5B9D185EFE733B54230ADFBB360D756105"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.6",
+            "sha256": "C45DFC88FDBC39DE87F60AF2ED1D25B0B9F31900B6A68D9956A2EBE45A24DB5B"
         }
     },
-    "notes": "Keep the Windows startup entry synchronized with the saved setting and remove legacy duplicate entries.",
-    "releaseId": "1.2.5-8E906DBE99A9-D82E4D442F11"
+    "notes": "Improve scheduled message editing and history with photo/file attachments, five-minute time slots and mobile reminders.",
+    "releaseId": "1.2.6-1181DCF363AB-08216DCD0DC0"
 }
