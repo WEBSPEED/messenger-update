@@ -1,53 +1,53 @@
 {
-    "version": "1.2.7",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.7",
-    "sha256": "AE0286E1D78B59D604ADBA32B44BF9DFAEE66BF1C05CB551D51E011F90F4A3E2",
+    "version": "1.2.8",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.8",
+    "sha256": "297917172858E156E7469E319FAF8F9D919C115F319240EE8D0564513E577692",
     "packages": {
         "x64": {
-            "version": "1.2.7",
-            "size": 137317050,
-            "sha256": "545143B9954F244EFC87BF42AC45B8F1D75DD121AA30AC19010D85C7B330067F",
+            "version": "1.2.8",
+            "size": 137318840,
+            "sha256": "EE127754E529582CD296DB7BE37312404B1030F1F2CD209D84069744DC5B532F",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.7",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.8",
                     "size": 83886080,
-                    "sha256": "A5AD4AAC8A75609CB68E18BFFC3CE5EEF9E6E15E55A6A39F459D8B96B71107DD"
+                    "sha256": "A6D2CC8832BB3CC49E0353347487B2A0E1A2DAFAD46370C2E2538877960DD0B0"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.7",
-                    "size": 53430970,
-                    "sha256": "F76ABCE95BEBEE7A4415DA8E73B075C982C6616E6069F1F9781180D00A3A0BC1"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.8",
+                    "size": 53432760,
+                    "sha256": "8EA5A5D41B11F772A3B10AE2B951CA91755CA169BD966C7F76AEFDEE6C2B4B0F"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.7",
-            "size": 118549012,
-            "sha256": "29C3BDF428297CF8205D201F4B6206A806CE1E5E1CBAA785122EB2DFB204EF87",
+            "version": "1.2.8",
+            "size": 118550780,
+            "sha256": "259BE8B9E56E0C3E863739891900B7FD1DD91EA41553A5C263607EEE184704E0",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.7",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.8",
                     "size": 83886080,
-                    "sha256": "44CFE309D062C63F239E3D0F2E1AB175075E9FCC36CAF091CE431BD036061573"
+                    "sha256": "86E59C368940C50F080C3BAEF351FF9EC9F3CB3A3C407AC43B63BB490246EFF4"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.7",
-                    "size": 34662932,
-                    "sha256": "FAB7678FF48D68B4BE7DA50FEE06D1FD1634841DEED400CC54AB6B8E373D7F94"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.8",
+                    "size": 34664700,
+                    "sha256": "CD1097573A2935F7C775649A28706A75094173FD5815FA8E821F728B6C23B6C5"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.7",
-            "sha256": "AE0286E1D78B59D604ADBA32B44BF9DFAEE66BF1C05CB551D51E011F90F4A3E2"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.8",
+            "sha256": "297917172858E156E7469E319FAF8F9D919C115F319240EE8D0564513E577692"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.7",
-            "sha256": "2042F0DE7180E004EF551C287E2236F5CC91DF07789EA0E537B8F2B1DF60559C"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.8",
+            "sha256": "3C532442FE407A02DAC01855041B8D31BDC9C5685C7A802EF1E31026789430BC"
         }
     },
-    "notes": "Open scheduled message editing and lists in separate native windows without covering or duplicating the conversation.",
-    "releaseId": "1.2.7-545143B9954F-29C3BDF42829"
+    "notes": "Choose a personal message notification sound per room, or inherit the default message sound, while preserving global sound controls.",
+    "releaseId": "1.2.8-EE127754E529-259BE8B9E56E"
 }
