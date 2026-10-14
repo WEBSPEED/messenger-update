@@ -1,53 +1,53 @@
 {
-    "version": "1.2.9",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.9",
-    "sha256": "BC93883E910974B93F5431D259B8A0F89F00174A10BF183E1421537B0EFAFE9F",
+    "version": "1.2.10",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.10",
+    "sha256": "4BCB6045B8FCE6C783451603DDE44B5C6C82752AB7B037EB8D70A6A8DC88CE0B",
     "packages": {
         "x64": {
-            "version": "1.2.9",
-            "size": 137323253,
-            "sha256": "CEEDC2606729033BDA66631A6DB124D76E81C0A641BF7FEF321360840512812F",
+            "version": "1.2.10",
+            "size": 137325413,
+            "sha256": "18956A2C0155C84B9D3BAD4D9739185BCE11D7BB131D1A1C1CF5587C0C76DFC0",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.9",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.10",
                     "size": 83886080,
-                    "sha256": "0BF582C8679CFDE6A1A7ADADA5D3461C9BE0DABC5E42D63817600CC971892F41"
+                    "sha256": "3C20DBF7905D34D930C42A611BEEA72B0C3A12B36B9D3CAAB85070565BE96B60"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.9",
-                    "size": 53437173,
-                    "sha256": "AA1866C3B6E960EB21832402D4BCAF0CB512007E9F7388EE4A0E454E085C3699"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.10",
+                    "size": 53439333,
+                    "sha256": "9D5C6DCE9DDD490B40CD34DE7376382818E121F8675EA12E59563DA5366D3862"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.9",
-            "size": 118555191,
-            "sha256": "417122D71B87FB7C241B85FA6C1B9B40E33AD31FC354278E45C75AFC1F50CC70",
+            "version": "1.2.10",
+            "size": 118557424,
+            "sha256": "2EEC9A903F462505ED5A20A9117B87B4040525BF3ED815419C8514249B6D159E",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.9",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.10",
                     "size": 83886080,
-                    "sha256": "34FD3541E42E5C7FADBA929BF46E73411ABC40C5153F771F28423382BE124AF0"
+                    "sha256": "8B3DF846ECA1B06885AF0EEA1E47F214BE6F79CBA43771EB87CD91FDA0C76D4A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.9",
-                    "size": 34669111,
-                    "sha256": "C1669CFFCC8281DD3078ED0AF5FD75E21DAB326D75AA18A468B835C178EBB3FA"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.10",
+                    "size": 34671344,
+                    "sha256": "FA0E6555A1B6A52202D755E9A6D1FF79921C5146532E8118D6EC0B45357FBBAA"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.9",
-            "sha256": "BC93883E910974B93F5431D259B8A0F89F00174A10BF183E1421537B0EFAFE9F"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.10",
+            "sha256": "4BCB6045B8FCE6C783451603DDE44B5C6C82752AB7B037EB8D70A6A8DC88CE0B"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.9",
-            "sha256": "FBFF14ED9FCF4A1419A8C94F3E7CBA7DB10EFAC7BA4E3404AD1436DA2672F6B4"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.10",
+            "sha256": "1D95B5D1D98FB2C2BD6658E5D83E29FAE10D9581D0D0C716B30F093C488A2B57"
         }
     },
-    "notes": "Incremental message loading, OS-protected encrypted conversation cache, server-validated cached conversation search, and deletion/read-state reconciliation.",
-    "releaseId": "1.2.9-CEEDC2606729-417122D71B87"
+    "notes": "Move conversation cache transforms off the UI thread, coalesce cache saves, and immediately refresh room previews after message changes without stale-response rollback.",
+    "releaseId": "1.2.10-18956A2C0155-2EEC9A903F46"
 }
