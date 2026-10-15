@@ -1,53 +1,53 @@
 {
-    "version": "1.2.10",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.10",
-    "sha256": "4BCB6045B8FCE6C783451603DDE44B5C6C82752AB7B037EB8D70A6A8DC88CE0B",
+    "version": "1.2.11",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.11",
+    "sha256": "A0215ECB40DA516274E9EF573335647AF23B19D79D4DA6EE12FA504B9D41A770",
     "packages": {
         "x64": {
-            "version": "1.2.10",
-            "size": 137325413,
-            "sha256": "18956A2C0155C84B9D3BAD4D9739185BCE11D7BB131D1A1C1CF5587C0C76DFC0",
+            "version": "1.2.11",
+            "size": 137327169,
+            "sha256": "0BD2379BB0952B9FA85D32B79B598A5871F426D6A8FAD4B5DBC0096CD949697C",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.10",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.11",
                     "size": 83886080,
-                    "sha256": "3C20DBF7905D34D930C42A611BEEA72B0C3A12B36B9D3CAAB85070565BE96B60"
+                    "sha256": "5FE8DFA22899ABAA86C7D930C20BF02310B2AE76B3FCAF70A88DAD31BE906678"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.10",
-                    "size": 53439333,
-                    "sha256": "9D5C6DCE9DDD490B40CD34DE7376382818E121F8675EA12E59563DA5366D3862"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.11",
+                    "size": 53441089,
+                    "sha256": "71908E598151D9DABF66B05297B52BDD1D53F769DA415918373D396462BFE9E3"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.10",
-            "size": 118557424,
-            "sha256": "2EEC9A903F462505ED5A20A9117B87B4040525BF3ED815419C8514249B6D159E",
+            "version": "1.2.11",
+            "size": 118559177,
+            "sha256": "5AE7B6F15B1F484D4057E00C94216EB8B4FCB9D90F3D73A2EC094DB34BFEA9EC",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.10",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.11",
                     "size": 83886080,
-                    "sha256": "8B3DF846ECA1B06885AF0EEA1E47F214BE6F79CBA43771EB87CD91FDA0C76D4A"
+                    "sha256": "CF2FB8026C524FA9E86F70133F62C502748FE553EC5304A84524772A27F8931D"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.10",
-                    "size": 34671344,
-                    "sha256": "FA0E6555A1B6A52202D755E9A6D1FF79921C5146532E8118D6EC0B45357FBBAA"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.11",
+                    "size": 34673097,
+                    "sha256": "8D8564390C5C3FA6CBBE846F8D17A2A62E8418B3DD83A2D38D55D5D36D1764BA"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.10",
-            "sha256": "4BCB6045B8FCE6C783451603DDE44B5C6C82752AB7B037EB8D70A6A8DC88CE0B"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.11",
+            "sha256": "A0215ECB40DA516274E9EF573335647AF23B19D79D4DA6EE12FA504B9D41A770"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.10",
-            "sha256": "1D95B5D1D98FB2C2BD6658E5D83E29FAE10D9581D0D0C716B30F093C488A2B57"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.11",
+            "sha256": "7819AE28346DC0FB8DE3C94180FC840643821C462DBCA1FE580D52219B19AF8B"
         }
     },
-    "notes": "Move conversation cache transforms off the UI thread, coalesce cache saves, and immediately refresh room previews after message changes without stale-response rollback.",
-    "releaseId": "1.2.10-18956A2C0155-2EEC9A903F46"
+    "notes": "Unique day dividers, media-aware two-line room previews, fixed notices with height-aware top spacing, overlay-only minimized icons, and preserved reading positions.",
+    "releaseId": "1.2.11-0BD2379BB095-5AE7B6F15B1F"
 }
