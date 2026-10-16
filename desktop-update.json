@@ -1,53 +1,53 @@
 {
-    "version": "1.2.14",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.14",
-    "sha256": "39C9D4038900BB75CA284CFBC9DC30DA57CF933F760A6A044D6A8CAB1E257299",
+    "version": "1.2.15",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.15",
+    "sha256": "2D64DF49358213C135271B73E65D00E230E9318733519F84709BFBAE7F6557C8",
     "packages": {
         "x64": {
-            "version": "1.2.14",
-            "size": 137338434,
-            "sha256": "B15153D7D2B520541F9937CC6A5775944A7E41CA186CB5BA3A8F33D0D89D8C3C",
+            "version": "1.2.15",
+            "size": 137340918,
+            "sha256": "0F4FC6D55BBAA85B065CA79BA4B9931EE9112407DB64772FAAE5785F2694A38A",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.14",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.15",
                     "size": 83886080,
-                    "sha256": "549946BF6482E6CCF635A716E1F53EC8E5711A8E3B93290DC1D4C2773488F1DB"
+                    "sha256": "5347B03600CB49ED15EBE2683AD0DCC7E2FAC2609753ADD72C7EAB885934EDB0"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.14",
-                    "size": 53452354,
-                    "sha256": "D6A9481F7C950169307CF1F523007EBAB35C57A5A18F30F5604DE6A9248AEED7"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.15",
+                    "size": 53454838,
+                    "sha256": "5A357BB6DF4E3A6607A7212EEF8946941E60078361C62EC5888931457B1C20F6"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.14",
-            "size": 118570385,
-            "sha256": "35F6F3D003AF698E80DDA9139066E1D6B35822B1B0A6DED1F87BA3D9AE88C017",
+            "version": "1.2.15",
+            "size": 118572926,
+            "sha256": "81B9DB838E4669190A7EB61ACE77CBCCA469C5E815A62FC08E9D693395A55E88",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.14",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.15",
                     "size": 83886080,
-                    "sha256": "A9E534369127FDBDC669501BE6552D3DD3F8762FDEA1B93C8E427A8628A021F5"
+                    "sha256": "25F103AF7FC821C80574B3E3F1878C95589E8EE8C376234DE27648C74804DA95"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.14",
-                    "size": 34684305,
-                    "sha256": "5409BEC36D7C200C4E7B05A1422796A6189123C4343BE1677366BB9F59FE1A80"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.15",
+                    "size": 34686846,
+                    "sha256": "BC55342917936194BF69D4D73F01E912351C36F7C4ADFE5A597910F5D13C7C37"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.14",
-            "sha256": "39C9D4038900BB75CA284CFBC9DC30DA57CF933F760A6A044D6A8CAB1E257299"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.15",
+            "sha256": "2D64DF49358213C135271B73E65D00E230E9318733519F84709BFBAE7F6557C8"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.14",
-            "sha256": "42886946B875636CB58E96376E845297B9689B921354F246C1B7162C029D769F"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.15",
+            "sha256": "E4A94F7758ECA363D6A689F7A33D846DED3DF802C24F28BF8152FF6875DBFE3C"
         }
     },
-    "notes": "Protected image thumbnails and video upload posters, gap-free square photo groups with grouped viewer thumbnails, a room photo/video/file/link collection panel, and bounded live message DOM while preserving history and encrypted media caching.",
-    "releaseId": "1.2.14-B15153D7D2B5-35F6F3D003AF"
+    "notes": "Immediate photo upload grids with stable in-place completion, plus decoded and fitted photo navigation without slide-in effects or blank loading flashes. Recent decoded photos are bounded by count and pixel budget and remain subject to source authorization.",
+    "releaseId": "1.2.15-0F4FC6D55BBA-81B9DB838E46"
 }
