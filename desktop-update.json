@@ -1,53 +1,53 @@
 {
-    "version": "1.2.13",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.13",
-    "sha256": "37BA919062EB0A1DAC1BA57DFF2D7A50D2D09E03FA92A471F6AB9007270AF5B1",
+    "version": "1.2.14",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.14",
+    "sha256": "39C9D4038900BB75CA284CFBC9DC30DA57CF933F760A6A044D6A8CAB1E257299",
     "packages": {
         "x64": {
-            "version": "1.2.13",
-            "size": 137337267,
-            "sha256": "CF550155C6C376B62E1BC304CDDCF64AFE8D29D552F34682186145A9DE8596E6",
+            "version": "1.2.14",
+            "size": 137338434,
+            "sha256": "B15153D7D2B520541F9937CC6A5775944A7E41CA186CB5BA3A8F33D0D89D8C3C",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.13",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.14",
                     "size": 83886080,
-                    "sha256": "ECC2FFFC6802FE5CE96263075370E917C8E11F79760513E7ABDDBE64EC0580C3"
+                    "sha256": "549946BF6482E6CCF635A716E1F53EC8E5711A8E3B93290DC1D4C2773488F1DB"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.13",
-                    "size": 53451187,
-                    "sha256": "FDABCAFC46BBADF3B9BEC1D2F1DA2D5A468ED558F27630E1D80564B8EA882513"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.14",
+                    "size": 53452354,
+                    "sha256": "D6A9481F7C950169307CF1F523007EBAB35C57A5A18F30F5604DE6A9248AEED7"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.13",
-            "size": 118569273,
-            "sha256": "CF91D4F7E96E0FBC3DA50B931B3105E368CED9E0435A6009B77A5B7A325FDDCC",
+            "version": "1.2.14",
+            "size": 118570385,
+            "sha256": "35F6F3D003AF698E80DDA9139066E1D6B35822B1B0A6DED1F87BA3D9AE88C017",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.13",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.14",
                     "size": 83886080,
-                    "sha256": "136C1B16CBDB91F9CD2A65D68BFE7F20BE73BFC5B1E4CBF2C8FE40DBE784F87F"
+                    "sha256": "A9E534369127FDBDC669501BE6552D3DD3F8762FDEA1B93C8E427A8628A021F5"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.13",
-                    "size": 34683193,
-                    "sha256": "6ADC84DC2585ED82BFCBE1E0879A55E6E62D25DF7C3CCB24FE6F8A9043DEFDD0"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.14",
+                    "size": 34684305,
+                    "sha256": "5409BEC36D7C200C4E7B05A1422796A6189123C4343BE1677366BB9F59FE1A80"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.13",
-            "sha256": "37BA919062EB0A1DAC1BA57DFF2D7A50D2D09E03FA92A471F6AB9007270AF5B1"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.14",
+            "sha256": "39C9D4038900BB75CA284CFBC9DC30DA57CF933F760A6A044D6A8CAB1E257299"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.13",
-            "sha256": "86F020B17A6482700FDFFF92A110E898FCCB9834CFE4A41D748C6296E2DA3CAB"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.14",
+            "sha256": "42886946B875636CB58E96376E845297B9689B921354F246C1B7162C029D769F"
         }
     },
-    "notes": "Protected image thumbnails and video upload posters, explicit grouped photos, a room photo/video/file/link collection panel, and bounded live message DOM while preserving history and encrypted media caching.",
-    "releaseId": "1.2.13-CF550155C6C3-CF91D4F7E96E"
+    "notes": "Protected image thumbnails and video upload posters, gap-free square photo groups with grouped viewer thumbnails, a room photo/video/file/link collection panel, and bounded live message DOM while preserving history and encrypted media caching.",
+    "releaseId": "1.2.14-B15153D7D2B5-35F6F3D003AF"
 }
