@@ -1,53 +1,53 @@
 {
-    "version": "1.2.11",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.11",
-    "sha256": "A0215ECB40DA516274E9EF573335647AF23B19D79D4DA6EE12FA504B9D41A770",
+    "version": "1.2.12",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.12",
+    "sha256": "2B69181FE2D600CF342B7FBAE43100D087F7F3061FE2C2A7503581FCE0A4F928",
     "packages": {
         "x64": {
-            "version": "1.2.11",
-            "size": 137327169,
-            "sha256": "0BD2379BB0952B9FA85D32B79B598A5871F426D6A8FAD4B5DBC0096CD949697C",
+            "version": "1.2.12",
+            "size": 137332969,
+            "sha256": "84366A3488EF8938DAF9B2C7E64250E28CEF17D0B61FF9C7C2612523884F22E2",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.11",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.12",
                     "size": 83886080,
-                    "sha256": "5FE8DFA22899ABAA86C7D930C20BF02310B2AE76B3FCAF70A88DAD31BE906678"
+                    "sha256": "575D4E0CF9A1320CAA1F289FA4551E2864A4505501204AB5DF311C2FB7636CEC"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.11",
-                    "size": 53441089,
-                    "sha256": "71908E598151D9DABF66B05297B52BDD1D53F769DA415918373D396462BFE9E3"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.12",
+                    "size": 53446889,
+                    "sha256": "FFF271BB6201A73E11ADD5AC9BB0195CA4D322B744EF511D697AC916898BE8FB"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.11",
-            "size": 118559177,
-            "sha256": "5AE7B6F15B1F484D4057E00C94216EB8B4FCB9D90F3D73A2EC094DB34BFEA9EC",
+            "version": "1.2.12",
+            "size": 118564980,
+            "sha256": "09D1889A703488B605EE53035A5DCDF39F37C656A666EFDABB30411DAECCC532",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.11",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.12",
                     "size": 83886080,
-                    "sha256": "CF2FB8026C524FA9E86F70133F62C502748FE553EC5304A84524772A27F8931D"
+                    "sha256": "E66123E7140866F0B5B54F47E82156CFEE120E09B4D8A43A03F12884A64095D2"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.11",
-                    "size": 34673097,
-                    "sha256": "8D8564390C5C3FA6CBBE846F8D17A2A62E8418B3DD83A2D38D55D5D36D1764BA"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.12",
+                    "size": 34678900,
+                    "sha256": "1A2AC21A0D4124E621AE77AFB1D6F0A2B6A618F20CB6607D31120A9CC5CFDCEB"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.11",
-            "sha256": "A0215ECB40DA516274E9EF573335647AF23B19D79D4DA6EE12FA504B9D41A770"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.12",
+            "sha256": "2B69181FE2D600CF342B7FBAE43100D087F7F3061FE2C2A7503581FCE0A4F928"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.11",
-            "sha256": "7819AE28346DC0FB8DE3C94180FC840643821C462DBCA1FE580D52219B19AF8B"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.12",
+            "sha256": "5921FB00A794DCE9E91D0DE9C3871D5A9857B06893EBF8078E6F089616AD9A2D"
         }
     },
-    "notes": "Unique day dividers, media-aware two-line room previews, fixed notices with height-aware top spacing, overlay-only minimized icons, and preserved reading positions.",
-    "releaseId": "1.2.11-0BD2379BB095-5AE7B6F15B1F"
+    "notes": "Encrypted local image and video cache, click-to-download videos with reusable local posters, and bottom-aligned initial conversation display without interrupting older-message reading.",
+    "releaseId": "1.2.12-84366A3488EF-09D1889A7034"
 }
