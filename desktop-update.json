@@ -1,53 +1,53 @@
 {
-    "version": "1.2.15",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.15",
-    "sha256": "2D64DF49358213C135271B73E65D00E230E9318733519F84709BFBAE7F6557C8",
+    "version": "1.2.16",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.16",
+    "sha256": "BF9C92026B96B294E65003D01A6305B244BEF99E006A75DD768C5C878E6EFE50",
     "packages": {
         "x64": {
-            "version": "1.2.15",
-            "size": 137340918,
-            "sha256": "0F4FC6D55BBAA85B065CA79BA4B9931EE9112407DB64772FAAE5785F2694A38A",
+            "version": "1.2.16",
+            "size": 137341590,
+            "sha256": "CAA4BC29085654BD1E2036FC79B7291DEA0AFC107D5C5DD0323CDAC8BE30FA55",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.15",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.16",
                     "size": 83886080,
-                    "sha256": "5347B03600CB49ED15EBE2683AD0DCC7E2FAC2609753ADD72C7EAB885934EDB0"
+                    "sha256": "C13B5CAC850B43B7D98C0B10513DB5D2BE6BE42BD2DC23D737DC87134E889B9A"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.15",
-                    "size": 53454838,
-                    "sha256": "5A357BB6DF4E3A6607A7212EEF8946941E60078361C62EC5888931457B1C20F6"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.16",
+                    "size": 53455510,
+                    "sha256": "465D03179EDE5254AED0B456A8200C0107DA696C907EEBDE166280C5F062D21A"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.15",
-            "size": 118572926,
-            "sha256": "81B9DB838E4669190A7EB61ACE77CBCCA469C5E815A62FC08E9D693395A55E88",
+            "version": "1.2.16",
+            "size": 118573597,
+            "sha256": "1A6DE7ADB63816B689CDDF4094AD29949D3DE2FDCDFF4267EE972A7EF3104D1F",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.15",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.16",
                     "size": 83886080,
-                    "sha256": "25F103AF7FC821C80574B3E3F1878C95589E8EE8C376234DE27648C74804DA95"
+                    "sha256": "7101D08FAE136FE450C64F386A2EC1454D3A885BCAC6D5227ED53E90111DFAC8"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.15",
-                    "size": 34686846,
-                    "sha256": "BC55342917936194BF69D4D73F01E912351C36F7C4ADFE5A597910F5D13C7C37"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.16",
+                    "size": 34687517,
+                    "sha256": "31D421D430271D93AB55C052CD37F71B087720ABF597EC7C847A114227740E1D"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.15",
-            "sha256": "2D64DF49358213C135271B73E65D00E230E9318733519F84709BFBAE7F6557C8"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.16",
+            "sha256": "BF9C92026B96B294E65003D01A6305B244BEF99E006A75DD768C5C878E6EFE50"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.15",
-            "sha256": "E4A94F7758ECA363D6A689F7A33D846DED3DF802C24F28BF8152FF6875DBFE3C"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.16",
+            "sha256": "5A85B8568061EC0B27FC4EDCCDFE696483B821F4ECCA1886625141F2176EDF2D"
         }
     },
-    "notes": "Immediate photo upload grids with stable in-place completion, plus decoded and fitted photo navigation without slide-in effects or blank loading flashes. Recent decoded photos are bounded by count and pixel budget and remain subject to source authorization.",
-    "releaseId": "1.2.15-0F4FC6D55BBA-81B9DB838E46"
+    "notes": "Photo batches now share one upload progress, cancel control, time and unread indicator. Three-photo layouts adapt to the first image. Batch deletion is server-authorized and applies to the complete group, with one deletion notice and no individual-delete fallback on unsupported servers. Requires the matching messenger PHP update for grouped deletion.",
+    "releaseId": "1.2.16-CAA4BC290856-1A6DE7ADB638"
 }
