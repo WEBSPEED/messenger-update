@@ -1,53 +1,53 @@
 {
-    "version": "1.2.16",
-    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.16",
-    "sha256": "BF9C92026B96B294E65003D01A6305B244BEF99E006A75DD768C5C878E6EFE50",
+    "version": "1.2.17",
+    "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.17",
+    "sha256": "4E71D125EFE06DBF9797E2FCAF9753BB642077F7F3F62A0FAAE7FC16DC892C34",
     "packages": {
         "x64": {
-            "version": "1.2.16",
-            "size": 137341590,
-            "sha256": "CAA4BC29085654BD1E2036FC79B7291DEA0AFC107D5C5DD0323CDAC8BE30FA55",
+            "version": "1.2.17",
+            "size": 137344278,
+            "sha256": "91DD3303EFD27591F5D4930BB2C3ED6CAE23A30078E649B87B417CAACEC0039C",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.16",
+                    "url": "php/desktop_update_download.php?arch=x64&part=1&version=1.2.17",
                     "size": 83886080,
-                    "sha256": "C13B5CAC850B43B7D98C0B10513DB5D2BE6BE42BD2DC23D737DC87134E889B9A"
+                    "sha256": "952A6557AA9A7D074C5C62D1387837E20A8493BE1F4326BA2398E41E3DEC0CDF"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.16",
-                    "size": 53455510,
-                    "sha256": "465D03179EDE5254AED0B456A8200C0107DA696C907EEBDE166280C5F062D21A"
+                    "url": "php/desktop_update_download.php?arch=x64&part=2&version=1.2.17",
+                    "size": 53458198,
+                    "sha256": "443F9FC8403FDEAEA15E3B3311B2B499B2F1B9BEDD2BF1F66643132646A21E41"
                 }
             ]
         },
         "ia32": {
-            "version": "1.2.16",
-            "size": 118573597,
-            "sha256": "1A6DE7ADB63816B689CDDF4094AD29949D3DE2FDCDFF4267EE972A7EF3104D1F",
+            "version": "1.2.17",
+            "size": 118576283,
+            "sha256": "51B11A2BAEC68F1A445EDA85430625EAC40E9F62068B4C8823CFC8013201E0C8",
             "parts": [
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.16",
+                    "url": "php/desktop_update_download.php?arch=ia32&part=1&version=1.2.17",
                     "size": 83886080,
-                    "sha256": "7101D08FAE136FE450C64F386A2EC1454D3A885BCAC6D5227ED53E90111DFAC8"
+                    "sha256": "049573F6A5752F8D6195C8DDD97A5375AE072934BD6260761F3F0AC23B269CC8"
                 },
                 {
-                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.16",
-                    "size": 34687517,
-                    "sha256": "31D421D430271D93AB55C052CD37F71B087720ABF597EC7C847A114227740E1D"
+                    "url": "php/desktop_update_download.php?arch=ia32&part=2&version=1.2.17",
+                    "size": 34690203,
+                    "sha256": "EF3C2F4013DD3FDBFB287F1060A7CBC7F6FBE61CECCBD009E04C7F7CDA28240A"
                 }
             ]
         }
     },
     "installers": {
         "x64": {
-            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.16",
-            "sha256": "BF9C92026B96B294E65003D01A6305B244BEF99E006A75DD768C5C878E6EFE50"
+            "installerUrl": "php/desktop_download.php?arch=x64&version=1.2.17",
+            "sha256": "4E71D125EFE06DBF9797E2FCAF9753BB642077F7F3F62A0FAAE7FC16DC892C34"
         },
         "ia32": {
-            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.16",
-            "sha256": "5A85B8568061EC0B27FC4EDCCDFE696483B821F4ECCA1886625141F2176EDF2D"
+            "installerUrl": "php/desktop_download.php?arch=ia32&version=1.2.17",
+            "sha256": "94E5578DA1A9BC08220F5482792C89373C6C544B89B29CA3DCE762881A7AF129"
         }
     },
-    "notes": "Photo batches now share one upload progress, cancel control, time and unread indicator. Three-photo layouts adapt to the first image. Batch deletion is server-authorized and applies to the complete group, with one deletion notice and no individual-delete fallback on unsupported servers. Requires the matching messenger PHP update for grouped deletion.",
-    "releaseId": "1.2.16-CAA4BC290856-1A6DE7ADB638"
+    "notes": "Faster targeted room-list synchronization and authenticated realtime recovery. Attachment batches produce one native alert and sound across main-window, groupware bridge and locked polling paths. The matching PHP update restores persisted photo batch metadata for older notifications and enforces grouped deletion through the ordinary API. Deploy the PHP helper and messenger_core.js together; optional WebSocket relay setup is documented. SSE/polling fallback is retained.",
+    "releaseId": "1.2.17-91DD3303EFD2-51B11A2BAEC6"
 }
